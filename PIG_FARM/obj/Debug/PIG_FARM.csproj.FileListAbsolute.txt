@@ -1,0 +1,13 @@
+c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\bin\Debug\PIG_FARM.exe.config
+c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\bin\Debug\PIG_FARM.exe
+c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\bin\Debug\PIG_FARM.pdb
+c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\bin\Debug\en\PIG_FARM.resources.dll
+c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.csprojResolveAssemblyReference.cache
+c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Dashboard.resources
+c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Properties.Resources.resources
+c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Dashboard.en.resources
+c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.csproj.GenerateResource.Cache
+c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\en\PIG_FARM.resources.dll
+c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.exe
+c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.pdb
+c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\bin\Debug\Bunifu_UI_v1.5.3.dll
