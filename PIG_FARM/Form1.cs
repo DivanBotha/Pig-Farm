@@ -17,6 +17,13 @@ namespace PIG_FARM
             InitializeComponent();
         }
         Point lastPoint;
+
+        public object Form2 { get; private set; }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            setup_click_panel.Hide();
+        }
         private void Dashboard_MouseDown(object sender, MouseEventArgs e)
         {
             lastPoint = new Point(e.X, e.Y);
@@ -37,7 +44,15 @@ namespace PIG_FARM
 
         private void Exit_Label_Click(object sender, EventArgs e)
         {
-            Environment.Exit(0);
+            DialogResult dialog = MessageBox.Show("Do you really want to exit AgriPig?", "Exit", MessageBoxButtons.YesNo);
+            if (dialog == DialogResult.Yes)
+            {
+                Environment.Exit(0);
+            }
+            else if (dialog == DialogResult.No)
+            {
+
+            }
         }
 
         private void MiniMaxi_Click(object sender, EventArgs e)
@@ -50,6 +65,26 @@ namespace PIG_FARM
             {
                 WindowState = FormWindowState.Normal;
             }
+        }
+
+        private void BunifuFlatButton2_Click(object sender, EventArgs e)
+        {
+            setup_click_panel.Show();
+        }
+
+        private void BunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            setup_click_panel.Hide();
+        }
+
+        private void bunifuFlatButton21_Click(object sender, EventArgs e)
+        {
+            Form2 frm = new Form2();
+            frm.TopLevel = false;
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.Dock = DockStyle.Fill;
+            panel3.Controls.Add(frm);
+            frm.Visible = true;
         }
     }
 

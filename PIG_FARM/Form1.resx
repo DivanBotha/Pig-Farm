@@ -130,18 +130,17 @@
   </data>
   <data name="bunifuFlatButton5.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAC0AAAAwCAYAAACFUvPfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAIzSURBVGhD7Zk9UsMwEEZzhBwhR8gRcpTUVDkCQ0WZI+QI
-        DDXDuOAAaZmh4AZQMUOD+T6j9QhlZUtGkQyoeKNkd716seW/yeLuvtmAdoZctm270BDpRkuWgsJVOgdV
-        OheTpRFbmVwOVs7cvTRzpqavHZLeMp6JrTO3LW17PDPulS4JxYgvXqVTIXK+eJVOhcj54n9LGjHtyetc
-        bJy5/9GeLonI+eJVOhUi54tXaRv0XJtJ+MCz1Gp8mO3ySqMfRe1L2hEEi6O2iPQrsKXJTqvVQG0RaVeY
-        XGu1GqgtIv0AXOk3wElHl4mpi5dm3I2Fgm1vwQsQYU7WzQO4dPj9wnxmnmP/9oLPcdL4zJNIbRYC6neA
-        r0XqHkWc8/FIfAD5UUL3rogxXBrjEriN+mZjoI69+EPXWl4wddo83dHFGCU92GwI1PCtOejIoIbXcG2e
-        7sdijJLmxN5mQ6CG1+K9ltNA7cH0Fg5WLlzaJPbAbvYEeAJ5z3rkKHDUckNgG7lrftspJhYubZJsxjhH
-        rnNK8dCfLBPE5MSNulUPgV7x0hqoEbkrcAN4FB7NOLp8YkC/NNIEddzz78BePiTo6hIK+iWXdoXJyQQ/
-        gf20nhKPlfZdXaJuQGOgXzppglr3UhX12BkC+qWVJqjnSdk1AEmFifT2xSdJnxuR88WrdCpEzhf/1dK8
-        08lfBHOg+5tiSJrPFhSfGyd3WcS+pN2EDxZr8ZxMkcag53IxSVo2KgjXe9zymAfN5hOeNMINIo7cCQAA
-        AABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAC0AAAAwCAYAAACFUvPfAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EgAACxIB0t1+/AAAAjNJREFUaEPtmT1SwzAQRnOEHCFHyBFylNRUOQJDRZkj5AgMNcO44ABpmaHgBlAx
+        Q4P5PqP1CGVlS0aRDKh4o2R3vXqx5b/J4u6+2YB2hly2bbvQEOlGS5aCwlU6B1U6F5OlEVuZXA5Wzty9
+        NHOmpq8dkt4ynomtM7ctbXs8M+6VLgnFiC9epVMhcr54lU6FyPnif0saMe3J61xsnLn/0Z4uicj54lU6
+        FSLni1dpG/Rcm0n4wLPUanyY7fJKox9F7UvaEQSLo7aI9CuwpclOq9VAbRFpV5hca7UaqC0i/QBc6TfA
+        SUeXiamLl2bcjYWCbW/BCxBhTtbNA7h0+P3CfGaeY//2gs9x0vjMk0htFgLqd4CvReoeRZzz8Uh8APlR
+        QveuiDFcGuMSuI36ZmOgjr34Q9daXjB12jzd0cUYJT3YbAjU8K056MightdwbZ7ux2KMkubE3mZDoIbX
+        4r2W00DtwfQWDlYuXNok9sBu9gR4AnnPeuQocNRyQ2AbuWt+2ykmFi5tkmzGOEeuc0rx0J8sE8TkxI26
+        VQ+BXvHSGqgRuStwA3gUHs04unxiQL800gR13PPvwF4+JOjqEgr6JZd2hcnJBD+B/bSeEo+V9l1dom5A
+        Y6BfOmmCWvdSFfXYGQL6pZUmqOdJ2TUASYWJ9PbFJ0mfG5Hzxat0KkTOF//V0rzTyV8Ec6D7m2JIms8W
+        FJ8bJ3dZxL6k3YQPFmvxnEyRxqDncjFJWjYqCNd73PKYB83mE540wg0ijtwJAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="bunifuFlatButton5.Location" type="System.Drawing.Point, System.Drawing">
@@ -183,20 +182,20 @@
   </data>
   <data name="bunifuFlatButton4.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        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
 </value>
   </data>
   <data name="bunifuFlatButton4.Location" type="System.Drawing.Point, System.Drawing">
@@ -237,26 +236,26 @@
   </data>
   <data name="bunifuFlatButton3.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEgAAAAzCAYAAAA0CE5FAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAQZSURBVGhD7ZrtUSMxEEQJ4UIgBEIgBEIgBEIgBEIgBAK4
-        uiIEQiAEMvD1c3m3ZG1rVxrJYDA/XtkeRi1pVp+zXO12u1X+/nu9EY/i9cCzuHe+PUjzWtwm/HF+EdAS
-        9+JF0Ac+H8S180+xRlBhGonYrsC7aA6UyhAIGvsk1vQnPgR++N+J6sDhK3i4aDht4IEXA7UwyBlRGuPE
-        HJuB0t8JCk/sTTiNVggYQbbBwi62ApOC34PTOvohJ4SjnVgESr8JDE/I+Y+Ajs0jQJ+tgcl5TtsPaWd6
-        gpNCoBgtpwyMg3UlGpiUoyClAfrsDp0z80yYgsPi5xwvFUbiftpOAWJaOMdL5mUfIH1hN0j/MGIef1fy
-        vl8TIFb9/Q4k9tumPi9xPdqvO/pMd8LbeZFOOThd0kh6c3EAawQVuqRRVDzoWiOoEHcwJ/bTYKYUry/W
-        OKGClzCKHl3fJ6xxQoW5KjjRnwKb0+rl1xpTJNBycf1u3Lk+p1hjjoRG3cLPicXF1GGNORJj2/9J69GH
-        66fDGh0SzU/c351b188ca3RIkHSCq2gNyky5GjKUI6bqKM2ntH8lrNEhwdaT9avRYKr2XIz3F8hBmsXT
-        c4o15kgscmi0O4Ts3HOcfw0lzdBOm+s4rDFHYgxlW8kK9vgue89iP1rzxumlWGOOhCJPfXEI029GYs8l
-        uKTpfGvYXKitMUdC0WlBMCjLCGQajMgQECRy3iM0vzxA585vgDb4DdAGwwIU2cVqYU1hF+Ih8HaFuvjk
-        96h3XSWG7WKnSJ7x+njzCYL8uObUvMdvIq/HYY0OV0EQRsRmmsGhcuxeTjPCuJM0SDByF8shOJvDeg3K
-        H3ScfgvD72Ijnl5XcCakM+JNcNUotkaHBHvTr1UJqlqk17Mmjc8HgYR7ptk8evQ9zS2xi9mRJTs72jSd
-        +JzvYvreM4qqphdYYwkJh7f7RMONxEUa4+BL8FK/+cnrO2mO9G8tFP+jLMca15B4aGgn5d2RYZE7Ovjm
-        fjKv/72CpqlujWuoguiZaL6F63ueBSylMfI8zzw19D0ympmmq695cqxxC1USuXqk6wfTg3UIndXDYuJ3
-        FET9jiTJms9f1liDKmvNBS9yOVGkwzrWehay69wW1liDKmQUtDaye6uXBvW2Phz8Qw/HGmtRpZFTLUeF
-        UGMpJ1qD07zupFhjC6o8EiSmm12YS8ifk3yknq7TuzW2QiMOjXGNXIMyLLbsSEdPWb9ZZzgMRtOq4WmV
-        Yo0RaIwYnpIIQn6pOzhgjT2oYZGpMArqDaVSSlhjL2ok02NEeqSFYaMmxRpHoQaztvS8KKwB/eq7VSvW
-        OBo6IJh6rVt0CXTQGz5icqzxlKhTBIvrA7tTzaLOuoIf/uxqJw9KijV+Beo4gWNKTnxqIDy7q/9eYlqV
-        l321wgAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAEgAAAAzCAYAAAA0CE5FAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EgAACxIB0t1+/AAABBlJREFUaEPtmu1RIzEQRAnhQiAEQiAEQiAEQiAEQiAEAri6IgRCIAQy8PVzebdk
+        bWtXGslgMD9e2R5GLWlWn7Nc7Xa7Vf7+e70Rj+L1wLO4d749SPNa3Cb8cX4R0BL34kXQBz4fxLXzT7FG
+        UGEaidiuwLtoDpTKEAga+yTW9Cc+BH7434nqwOEreLhoOG3ggRcDtTDIGVEa48Qcm4HS3wkKT+xNOI1W
+        CBhBtsHCLrYCk4Lfg9M6+iEnhKOdWARKvwkMT8j5j4COzSNAn62ByXlO2w9pZ3qCk0KgGC2nDIyDdSUa
+        mJSjIKUB+uwOnTPzTJiCw+LnHC8VRuJ+2k4BYlo4x0vmZR8gfWE3SP8wYh5/V/K+XxMgVv39DiT226Y+
+        L3E92q87+kx3wtt5kU45OF3SSHpzcQBrBBW6pFFUPOhaI6gQdzAn9tNgphSvL9Y4oYKXMIoeXd8nrHFC
+        hbkqONGfApvT6uXXGlMk0HJx/W7cuT6nWGOOhEbdws+JxcXUYY05EmPb/0nr0Yfrp8MaHRLNT9zfnVvX
+        zxxrdEiQdIKraA3KTLkaMpQjpuoozae0fyWs0SHB1pP1q9FgqvZcjPcXyEGaxdNzijXmSCxyaLQ7hOzc
+        c5x/DSXN0E6b6zisMUdiDGVbyQr2+C57z2I/WvPG6aVYY46EIk99cQjTb0ZizyW4pOl8a9hcqK0xR0LR
+        aUEwKMsIZBqMyBAQJHLeIzS/PEDnzm+ANvgN0AbDAhTZxWphTWEX4iHwdoW6+OT3qHddJYbtYqdInvH6
+        ePMJgvy45tS8x28ir8dhjQ5XQRBGxGaawaFy7F5OM8K4kzRIMHIXyyE4m8N6DcofdJx+C8PvYiOeXldw
+        JqQz4k1w1Si2RocEe9OvVQmqWqTXsyaNzweBhHum2Tx69D3NLbGL2ZElOzvaNJ34nO9i+t4ziqqmF1hj
+        CQmHt/tEw43ERRrj4EvwUr/5yes7aY70by0U/6MsxxrXkHhoaCfl3ZFhkTs6+OZ+Mq//vYKmqW6Na6iC
+        6JlovoXre54FLKUx8jzPPDX0PTKamaarr3lyrHELVRK5eqTrB9ODdQid1cNi4ncURP2OJMmaz1/WWIMq
+        a80FL3I5UaTDOtZ6FrLr3BbWWIMqZBS0NrJ7q5cG9bY+HPxDD8caa1GlkVMtR4VQYyknWoPTvO6kWGML
+        qjwSJKabXZhLyJ+TfKSertO7NbZCIw6NcY1cgzIstuxIR09Zv1lnOAxG06rhaZVijRFojBiekghCfqk7
+        OGCNPahhkakwCuoNpVJKWGMvaiTTY0R6pIVhoybFGkehBrO29LworAH96rtVK9Y4GjogmHqtW3QJdNAb
+        PmJyrPGUqFMEi+sDu1PNos66gh/+7GonD0qKNX4F6jiBY0pOfGogPLur/15iWpWXfbXCAAAAAElFTkSu
+        QmCC
 </value>
   </data>
   <data name="bunifuFlatButton3.Location" type="System.Drawing.Point, System.Drawing">
@@ -286,121 +285,120 @@
   <data name="&gt;&gt;bunifuFlatButton3.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="bunifuFlatButton2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="setup_but.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="bunifuFlatButton2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="setup_but.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="bunifuFlatButton2.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="setup_but.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 9.75pt, style=Bold</value>
   </data>
-  <data name="bunifuFlatButton2.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="setup_but.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAQaSURBVGhD7ZrbURwxEEUJgRAcAiEQAiEQAiEQAiEQAgG4
-        XIRACIRABut7ltVYq7l6jvZhlz9O1bhX/RpJPS3hm91uN42fv95/iDv3Ww3p3aLvfhvFCntRUA/iTezE
-        pxtTQ3qvB33sPLgxvVhhCwqAN/0kPgVBxXQFp/HY+or0AbvYv3U6LVhhDTlk+cWBpLw5vRwaTxLOTmBo
-        Jq2wBTn8SAJIWfYPz+L+wGpPSuZmP2ZoL1phC3L4mASQQvLpUkt5F2Gv5Xh1/luwwhbk1O2TU3Dv/Ldg
-        ha3Ice2tb2Wo8gassAU5pvyfeua6ClOKFZaQQ5Zjy4yx514EezMUkwAv5lnUihIwZuhzYIU5cHJw5oIA
-        ZpKgm6ubxmKTF0BxcTYBu92djxU6ZLyUWEhq+IML0mdWSz66ErTCFBktJcYbn9oTyh4vyvnqSvDoH1Jk
-        L6xKr2S5PTb8Daoh28wiyaQ+s3tQ8qPE4x+YnWAMA+wDZLnW6GSJBeTjTrgEX6IxdD8ULsbBknhsyHUc
-        QSGVnzyxgHyRYOofeOmuCD0G3dhIbk+lfASdcyGftcY6ZokvKLO+3UDH1OLRivyWPhUp+7oRFFvbqOfY
-        4TmR79zydOy3DUq1s1ngaLNeAvnv6WVvUQgVsXamWirUpVAMrdtn/+1NleO7kJTu9ucUKI7cJLCy+CQs
-        NWGlDBqQVs5NR4+ZKBYSiGODpfzHrARglDcdPWaiWFhdaXz2QLsSaKArMBerkimKxcVnL5BWAg10m3bK
-        PeIsTHz25a8EGuiSG77HOAUmvv/J5ZL7p5fltReUJzd2JQCjfLYjTg3F0rxtVgLQ4LQLuKaPuLuCsCeV
-        lYCBwrU419J+uXNnuUNhgCidma6hcS6dYJiQo2tFFHL3FCl/05GHcd+nAj20JAcXq5ryXZq1lP1EBEXX
-        aTtQutQ1Q+4o5vg+iR8Ue97Ke+z0HMinOwmU2E9AbKDnAuZsy1O+WmtCYHn5sZH03hKDLNfccrDldyby
-        kUuMypir7kurmBpDCYUlcD3HN9Eptu2ZgWyXZmz55vIsqI6MPWo2lgfQj9k7eOGcADM79RMhe1xY5RKz
-        K0ZyJsH/raAGRg/GHQSyeZnKBoWttPe7elwrzCHjpQQh7IWumdR4muHaB7q7ebfCEnJCILklE8NypR1i
-        fLxHWD7IeAkk5PrYlKG9bYU15Ky2fGZB4sO3AFbYihz3dA0jbLoBsMJW5LxlSW1h0yHZCluQ41pxmcVw
-        L2uFLchpbc+RfPj/Jg5+p7DU/rA43OpZYQ05rDXazc21xpY6IBi+4rDCGnLIGy/tt64PusaXvnH4GVqa
-        VtiKnJJkGtiXG1tCOq69oxJvugy2wl4UBMuUfcTyGtoj0uPih1nCzpQDsRVuQYENNdGzEvrD7uY3hKqf
-        b8NWM2YAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EgAACxIB0t1+/AAABBpJREFUaEPtmttRHDEQRQmBEBwCIRACIRACIRACIRACAbhchEAIhEAG63uW1Vir
+        uXqO9mGXP07VuFf9Gkk9LeGb3W43jZ+/3n+IO/dbDendou9+G8UKe1FQD+JN7MSnG1NDeq8Hfew8uDG9
+        WGELCoA3/SQ+BUHFdAWn8dj6ivQBu9i/dTotWGENOWT5xYGkvDm9HBpPEs5OYGgmrbAFOfxIAkhZ9g/P
+        4v7Aak9K5mY/ZmgvWmELcviYBJBC8ulSS3kXYa/leHX+W7DCFuTU7ZNTcO/8t2CFrchx7a1vZajyBqyw
+        BTmm/J965roKU4oVlpBDlmPLjLHnXgR7MxSTAC/mWdSKEjBm6HNghTlwcnDmggBmkqCbq5vGYpMXQHFx
+        NgG73Z2PFTpkvJRYSGr4gwvSZ1ZLProStMIUGS0lxhuf2hPKHi/K+epK8OgfUmQvrEqvZLk9NvwNqiHb
+        zCLJpD6ze1Dyo8TjH5idYAwD7ANkudboZIkF5ONOuARfojF0PxQuxsGSeGzIdRxBIZWfPLGAfJFg6h94
+        6a4IPQbd2EhuT6V8BJ1zIZ+1xjpmiS8os77dQMfU4tGK/JY+FSn7uhEUW9uo59jhOZHv3PJ07LcNSrWz
+        WeBos14C+e/pZW9RCBWxdqZaKtSlUAyt22f/7U2V47uQlO725xQojtwksLL4JCw1YaUMGpBWzk1Hj5ko
+        FhKIY4Ol/MesBGCUNx09ZqJYWF1pfPZAuxJooCswF6uSKYrFxWcvkFYCDXSbdso94ixMfPblrwQa6JIb
+        vsc4BSa+/8nlkvunl+W1F5QnN3YlAKN8tiNODcXSvG1WAtDgtAu4po+4u4KwJ5WVgIHCtTjX0n65c2e5
+        Q2GAKJ2ZrqFxLp1gmJCja0UUcvcUKX/TkYdx36cCPbQkBxermvJdmrWU/UQERddpO1C61DVD7ijm+D6J
+        HxR73sp77PQcyKc7CZTYT0BsoOcC5mzLU75aa0JgefmxkfTeEoMs19xysOV3JvKRS4zKmKvuS6uYGkMJ
+        hSVwPcc30Sm27ZmBbJdmbPnm8iyojow9ajaWB9CP2Tt44ZwAMzv1EyF7XFjlErMrRnImwf+toAZGD8Yd
+        BLJ5mcoGha2097t6XCvMIeOlBCHsha6Z1Hia4doHurt5t8ISckIguSUTw3KlHWJ8vEdYPsh4CSTk+tiU
+        ob1thTXkrLZ8ZkHiw7cAVtiKHPd0DSNsugGwwlbkvGVJbWHTIdkKW5DjWnGZxXAva4UtyGltz5F8+P8m
+        Dn6nsNT+sDjc6llhDTmsNdrNzbXGljogGL7isMIacsgbL+23rg+6xpe+cfgZWppW2IqckmQa2JcbW0I6
+        rr2jEm+6DLbCXhQEy5R9xPIa2iPS4+KHWcLOlAOxFW5BgQ010bMS+sPu5jeEqp9vw1YzZgAAAABJRU5E
+        rkJggg==
 </value>
   </data>
-  <data name="bunifuFlatButton2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="setup_but.Location" type="System.Drawing.Point, System.Drawing">
     <value>498, 42</value>
   </data>
-  <data name="bunifuFlatButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="setup_but.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
-  <data name="bunifuFlatButton2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="setup_but.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 42</value>
   </data>
-  <data name="bunifuFlatButton2.TabIndex" type="System.Int32, mscorlib">
+  <data name="setup_but.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="bunifuFlatButton2.Text" xml:space="preserve">
+  <data name="setup_but.Text" xml:space="preserve">
     <value>SETUP</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton2.Name" xml:space="preserve">
-    <value>bunifuFlatButton2</value>
+  <data name="&gt;&gt;setup_but.Name" xml:space="preserve">
+    <value>setup_but</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton2.Type" xml:space="preserve">
+  <data name="&gt;&gt;setup_but.Type" xml:space="preserve">
     <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;setup_but.Parent" xml:space="preserve">
     <value>Top_Panel</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;setup_but.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="bunifuFlatButton1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="home_but.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="bunifuFlatButton1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="home_but.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="bunifuFlatButton1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="home_but.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 9.75pt, style=Bold</value>
   </data>
-  <data name="bunifuFlatButton1.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="home_but.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEUAAAA7CAYAAAAtpUeYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAANiSURBVHhe7Zr9UeMwEMUpgRKuBEqgBEqgBEqgBEqgBApg
-        blICJVDCdeB7z2NpNspbaeM4SjyjP34jZ/W93rdSAg/TNN2c77+HZ3Bgqep7I429gBMewSeYDPz8qNr3
-        Qhp7gI2/gX+LI0pof1P9eiCN1wSbpVR+ls23YLvukpLGa4DNKalE6SopadwabKgmlQQTrbInuklKGrcC
-        m4hIhfVPS/un5bNql7i6pKTxUrDoiFTcN0/7Uq/6Ja4mKWm8BCw0KpU/pg8jipvMEcB6cBNJSeMasLiI
-        VLiJF9OneU/B8wtoOXlTSUnjOWAx0VOl3Gz4noLnVXOsRRqjYAERqfwCKwtGFG2qbcmavkcOXYM0tsCk
-        EamQd9OHOeLL1J0D+9kc9G7qPFZLSho9MAnD+GOZtAYT5HzMLv24iVZEtWB/62Qe361ETLjesyQljQoM
-        zEW0NnYUunhmkoxKJQrHs8k6ImHW55fUQhpLMCAjpCUXhvj8RlBGjtNLycc6Sq6vJU2uPxQx0liCwWqS
-        yW8OJRcX0fuWcL70MlqR+WH35SGNFgzEpKomIFmvKK8hlSjli6m9xGbylcYEBuAEnl7n3IEymvB6kBM8
-        SuYa1Yb7qcpIGhPo7On0a6mvRdEtmaMBZXX9HtJI0JFyUANmT6O8lVxa/C7rq0V6PsFKpBEdeHp4g6W3
-        0Duhnst8p0HpRTP3ly+ElhMDQWMvR8zZGyXziKq/N1J+8RLvwe47cWJAQy9B/Zg2kSv+PRBZ88n3pKMP
-        aOBFQA41lPcum5Iko1pKOLrtlk7xvPm61O9FNiVJRq+FPZEjiliHeLrLxxee7+U+ci45d+DZO6bzbTc1
-        9DI0j9x0/Hq5Zi+kyyaPae8qMZ+soUYoa3rcCzYvVoOADbyf+exvF3uVTYmVkXdgfLJSJVd7lO1dNiX2
-        9x65d7vxJA8bZrVr8l7hflKetGmB5eyw2SnGAZSS/VVrb3eSKDY18Dve0V8BslMU7AzUoHsnO0UhjQl2
-        LgbbCmqZybuFd5m8lL5OKcfogVpHg+EUwXCKYDhFMJwiGE4RDKcIhlMEwymC4RRBX6eA8L88bAHnK+aP
-        0N0pzT9gbwnnK+aPMJwiGE4RDKcIhlMEwymC4RTBcIpgOEUwnCIYThEMpwiGUwQVp0wP/wH/wtJG3sia
-        8wAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAEUAAAA7CAYAAAAtpUeYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EgAACxIB0t1+/AAAA2JJREFUeF7tmv1R4zAQxSmBEq4ESqAESqAESqAESqAECmBuUgIlUMJ14HvPY2k2
+        yltp4zhKPKM/fiNn9b3et1ICD9M03Zzvv4dncGCp6nsjjb2AEx7BJ5gM/Pyo2vdCGnuAjb+Bf4sjSmh/
+        U/16II3XBJulVH6Wzbdgu+6SksZrgM0pqUTpKilp3BpsqCaVBBOtsie6SUoatwKbiEiF9U9L+6fls2qX
+        uLqkpPFSsOiIVNw3T/tSr/olriYpabwELDQqlT+mDyOKm8wRwHpwE0lJ4xqwuIhUuIkX06d5T8HzC2g5
+        eVNJSeM5YDHRU6XcbPiegudVc6xFGqNgARGp/AIrC0YUbaptyZq+Rw5dgzS2wKQRqZB304c54svUnQP7
+        2Rz0buo8VktKGj0wCcP4Y5m0BhPkfMwu/biJVkS1YH/rZB7frURMuN6zJCWNCgzMRbQ2dhS6eGaSjEol
+        CsezyToiYdbnl9RCGkswICOkJReG+PxGUEaO00vJxzpKrq8lTa4/FDHSWILBapLJbw4lFxfR+5ZwvvQy
+        WpH5YfflIY0WDMSkqiYgWa8oryGVKOWLqb3EZvKVxgQG4ASeXufcgTKa8HqQEzxK5hrVhvupykgaE+js
+        6fRrqa9F0S2ZowFldf0e0kjQkXJQA2ZPo7yVXFr8LuurRXo+wUqkER14eniDpbfQO6Gey3ynQelFM/eX
+        L4SWEwNBYy9HzNkbJfOIqr83Un7xEu/B7jtxYkBDL0H9mDaRK/49EFnzyfekow9o4EVADjWU9y6bkiSj
+        Wko4uu2WTvG8+brU70U2JUlGr4U9kSOKWId4usvHF57v5T5yLjl34Nk7pvNtNzX0MjSP3HT8erlmL6TL
+        Jo9p7yoxn6yhRihretwLNi9Wg4ANvJ/57G8Xe5VNiZWRd2B8slIlV3uU7V02Jfb3Hrl3u/EkDxtmtWvy
+        XuF+Up60aYHl7LDZKcYBlJL9VWtvd5IoNjXwO97RXwGyUxTsDNSgeyc7RSGNCXYuBtsKapnJu4V3mbyU
+        vk4px+iBWkeD4RTBcIpgOEUwnCIYThEMpwiGUwTDKYLhFEFfp4DwvzxsAecr5o/Q3SnNP2BvCecr5o8w
+        nCIYThEMpwiGUwTDKYLhFMFwimA4RTCcIhhOEQynCIZTBBWnTA//Af/C0kbeyJrzAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="bunifuFlatButton1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="home_but.Location" type="System.Drawing.Point, System.Drawing">
     <value>374, 42</value>
   </data>
-  <data name="bunifuFlatButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="home_but.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
-  <data name="bunifuFlatButton1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="home_but.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 42</value>
   </data>
-  <data name="bunifuFlatButton1.TabIndex" type="System.Int32, mscorlib">
+  <data name="home_but.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="bunifuFlatButton1.Text" xml:space="preserve">
+  <data name="home_but.Text" xml:space="preserve">
     <value>HOME</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton1.Name" xml:space="preserve">
-    <value>bunifuFlatButton1</value>
+  <data name="&gt;&gt;home_but.Name" xml:space="preserve">
+    <value>home_but</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton1.Type" xml:space="preserve">
+  <data name="&gt;&gt;home_but.Type" xml:space="preserve">
     <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;home_but.Parent" xml:space="preserve">
     <value>Top_Panel</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;home_but.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="MiniMaxi.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -656,31 +654,871 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Top_Panel.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
-  <data name="Menu_Panel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="bunifuFlatButton14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Menu_Panel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 82</value>
+  <data name="bunifuFlatButton14.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
-  <data name="Menu_Panel.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="bunifuFlatButton14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1025, 3</value>
+  </data>
+  <data name="bunifuFlatButton14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 26</value>
+  </data>
+  <data name="bunifuFlatButton14.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton14.Text" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton14.Name" xml:space="preserve">
+    <value>bunifuFlatButton14</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton14.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton14.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton14.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bunifuFlatButton15.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton15.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>944, 3</value>
+  </data>
+  <data name="bunifuFlatButton15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="bunifuFlatButton15.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton15.Text" xml:space="preserve">
+    <value>Culling</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton15.Name" xml:space="preserve">
+    <value>bunifuFlatButton15</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton15.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton15.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton15.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bunifuFlatButton16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton16.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>863, 3</value>
+  </data>
+  <data name="bunifuFlatButton16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="bunifuFlatButton16.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton16.Text" xml:space="preserve">
+    <value>Feeding</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton16.Name" xml:space="preserve">
+    <value>bunifuFlatButton16</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton16.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton16.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton16.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="bunifuFlatButton17.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton17.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>782, 3</value>
+  </data>
+  <data name="bunifuFlatButton17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="bunifuFlatButton17.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton17.Text" xml:space="preserve">
+    <value>Medical</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton17.Name" xml:space="preserve">
+    <value>bunifuFlatButton17</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton17.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton17.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton17.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="bunifuFlatButton18.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton18.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>719, 3</value>
+  </data>
+  <data name="bunifuFlatButton18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 26</value>
+  </data>
+  <data name="bunifuFlatButton18.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton18.Text" xml:space="preserve">
+    <value>Herds</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton18.Name" xml:space="preserve">
+    <value>bunifuFlatButton18</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton18.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton18.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton18.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton19.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton19.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>638, 3</value>
+  </data>
+  <data name="bunifuFlatButton19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="bunifuFlatButton19.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton19.Text" xml:space="preserve">
+    <value>Housing</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton19.Name" xml:space="preserve">
+    <value>bunifuFlatButton19</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton19.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton19.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton19.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="bunifuFlatButton20.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton20.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 5</value>
+  </data>
+  <data name="bunifuFlatButton20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 26</value>
+  </data>
+  <data name="bunifuFlatButton20.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="bunifuFlatButton20.Text" xml:space="preserve">
+    <value>Animal Classes and Breeds</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton20.Name" xml:space="preserve">
+    <value>bunifuFlatButton20</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton20.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton20.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton20.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="bunifuFlatButton21.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton21.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 5</value>
+  </data>
+  <data name="bunifuFlatButton21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 26</value>
+  </data>
+  <data name="bunifuFlatButton21.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="bunifuFlatButton21.Text" xml:space="preserve">
+    <value>Program Parameters</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton21.Name" xml:space="preserve">
+    <value>bunifuFlatButton21</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton21.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton21.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton21.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>1437, 34</value>
   </data>
-  <data name="Menu_Panel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="&gt;&gt;Menu_Panel.Name" xml:space="preserve">
-    <value>Menu_Panel</value>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
   </data>
-  <data name="&gt;&gt;Menu_Panel.Type" xml:space="preserve">
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Menu_Panel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bunifuFlatButton6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1025, 3</value>
+  </data>
+  <data name="bunifuFlatButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 26</value>
+  </data>
+  <data name="bunifuFlatButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton6.Text" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton6.Name" xml:space="preserve">
+    <value>bunifuFlatButton6</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton6.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bunifuFlatButton7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>944, 3</value>
+  </data>
+  <data name="bunifuFlatButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="bunifuFlatButton7.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton7.Text" xml:space="preserve">
+    <value>Culling</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton7.Name" xml:space="preserve">
+    <value>bunifuFlatButton7</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton7.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton7.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="bunifuFlatButton8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>863, 3</value>
+  </data>
+  <data name="bunifuFlatButton8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="bunifuFlatButton8.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton8.Text" xml:space="preserve">
+    <value>Feeding</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton8.Name" xml:space="preserve">
+    <value>bunifuFlatButton8</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton8.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton8.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="bunifuFlatButton9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>782, 3</value>
+  </data>
+  <data name="bunifuFlatButton9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="bunifuFlatButton9.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton9.Text" xml:space="preserve">
+    <value>Medical</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton9.Name" xml:space="preserve">
+    <value>bunifuFlatButton9</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton9.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton9.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton9.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>719, 3</value>
+  </data>
+  <data name="bunifuFlatButton10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 26</value>
+  </data>
+  <data name="bunifuFlatButton10.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton10.Text" xml:space="preserve">
+    <value>Herds</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton10.Name" xml:space="preserve">
+    <value>bunifuFlatButton10</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton10.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton10.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton10.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="bunifuFlatButton11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton11.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>638, 3</value>
+  </data>
+  <data name="bunifuFlatButton11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="bunifuFlatButton11.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton11.Text" xml:space="preserve">
+    <value>Housing</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton11.Name" xml:space="preserve">
+    <value>bunifuFlatButton11</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton11.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton11.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton11.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="bunifuFlatButton12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton12.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 5</value>
+  </data>
+  <data name="bunifuFlatButton12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 26</value>
+  </data>
+  <data name="bunifuFlatButton12.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="bunifuFlatButton12.Text" xml:space="preserve">
+    <value>Animal Classes and Breeds</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton12.Name" xml:space="preserve">
+    <value>bunifuFlatButton12</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton12.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton12.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton12.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="bunifuFlatButton13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton13.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 5</value>
+  </data>
+  <data name="bunifuFlatButton13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 26</value>
+  </data>
+  <data name="bunifuFlatButton13.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="bunifuFlatButton13.Text" xml:space="preserve">
+    <value>Program Parameters</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton13.Name" xml:space="preserve">
+    <value>bunifuFlatButton13</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton13.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton13.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton13.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1437, 34</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>setup_click_panel</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mrkt_but.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="mrkt_but.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="mrkt_but.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="mrkt_but.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1025, 3</value>
+  </data>
+  <data name="mrkt_but.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 26</value>
+  </data>
+  <data name="mrkt_but.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="mrkt_but.Text" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="&gt;&gt;mrkt_but.Name" xml:space="preserve">
+    <value>mrkt_but</value>
+  </data>
+  <data name="&gt;&gt;mrkt_but.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mrkt_but.Parent" xml:space="preserve">
+    <value>setup_click_panel</value>
+  </data>
+  <data name="&gt;&gt;mrkt_but.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cull_but.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="cull_but.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="cull_but.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cull_but.Location" type="System.Drawing.Point, System.Drawing">
+    <value>944, 3</value>
+  </data>
+  <data name="cull_but.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="cull_but.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cull_but.Text" xml:space="preserve">
+    <value>Culling</value>
+  </data>
+  <data name="&gt;&gt;cull_but.Name" xml:space="preserve">
+    <value>cull_but</value>
+  </data>
+  <data name="&gt;&gt;cull_but.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cull_but.Parent" xml:space="preserve">
+    <value>setup_click_panel</value>
+  </data>
+  <data name="&gt;&gt;cull_but.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="feed_but.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="feed_but.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="feed_but.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="feed_but.Location" type="System.Drawing.Point, System.Drawing">
+    <value>863, 3</value>
+  </data>
+  <data name="feed_but.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="feed_but.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="feed_but.Text" xml:space="preserve">
+    <value>Feeding</value>
+  </data>
+  <data name="&gt;&gt;feed_but.Name" xml:space="preserve">
+    <value>feed_but</value>
+  </data>
+  <data name="&gt;&gt;feed_but.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;feed_but.Parent" xml:space="preserve">
+    <value>setup_click_panel</value>
+  </data>
+  <data name="&gt;&gt;feed_but.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="med_but.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="med_but.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="med_but.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="med_but.Location" type="System.Drawing.Point, System.Drawing">
+    <value>782, 3</value>
+  </data>
+  <data name="med_but.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="med_but.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="med_but.Text" xml:space="preserve">
+    <value>Medical</value>
+  </data>
+  <data name="&gt;&gt;med_but.Name" xml:space="preserve">
+    <value>med_but</value>
+  </data>
+  <data name="&gt;&gt;med_but.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;med_but.Parent" xml:space="preserve">
+    <value>setup_click_panel</value>
+  </data>
+  <data name="&gt;&gt;med_but.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="herds_but.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="herds_but.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="herds_but.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="herds_but.Location" type="System.Drawing.Point, System.Drawing">
+    <value>719, 3</value>
+  </data>
+  <data name="herds_but.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 26</value>
+  </data>
+  <data name="herds_but.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="herds_but.Text" xml:space="preserve">
+    <value>Herds</value>
+  </data>
+  <data name="&gt;&gt;herds_but.Name" xml:space="preserve">
+    <value>herds_but</value>
+  </data>
+  <data name="&gt;&gt;herds_but.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;herds_but.Parent" xml:space="preserve">
+    <value>setup_click_panel</value>
+  </data>
+  <data name="&gt;&gt;herds_but.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="housing_but.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="housing_but.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="housing_but.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="housing_but.Location" type="System.Drawing.Point, System.Drawing">
+    <value>638, 3</value>
+  </data>
+  <data name="housing_but.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="housing_but.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="housing_but.Text" xml:space="preserve">
+    <value>Housing</value>
+  </data>
+  <data name="&gt;&gt;housing_but.Name" xml:space="preserve">
+    <value>housing_but</value>
+  </data>
+  <data name="&gt;&gt;housing_but.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;housing_but.Parent" xml:space="preserve">
+    <value>setup_click_panel</value>
+  </data>
+  <data name="&gt;&gt;housing_but.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="anm_cls_brd_but.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="anm_cls_brd_but.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="anm_cls_brd_but.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="anm_cls_brd_but.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 5</value>
+  </data>
+  <data name="anm_cls_brd_but.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 26</value>
+  </data>
+  <data name="anm_cls_brd_but.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="anm_cls_brd_but.Text" xml:space="preserve">
+    <value>Animal Classes and Breeds</value>
+  </data>
+  <data name="&gt;&gt;anm_cls_brd_but.Name" xml:space="preserve">
+    <value>anm_cls_brd_but</value>
+  </data>
+  <data name="&gt;&gt;anm_cls_brd_but.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;anm_cls_brd_but.Parent" xml:space="preserve">
+    <value>setup_click_panel</value>
+  </data>
+  <data name="&gt;&gt;anm_cls_brd_but.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="program_parameters_but.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="program_parameters_but.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="program_parameters_but.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="program_parameters_but.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 5</value>
+  </data>
+  <data name="program_parameters_but.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 26</value>
+  </data>
+  <data name="program_parameters_but.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="program_parameters_but.Text" xml:space="preserve">
+    <value>Program Parameters</value>
+  </data>
+  <data name="&gt;&gt;program_parameters_but.Name" xml:space="preserve">
+    <value>program_parameters_but</value>
+  </data>
+  <data name="&gt;&gt;program_parameters_but.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;program_parameters_but.Parent" xml:space="preserve">
+    <value>setup_click_panel</value>
+  </data>
+  <data name="&gt;&gt;program_parameters_but.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="setup_click_panel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="setup_click_panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 82</value>
+  </data>
+  <data name="setup_click_panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1437, 34</value>
+  </data>
+  <data name="setup_click_panel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;setup_click_panel.Name" xml:space="preserve">
+    <value>setup_click_panel</value>
+  </data>
+  <data name="&gt;&gt;setup_click_panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;setup_click_panel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;Menu_Panel.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;setup_click_panel.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="DateTimePanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
@@ -704,6 +1542,27 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DateTimePanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 121</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1436, 648</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
