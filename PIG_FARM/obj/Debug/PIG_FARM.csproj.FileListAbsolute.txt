@@ -11,4 +11,3 @@ c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug
 c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.exe
 c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.pdb
 c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\bin\Debug\Bunifu_UI_v1.5.3.dll
-C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Form2.resources

@@ -23,6 +23,8 @@ namespace PIG_FARM
         private void Dashboard_Load(object sender, EventArgs e)
         {
             setup_click_panel.Hide();
+            works_panel.Hide();
+            reports_panel.Hide();
         }
         private void Dashboard_MouseDown(object sender, MouseEventArgs e)
         {
@@ -70,22 +72,38 @@ namespace PIG_FARM
         private void BunifuFlatButton2_Click(object sender, EventArgs e)
         {
             setup_click_panel.Show();
+            works_panel.Hide();
+            reports_panel.Hide();
         }
 
         private void BunifuFlatButton1_Click(object sender, EventArgs e)
         {
             setup_click_panel.Hide();
+            works_panel.Hide();
+            reports_panel.Hide();
         }
 
-        private void bunifuFlatButton21_Click(object sender, EventArgs e)
+        private void bunifuFlatButton3_Click(object sender, EventArgs e)
         {
-            Form2 frm = new Form2();
-            frm.TopLevel = false;
-            frm.FormBorderStyle = FormBorderStyle.None;
-            frm.Dock = DockStyle.Fill;
-            panel3.Controls.Add(frm);
-            frm.Visible = true;
+            setup_click_panel.Hide();
+            works_panel.Hide();
+            reports_panel.Hide();
         }
+
+        private void bunifuFlatButton4_Click(object sender, EventArgs e)
+        {
+            setup_click_panel.Hide();
+            works_panel.Show();
+            reports_panel.Hide();
+        }
+
+        private void bunifuFlatButton5_Click(object sender, EventArgs e)
+        {
+            setup_click_panel.Hide();
+            works_panel.Hide();
+            reports_panel.Show();
+        }
+
     }
 
 }
