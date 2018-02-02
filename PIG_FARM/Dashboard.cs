@@ -81,11 +81,6 @@ namespace PIG_FARM
             setup_click_panel.Hide();
             works_panel.Hide();
             reports_panel.Hide();
-            container.Controls.Clear();
-            home_form frm = new home_form();
-            frm.TopLevel = false;
-            container.Controls.Add(frm);
-            frm.Show();
         }
 
         private void bunifuFlatButton3_Click(object sender, EventArgs e)
@@ -107,15 +102,6 @@ namespace PIG_FARM
             setup_click_panel.Hide();
             works_panel.Hide();
             reports_panel.Show();
-        }
-
-        private void bunifuFlatButton21_Click(object sender, EventArgs e)
-        {
-            container.Controls.Clear();
-            program_parameters_form frm = new program_parameters_form();
-            frm.TopLevel = false;
-            container.Controls.Add(frm);
-            frm.Show();
         }
 
     }
