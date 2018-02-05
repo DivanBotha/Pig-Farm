@@ -1,6 +1,6 @@
 ﻿namespace PIG_FARM
 {
-    partial class program_parameters_form
+    partial class Program_parameters_form
     {
         /// <summary>
         /// Required designer variable.
@@ -3178,10 +3178,11 @@
             this.label121.TabIndex = 0;
             this.label121.Text = "Sow productive days:";
             // 
-            // program_parameters_form
+            // Program_parameters_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1369, 872);
             this.Controls.Add(this.panel1);
@@ -3191,7 +3192,7 @@
             this.Controls.Add(this.wght_target_panel);
             this.Controls.Add(this.parameter_panel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "program_parameters_form";
+            this.Name = "Program_parameters_form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "program_parameters_form";
             this.parameter_panel.ResumeLayout(false);

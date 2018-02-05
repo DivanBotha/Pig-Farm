@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.Top_Panel = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Name_Label = new System.Windows.Forms.Label();
             this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -40,7 +42,6 @@
             this.Minimize_Label = new System.Windows.Forms.Label();
             this.Exit_Label = new System.Windows.Forms.Label();
             this.Logo_Panel = new System.Windows.Forms.Panel();
-            this.Name_Label = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.setup_click_panel = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -69,7 +70,6 @@
             this.housing_but = new Bunifu.Framework.UI.BunifuFlatButton();
             this.anm_cls_brd_but = new Bunifu.Framework.UI.BunifuFlatButton();
             this.program_parameters_but = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.DateTimePanel = new System.Windows.Forms.Panel();
             this.works_panel = new System.Windows.Forms.Panel();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -98,6 +98,8 @@
             // Top_Panel
             // 
             this.Top_Panel.BackColor = System.Drawing.Color.SteelBlue;
+            this.Top_Panel.Controls.Add(this.label1);
+            this.Top_Panel.Controls.Add(this.Name_Label);
             this.Top_Panel.Controls.Add(this.bunifuFlatButton5);
             this.Top_Panel.Controls.Add(this.bunifuFlatButton4);
             this.Top_Panel.Controls.Add(this.bunifuFlatButton3);
@@ -112,6 +114,18 @@
             this.Top_Panel.Name = "Top_Panel";
             this.Top_Panel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Dashboard_MouseDown);
             this.Top_Panel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Dashboard_MouseMove);
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Name = "label1";
+            // 
+            // Name_Label
+            // 
+            resources.ApplyResources(this.Name_Label, "Name_Label");
+            this.Name_Label.ForeColor = System.Drawing.Color.White;
+            this.Name_Label.Name = "Name_Label";
             // 
             // bunifuFlatButton5
             // 
@@ -142,7 +156,7 @@
             this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton5.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton5.Click += new System.EventHandler(this.bunifuFlatButton5_Click);
+            this.bunifuFlatButton5.Click += new System.EventHandler(this.BunifuFlatButton5_Click);
             // 
             // bunifuFlatButton4
             // 
@@ -173,7 +187,7 @@
             this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton4.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton4.Click += new System.EventHandler(this.bunifuFlatButton4_Click);
+            this.bunifuFlatButton4.Click += new System.EventHandler(this.BunifuFlatButton4_Click);
             // 
             // bunifuFlatButton3
             // 
@@ -204,7 +218,7 @@
             this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton3.Click += new System.EventHandler(this.bunifuFlatButton3_Click);
+            this.bunifuFlatButton3.Click += new System.EventHandler(this.BunifuFlatButton3_Click);
             // 
             // setup_but
             // 
@@ -305,16 +319,9 @@
             // 
             // Logo_Panel
             // 
-            this.Logo_Panel.Controls.Add(this.Name_Label);
             this.Logo_Panel.Controls.Add(this.pictureBox1);
             resources.ApplyResources(this.Logo_Panel, "Logo_Panel");
             this.Logo_Panel.Name = "Logo_Panel";
-            // 
-            // Name_Label
-            // 
-            resources.ApplyResources(this.Name_Label, "Name_Label");
-            this.Name_Label.ForeColor = System.Drawing.Color.White;
-            this.Name_Label.Name = "Name_Label";
             // 
             // pictureBox1
             // 
@@ -607,7 +614,7 @@
             this.bunifuFlatButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton21.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton21.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton21.Click += new System.EventHandler(this.bunifuFlatButton21_Click);
+            this.bunifuFlatButton21.Click += new System.EventHandler(this.BunifuFlatButton21_Click);
             // 
             // bunifuFlatButton6
             // 
@@ -1089,12 +1096,6 @@
             this.program_parameters_but.Textcolor = System.Drawing.Color.White;
             this.program_parameters_but.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // DateTimePanel
-            // 
-            this.DateTimePanel.BackColor = System.Drawing.Color.DimGray;
-            resources.ApplyResources(this.DateTimePanel, "DateTimePanel");
-            this.DateTimePanel.Name = "DateTimePanel";
-            // 
             // works_panel
             // 
             this.works_panel.BackColor = System.Drawing.Color.DimGray;
@@ -1481,7 +1482,6 @@
             // 
             // container
             // 
-            this.container.BackColor = System.Drawing.Color.Gainsboro;
             resources.ApplyResources(this.container, "container");
             this.container.Name = "container";
             // 
@@ -1493,7 +1493,6 @@
             this.Controls.Add(this.container);
             this.Controls.Add(this.reports_panel);
             this.Controls.Add(this.works_panel);
-            this.Controls.Add(this.DateTimePanel);
             this.Controls.Add(this.setup_click_panel);
             this.Controls.Add(this.Top_Panel);
             this.ForeColor = System.Drawing.Color.Gainsboro;
@@ -1505,7 +1504,6 @@
             this.Top_Panel.ResumeLayout(false);
             this.Top_Panel.PerformLayout();
             this.Logo_Panel.ResumeLayout(false);
-            this.Logo_Panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.setup_click_panel.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -1527,7 +1525,6 @@
         private System.Windows.Forms.Label Exit_Label;
         private System.Windows.Forms.Label Sign_In;
         private System.Windows.Forms.Button MiniMaxi;
-        private System.Windows.Forms.Panel DateTimePanel;
         private Bunifu.Framework.UI.BunifuFlatButton home_but;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton5;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton4;
@@ -1573,7 +1570,8 @@
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton28;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton29;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton31;
-        private System.Windows.Forms.Panel container;
+         private System.Windows.Forms.Panel container;
+        private System.Windows.Forms.Label label1;
     }
 }
 

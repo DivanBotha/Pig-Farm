@@ -13,3 +13,6 @@ c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug
 c:\users\divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\bin\Debug\Bunifu_UI_v1.5.3.dll
 C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.program_parameters_form.resources
 C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.home_form.resources
+C:\Users\Divan\Documents\Visual Studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Login.resources
+C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Change_Password.resources
+C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Registration_Form.resources

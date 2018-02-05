@@ -82,38 +82,42 @@ namespace PIG_FARM
             works_panel.Hide();
             reports_panel.Hide();
             container.Controls.Clear();
-            home_form frm = new home_form();
-            frm.TopLevel = false;
+            home_form frm = new home_form()
+            {
+                TopLevel = false
+            };
             container.Controls.Add(frm);
             frm.Show();
         }
 
-        private void bunifuFlatButton3_Click(object sender, EventArgs e)
+        private void BunifuFlatButton3_Click(object sender, EventArgs e)
         {
             setup_click_panel.Hide();
             works_panel.Hide();
             reports_panel.Hide();
         }
 
-        private void bunifuFlatButton4_Click(object sender, EventArgs e)
+        private void BunifuFlatButton4_Click(object sender, EventArgs e)
         {
             setup_click_panel.Hide();
             works_panel.Show();
             reports_panel.Hide();
         }
 
-        private void bunifuFlatButton5_Click(object sender, EventArgs e)
+        private void BunifuFlatButton5_Click(object sender, EventArgs e)
         {
             setup_click_panel.Hide();
             works_panel.Hide();
             reports_panel.Show();
         }
 
-        private void bunifuFlatButton21_Click(object sender, EventArgs e)
+        private void BunifuFlatButton21_Click(object sender, EventArgs e)
         {
             container.Controls.Clear();
-            program_parameters_form frm = new program_parameters_form();
-            frm.TopLevel = false;
+            Program_parameters_form frm = new Program_parameters_form()
+            {
+                TopLevel = false
+            };
             container.Controls.Add(frm);
             frm.Show();
         }
