@@ -63,17 +63,35 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Herd_Setup_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herd_Setup_Form.Designer.cs">
+      <DependentUpon>Herd_Setup_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="home_form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="home_form.Designer.cs">
       <DependentUpon>home_form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Housing_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Housing_Form.Designer.cs">
+      <DependentUpon>Housing_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Medical_Setup_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medical_Setup_Form.Designer.cs">
+      <DependentUpon>Medical_Setup_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="program_parameters_form.cs">
@@ -89,6 +107,12 @@
     <Compile Include="Registration_Form.Designer.cs">
       <DependentUpon>Registration_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Setup_AniClass_Breeds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setup_AniClass_Breeds.Designer.cs">
+      <DependentUpon>Setup_AniClass_Breeds.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Change_Password.resx">
       <DependentUpon>Change_Password.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,11 +122,20 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Herd_Setup_Form.resx">
+      <DependentUpon>Herd_Setup_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="home_form.resx">
       <DependentUpon>home_form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Housing_Form.resx">
+      <DependentUpon>Housing_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medical_Setup_Form.resx">
+      <DependentUpon>Medical_Setup_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="program_parameters_form.resx">
       <DependentUpon>program_parameters_form.cs</DependentUpon>
@@ -118,6 +151,9 @@
     </Compile>
     <EmbeddedResource Include="Registration_Form.resx">
       <DependentUpon>Registration_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setup_AniClass_Breeds.resx">
+      <DependentUpon>Setup_AniClass_Breeds.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

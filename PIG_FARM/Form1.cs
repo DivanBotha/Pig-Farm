@@ -122,6 +122,49 @@ namespace PIG_FARM
             frm.Show();
         }
 
+        private void BunifuFlatButton20_Click(object sender, EventArgs e)
+        {
+            container.Controls.Clear();
+            Setup_AniClass_Breeds frm = new Setup_AniClass_Breeds()
+            {
+                TopLevel = false
+            };
+            container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void BunifuFlatButton19_Click(object sender, EventArgs e)
+        {
+            container.Controls.Clear();
+            Housing_Form frm = new Housing_Form()
+            {
+                TopLevel = false
+            };
+            container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void BunifuFlatButton18_Click(object sender, EventArgs e)
+        {
+            container.Controls.Clear();
+            Herd_Setup_Form frm = new Herd_Setup_Form()
+            {
+                TopLevel = false
+            };
+            container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void BunifuFlatButton17_Click(object sender, EventArgs e)
+        {
+            container.Controls.Clear();
+            Medical_Setup_Form frm = new Medical_Setup_Form()
+            {
+                TopLevel = false
+            };
+            container.Controls.Add(frm);
+            frm.Show();
+        }
     }
 
 }

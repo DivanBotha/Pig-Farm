@@ -314,6 +314,8 @@
             this.textBox124 = new System.Windows.Forms.TextBox();
             this.label126 = new System.Windows.Forms.Label();
             this.label121 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.parameter_panel.SuspendLayout();
             this.wght_target_panel.SuspendLayout();
             this.hrd_target_panel.SuspendLayout();
@@ -3178,13 +3180,39 @@
             this.label121.TabIndex = 0;
             this.label121.Text = "Sow productive days:";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DimGray;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button1.Location = new System.Drawing.Point(497, 866);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(151, 37);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Save";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.DimGray;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button2.Location = new System.Drawing.Point(725, 866);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(151, 37);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Cancel";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
             // Program_parameters_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(1369, 872);
+            this.ClientSize = new System.Drawing.Size(1369, 926);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.mrkt_target_panel);
@@ -3499,5 +3527,7 @@
         private System.Windows.Forms.Label label122;
         private System.Windows.Forms.TextBox textBox129;
         private System.Windows.Forms.Label label126;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

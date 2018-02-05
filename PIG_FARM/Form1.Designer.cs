@@ -494,6 +494,7 @@
             this.bunifuFlatButton17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton17.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton17.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton17.Click += new System.EventHandler(this.BunifuFlatButton17_Click);
             // 
             // bunifuFlatButton18
             // 
@@ -524,6 +525,7 @@
             this.bunifuFlatButton18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton18.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton18.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton18.Click += new System.EventHandler(this.BunifuFlatButton18_Click);
             // 
             // bunifuFlatButton19
             // 
@@ -554,6 +556,7 @@
             this.bunifuFlatButton19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton19.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton19.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton19.Click += new System.EventHandler(this.BunifuFlatButton19_Click);
             // 
             // bunifuFlatButton20
             // 
@@ -584,6 +587,7 @@
             this.bunifuFlatButton20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton20.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton20.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton20.Click += new System.EventHandler(this.BunifuFlatButton20_Click);
             // 
             // bunifuFlatButton21
             // 
