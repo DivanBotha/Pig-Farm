@@ -39,12 +39,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.Breed_Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Breed_Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Breeds_Notes = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.mrkt_target_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -173,6 +173,24 @@
             this.dataGridView2.Size = new System.Drawing.Size(643, 144);
             this.dataGridView2.TabIndex = 1;
             // 
+            // Breed_Code
+            // 
+            this.Breed_Code.HeaderText = "Code";
+            this.Breed_Code.Name = "Breed_Code";
+            // 
+            // Breed_Description
+            // 
+            this.Breed_Description.HeaderText = "Description";
+            this.Breed_Description.MaxInputLength = 40000;
+            this.Breed_Description.Name = "Breed_Description";
+            this.Breed_Description.Width = 200;
+            // 
+            // Breeds_Notes
+            // 
+            this.Breeds_Notes.HeaderText = "Notes";
+            this.Breeds_Notes.Name = "Breeds_Notes";
+            this.Breeds_Notes.Width = 300;
+            // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.DimGray;
@@ -208,33 +226,17 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "BREEDS";
             // 
-            // Breed_Code
-            // 
-            this.Breed_Code.HeaderText = "Code";
-            this.Breed_Code.Name = "Breed_Code";
-            // 
-            // Breed_Description
-            // 
-            this.Breed_Description.HeaderText = "Description";
-            this.Breed_Description.MaxInputLength = 40000;
-            this.Breed_Description.Name = "Breed_Description";
-            this.Breed_Description.Width = 200;
-            // 
-            // Breeds_Notes
-            // 
-            this.Breeds_Notes.HeaderText = "Notes";
-            this.Breeds_Notes.Name = "Breeds_Notes";
-            this.Breeds_Notes.Width = 300;
-            // 
             // Setup_AniClass_Breeds
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1179, 359);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1179, 324);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.mrkt_target_panel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Setup_AniClass_Breeds";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Setup_AniClass_Breeds";
             this.mrkt_target_panel.ResumeLayout(false);
             this.mrkt_target_panel.PerformLayout();

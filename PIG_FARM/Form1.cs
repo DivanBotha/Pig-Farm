@@ -62,10 +62,16 @@ namespace PIG_FARM
             if (WindowState == FormWindowState.Normal)
             {
                 WindowState = FormWindowState.Maximized;
+                // this.container.MaximumSize = new System.Drawing.Size(this.Width, this.Height);
+                // this.container.AutoSize = true;
+                // this.container.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             }
             else if (WindowState == FormWindowState.Maximized)
             {
                 WindowState = FormWindowState.Normal;
+               // this.container.MinimumSize = new System.Drawing.Size(this.Width, this.Height);
+               // this.container.AutoSize = true;
+               // this.container.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             }
         }
 
@@ -159,6 +165,17 @@ namespace PIG_FARM
         {
             container.Controls.Clear();
             Medical_Setup_Form frm = new Medical_Setup_Form()
+            {
+                TopLevel = false
+            };
+            container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void bunifuFlatButton16_Click(object sender, EventArgs e)
+        {
+            container.Controls.Clear();
+            Feeding_Setup frm = new Feeding_Setup()
             {
                 TopLevel = false
             };

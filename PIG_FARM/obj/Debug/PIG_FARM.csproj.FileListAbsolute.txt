@@ -20,3 +20,4 @@ C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug
 C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Housing_Form.resources
 C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Herd_Setup_Form.resources
 C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Medical_Setup_Form.resources
+C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Feeding_Setup.resources

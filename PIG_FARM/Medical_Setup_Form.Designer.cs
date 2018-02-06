@@ -116,12 +116,12 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.button13 = new System.Windows.Forms.Button();
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.label17 = new System.Windows.Forms.Label();
             this.IBoar_Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Semen_Stock = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Purchase_Date_Semen = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.mrkt_target_panel.SuspendLayout();
@@ -991,6 +991,21 @@
             this.dataGridView5.Size = new System.Drawing.Size(343, 144);
             this.dataGridView5.TabIndex = 1;
             // 
+            // IBoar_Code
+            // 
+            this.IBoar_Code.HeaderText = "Code";
+            this.IBoar_Code.Name = "IBoar_Code";
+            // 
+            // Semen_Stock
+            // 
+            this.Semen_Stock.HeaderText = "Stock";
+            this.Semen_Stock.Name = "Semen_Stock";
+            // 
+            // Purchase_Date_Semen
+            // 
+            this.Purchase_Date_Semen.HeaderText = "Purchase Date";
+            this.Purchase_Date_Semen.Name = "Purchase_Date_Semen";
+            // 
             // button14
             // 
             this.button14.BackColor = System.Drawing.Color.DimGray;
@@ -1026,25 +1041,11 @@
             this.label17.TabIndex = 0;
             this.label17.Text = "INSEMENATION";
             // 
-            // IBoar_Code
-            // 
-            this.IBoar_Code.HeaderText = "Code";
-            this.IBoar_Code.Name = "IBoar_Code";
-            // 
-            // Semen_Stock
-            // 
-            this.Semen_Stock.HeaderText = "Stock";
-            this.Semen_Stock.Name = "Semen_Stock";
-            // 
-            // Purchase_Date_Semen
-            // 
-            this.Purchase_Date_Semen.HeaderText = "Purchase Date";
-            this.Purchase_Date_Semen.Name = "Purchase_Date_Semen";
-            // 
             // Medical_Setup_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1472, 869);
             this.Controls.Add(this.panel4);
@@ -1054,6 +1055,7 @@
             this.Controls.Add(this.mrkt_target_panel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Medical_Setup_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Medical_Setup_Form";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

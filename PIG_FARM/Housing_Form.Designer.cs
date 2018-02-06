@@ -31,25 +31,25 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.Pen_Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Pen_Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Housing_Pen_Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Pen_Surface_Area = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Pen_Capacity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.mrkt_target_panel = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.mrkt_trgt_label = new System.Windows.Forms.Label();
-            this.Pen_Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Pen_Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Housing_Pen_Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Pen_Surface_Area = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Pen_Capacity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Housing_Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Housing_Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Surface_Area = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Housing_Capacity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Qty_Pens = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.mrkt_trgt_label = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.mrkt_target_panel.SuspendLayout();
@@ -95,6 +95,34 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(663, 144);
             this.dataGridView2.TabIndex = 1;
+            // 
+            // Pen_Code
+            // 
+            this.Pen_Code.HeaderText = "Code";
+            this.Pen_Code.Name = "Pen_Code";
+            // 
+            // Pen_Description
+            // 
+            this.Pen_Description.HeaderText = "Description";
+            this.Pen_Description.MaxInputLength = 40000;
+            this.Pen_Description.Name = "Pen_Description";
+            this.Pen_Description.Width = 200;
+            // 
+            // Housing_Pen_Code
+            // 
+            this.Housing_Pen_Code.HeaderText = "Housing Code";
+            this.Housing_Pen_Code.Name = "Housing_Pen_Code";
+            // 
+            // Pen_Surface_Area
+            // 
+            this.Pen_Surface_Area.HeaderText = "Surface Area (m2)";
+            this.Pen_Surface_Area.Name = "Pen_Surface_Area";
+            this.Pen_Surface_Area.Width = 120;
+            // 
+            // Pen_Capacity
+            // 
+            this.Pen_Capacity.HeaderText = "Capacity";
+            this.Pen_Capacity.Name = "Pen_Capacity";
             // 
             // button5
             // 
@@ -171,6 +199,34 @@
             this.dataGridView1.Size = new System.Drawing.Size(663, 144);
             this.dataGridView1.TabIndex = 1;
             // 
+            // Housing_Code
+            // 
+            this.Housing_Code.HeaderText = "Code";
+            this.Housing_Code.Name = "Housing_Code";
+            // 
+            // Housing_Description
+            // 
+            this.Housing_Description.HeaderText = "Description";
+            this.Housing_Description.MaxInputLength = 40000;
+            this.Housing_Description.Name = "Housing_Description";
+            this.Housing_Description.Width = 200;
+            // 
+            // Surface_Area
+            // 
+            this.Surface_Area.HeaderText = "Surface Area (m2)";
+            this.Surface_Area.Name = "Surface_Area";
+            this.Surface_Area.Width = 120;
+            // 
+            // Housing_Capacity
+            // 
+            this.Housing_Capacity.HeaderText = "Capacity";
+            this.Housing_Capacity.Name = "Housing_Capacity";
+            // 
+            // Qty_Pens
+            // 
+            this.Qty_Pens.HeaderText = "Pens";
+            this.Qty_Pens.Name = "Qty_Pens";
+            // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.DimGray;
@@ -206,62 +262,6 @@
             this.mrkt_trgt_label.TabIndex = 0;
             this.mrkt_trgt_label.Text = "HOUSING";
             // 
-            // Pen_Code
-            // 
-            this.Pen_Code.HeaderText = "Code";
-            this.Pen_Code.Name = "Pen_Code";
-            // 
-            // Pen_Description
-            // 
-            this.Pen_Description.HeaderText = "Description";
-            this.Pen_Description.MaxInputLength = 40000;
-            this.Pen_Description.Name = "Pen_Description";
-            this.Pen_Description.Width = 200;
-            // 
-            // Housing_Pen_Code
-            // 
-            this.Housing_Pen_Code.HeaderText = "Housing Code";
-            this.Housing_Pen_Code.Name = "Housing_Pen_Code";
-            // 
-            // Pen_Surface_Area
-            // 
-            this.Pen_Surface_Area.HeaderText = "Surface Area (m2)";
-            this.Pen_Surface_Area.Name = "Pen_Surface_Area";
-            this.Pen_Surface_Area.Width = 120;
-            // 
-            // Pen_Capacity
-            // 
-            this.Pen_Capacity.HeaderText = "Capacity";
-            this.Pen_Capacity.Name = "Pen_Capacity";
-            // 
-            // Housing_Code
-            // 
-            this.Housing_Code.HeaderText = "Code";
-            this.Housing_Code.Name = "Housing_Code";
-            // 
-            // Housing_Description
-            // 
-            this.Housing_Description.HeaderText = "Description";
-            this.Housing_Description.MaxInputLength = 40000;
-            this.Housing_Description.Name = "Housing_Description";
-            this.Housing_Description.Width = 200;
-            // 
-            // Surface_Area
-            // 
-            this.Surface_Area.HeaderText = "Surface Area (m2)";
-            this.Surface_Area.Name = "Surface_Area";
-            this.Surface_Area.Width = 120;
-            // 
-            // Housing_Capacity
-            // 
-            this.Housing_Capacity.HeaderText = "Capacity";
-            this.Housing_Capacity.Name = "Housing_Capacity";
-            // 
-            // Qty_Pens
-            // 
-            this.Qty_Pens.HeaderText = "Pens";
-            this.Qty_Pens.Name = "Qty_Pens";
-            // 
             // Housing_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -272,6 +272,7 @@
             this.Controls.Add(this.mrkt_target_panel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Housing_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Housing_Form";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
