@@ -16,5 +16,11 @@ namespace PIG_FARM
         {
             InitializeComponent();
         }
+
+        private void Setup_AniClass_Breeds_Load(object sender, EventArgs e)
+        {
+            Point p = new Point(this.ParentForm.Width / 2 - this.Width / 2);
+            this.Location = p;
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace PIG_FARM
 {
-    partial class home_form
+    partial class Home_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -30,15 +30,16 @@
         {
             this.SuspendLayout();
             // 
-            // home_form
+            // Home_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1427, 862);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "home_form";
-            this.Text = "home_form";
+            this.Name = "Home_Form";
+            this.Text = "Home_Form";
+            this.Load += new System.EventHandler(this.Home_Form_Load);
             this.ResumeLayout(false);
 
         }

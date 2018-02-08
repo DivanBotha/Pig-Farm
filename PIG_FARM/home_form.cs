@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace PIG_FARM
 {
-    public partial class home_form : Form
+    public partial class Home_Form : Form
     {
-        public home_form()
+        public Home_Form()
         {
             InitializeComponent();
         }
+
+        private void Home_Form_Load(object sender, EventArgs e)
+        {
+            Point p = new Point(this.ParentForm.Width / 2 - this.Width / 2);
+            this.Location = p;
+        }
+
     }
 }

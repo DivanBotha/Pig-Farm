@@ -28,23 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.parameter_panel = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.how_work2_label = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.indiv_pigl = new System.Windows.Forms.Label();
-            this.how_work1_label = new System.Windows.Forms.Label();
             this.parameter_label = new System.Windows.Forms.Label();
             this.wght_target_panel = new System.Windows.Forms.Panel();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -115,7 +98,6 @@
             this.textBox37 = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label31 = new System.Windows.Forms.Label();
             this.textBox120 = new System.Windows.Forms.TextBox();
             this.textBox104 = new System.Windows.Forms.TextBox();
             this.textBox88 = new System.Windows.Forms.TextBox();
@@ -281,8 +263,8 @@
             this.label53 = new System.Windows.Forms.Label();
             this.textBox44 = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label117 = new System.Windows.Forms.Label();
             this.textBox128 = new System.Windows.Forms.TextBox();
             this.textBox135 = new System.Windows.Forms.TextBox();
             this.textBox121 = new System.Windows.Forms.TextBox();
@@ -313,6 +295,7 @@
             this.textBox124 = new System.Windows.Forms.TextBox();
             this.label126 = new System.Windows.Forms.Label();
             this.label121 = new System.Windows.Forms.Label();
+            this.label117 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -322,7 +305,23 @@
             this.mrkt_trgt_label = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.parameter_panel.SuspendLayout();
+            this.parameter_panel = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.how_work2_label = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.indiv_pigl = new System.Windows.Forms.Label();
+            this.how_work1_label = new System.Windows.Forms.Label();
             this.wght_target_panel.SuspendLayout();
             this.hrd_target_panel.SuspendLayout();
             this.mrkt_target_panel.SuspendLayout();
@@ -334,191 +333,8 @@
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
+            this.parameter_panel.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // parameter_panel
-            // 
-            this.parameter_panel.BackColor = System.Drawing.Color.SteelBlue;
-            this.parameter_panel.Controls.Add(this.textBox1);
-            this.parameter_panel.Controls.Add(this.checkBox6);
-            this.parameter_panel.Controls.Add(this.checkBox4);
-            this.parameter_panel.Controls.Add(this.checkBox5);
-            this.parameter_panel.Controls.Add(this.checkBox3);
-            this.parameter_panel.Controls.Add(this.checkBox2);
-            this.parameter_panel.Controls.Add(this.checkBox1);
-            this.parameter_panel.Controls.Add(this.how_work2_label);
-            this.parameter_panel.Controls.Add(this.label6);
-            this.parameter_panel.Controls.Add(this.label5);
-            this.parameter_panel.Controls.Add(this.label3);
-            this.parameter_panel.Controls.Add(this.label4);
-            this.parameter_panel.Controls.Add(this.label2);
-            this.parameter_panel.Controls.Add(this.label1);
-            this.parameter_panel.Controls.Add(this.indiv_pigl);
-            this.parameter_panel.Controls.Add(this.how_work1_label);
-            this.parameter_panel.Location = new System.Drawing.Point(29, 54);
-            this.parameter_panel.Name = "parameter_panel";
-            this.parameter_panel.Size = new System.Drawing.Size(239, 258);
-            this.parameter_panel.TabIndex = 0;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(161, 102);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(63, 20);
-            this.textBox1.TabIndex = 2;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(209, 205);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(15, 14);
-            this.checkBox6.TabIndex = 1;
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(209, 185);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(15, 14);
-            this.checkBox4.TabIndex = 1;
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(209, 128);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(15, 14);
-            this.checkBox5.TabIndex = 1;
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(209, 82);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(15, 14);
-            this.checkBox3.TabIndex = 1;
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(209, 62);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(209, 42);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // how_work2_label
-            // 
-            this.how_work2_label.AutoSize = true;
-            this.how_work2_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.how_work2_label.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.how_work2_label.Location = new System.Drawing.Point(31, 158);
-            this.how_work2_label.Name = "how_work2_label";
-            this.how_work2_label.Size = new System.Drawing.Size(181, 15);
-            this.how_work2_label.TabIndex = 0;
-            this.how_work2_label.Text = "How to work with weaners?";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label6.Location = new System.Drawing.Point(17, 205);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(119, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Round weaning weight:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label5.Location = new System.Drawing.Point(17, 186);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(153, 13);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Use individual weaning weight:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label3.Location = new System.Drawing.Point(22, 129);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(138, 13);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Use individual piglet weight:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label4.Location = new System.Drawing.Point(50, 105);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(105, 13);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Average weight (kg):";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label2.Location = new System.Drawing.Point(22, 83);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Use average piglet weight:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Location = new System.Drawing.Point(22, 62);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Work with batches:";
-            // 
-            // indiv_pigl
-            // 
-            this.indiv_pigl.AutoSize = true;
-            this.indiv_pigl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.indiv_pigl.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.indiv_pigl.Location = new System.Drawing.Point(22, 42);
-            this.indiv_pigl.Name = "indiv_pigl";
-            this.indiv_pigl.Size = new System.Drawing.Size(138, 13);
-            this.indiv_pigl.TabIndex = 0;
-            this.indiv_pigl.Text = "Work with individual piglets:";
-            // 
-            // how_work1_label
-            // 
-            this.how_work1_label.AutoSize = true;
-            this.how_work1_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.how_work1_label.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.how_work1_label.Location = new System.Drawing.Point(39, 18);
-            this.how_work1_label.Name = "how_work1_label";
-            this.how_work1_label.Size = new System.Drawing.Size(170, 15);
-            this.how_work1_label.TabIndex = 0;
-            this.how_work1_label.Text = "How to work with piglets?";
             // 
             // parameter_label
             // 
@@ -550,9 +366,9 @@
             this.wght_target_panel.Controls.Add(this.label9);
             this.wght_target_panel.Controls.Add(this.label8);
             this.wght_target_panel.Controls.Add(this.label7);
-            this.wght_target_panel.Location = new System.Drawing.Point(296, 54);
+            this.wght_target_panel.Location = new System.Drawing.Point(296, 43);
             this.wght_target_panel.Name = "wght_target_panel";
-            this.wght_target_panel.Size = new System.Drawing.Size(295, 258);
+            this.wght_target_panel.Size = new System.Drawing.Size(295, 269);
             this.wght_target_panel.TabIndex = 0;
             // 
             // textBox9
@@ -1349,17 +1165,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(980, 471);
             this.panel1.TabIndex = 0;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label31.Location = new System.Drawing.Point(408, 5);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(137, 16);
-            this.label31.TabIndex = 0;
-            this.label31.Text = "LITTER TARGETS";
             // 
             // textBox120
             // 
@@ -2856,6 +2661,17 @@
             this.label35.TabIndex = 0;
             this.label35.Text = "1";
             // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label31.Location = new System.Drawing.Point(408, 5);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(137, 16);
+            this.label31.TabIndex = 0;
+            this.label31.Text = "LITTER TARGETS";
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.SteelBlue;
@@ -2893,17 +2709,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(298, 471);
             this.panel2.TabIndex = 0;
-            // 
-            // label117
-            // 
-            this.label117.AutoSize = true;
-            this.label117.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label117.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label117.Location = new System.Drawing.Point(90, 5);
-            this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(119, 16);
-            this.label117.TabIndex = 0;
-            this.label117.Text = "SOW TARGETS";
             // 
             // textBox128
             // 
@@ -3175,6 +2980,17 @@
             this.label121.TabIndex = 0;
             this.label121.Text = "Sow productive days:";
             // 
+            // label117
+            // 
+            this.label117.AutoSize = true;
+            this.label117.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label117.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label117.Location = new System.Drawing.Point(90, 5);
+            this.label117.Name = "label117";
+            this.label117.Size = new System.Drawing.Size(119, 16);
+            this.label117.TabIndex = 0;
+            this.label117.Text = "SOW TARGETS";
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DimGray;
@@ -3264,6 +3080,190 @@
             this.panel8.Size = new System.Drawing.Size(298, 26);
             this.panel8.TabIndex = 6;
             // 
+            // parameter_panel
+            // 
+            this.parameter_panel.BackColor = System.Drawing.Color.SteelBlue;
+            this.parameter_panel.Controls.Add(this.textBox1);
+            this.parameter_panel.Controls.Add(this.checkBox6);
+            this.parameter_panel.Controls.Add(this.checkBox4);
+            this.parameter_panel.Controls.Add(this.checkBox5);
+            this.parameter_panel.Controls.Add(this.checkBox3);
+            this.parameter_panel.Controls.Add(this.checkBox2);
+            this.parameter_panel.Controls.Add(this.checkBox1);
+            this.parameter_panel.Controls.Add(this.how_work2_label);
+            this.parameter_panel.Controls.Add(this.label6);
+            this.parameter_panel.Controls.Add(this.label5);
+            this.parameter_panel.Controls.Add(this.label3);
+            this.parameter_panel.Controls.Add(this.label4);
+            this.parameter_panel.Controls.Add(this.label2);
+            this.parameter_panel.Controls.Add(this.label1);
+            this.parameter_panel.Controls.Add(this.indiv_pigl);
+            this.parameter_panel.Controls.Add(this.how_work1_label);
+            this.parameter_panel.Location = new System.Drawing.Point(29, 43);
+            this.parameter_panel.Name = "parameter_panel";
+            this.parameter_panel.Size = new System.Drawing.Size(239, 269);
+            this.parameter_panel.TabIndex = 0;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(161, 102);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(63, 20);
+            this.textBox1.TabIndex = 2;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(209, 205);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(15, 14);
+            this.checkBox6.TabIndex = 1;
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(209, 185);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(15, 14);
+            this.checkBox4.TabIndex = 1;
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(209, 128);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(15, 14);
+            this.checkBox5.TabIndex = 1;
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(209, 82);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox3.TabIndex = 1;
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(209, 62);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox2.TabIndex = 1;
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(209, 42);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox1.TabIndex = 1;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // how_work2_label
+            // 
+            this.how_work2_label.AutoSize = true;
+            this.how_work2_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.how_work2_label.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.how_work2_label.Location = new System.Drawing.Point(31, 158);
+            this.how_work2_label.Name = "how_work2_label";
+            this.how_work2_label.Size = new System.Drawing.Size(181, 15);
+            this.how_work2_label.TabIndex = 0;
+            this.how_work2_label.Text = "How to work with weaners?";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label6.Location = new System.Drawing.Point(17, 205);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(119, 13);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Round weaning weight:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label5.Location = new System.Drawing.Point(17, 186);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(153, 13);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Use individual weaning weight:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label3.Location = new System.Drawing.Point(22, 129);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(138, 13);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Use individual piglet weight:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label4.Location = new System.Drawing.Point(50, 105);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(105, 13);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Average weight (kg):";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label2.Location = new System.Drawing.Point(22, 83);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(133, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Use average piglet weight:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label1.Location = new System.Drawing.Point(22, 62);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(99, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Work with batches:";
+            // 
+            // indiv_pigl
+            // 
+            this.indiv_pigl.AutoSize = true;
+            this.indiv_pigl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.indiv_pigl.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.indiv_pigl.Location = new System.Drawing.Point(22, 42);
+            this.indiv_pigl.Name = "indiv_pigl";
+            this.indiv_pigl.Size = new System.Drawing.Size(138, 13);
+            this.indiv_pigl.TabIndex = 0;
+            this.indiv_pigl.Text = "Work with individual piglets:";
+            // 
+            // how_work1_label
+            // 
+            this.how_work1_label.AutoSize = true;
+            this.how_work1_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.how_work1_label.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.how_work1_label.Location = new System.Drawing.Point(39, 18);
+            this.how_work1_label.Name = "how_work1_label";
+            this.how_work1_label.Size = new System.Drawing.Size(170, 15);
+            this.how_work1_label.TabIndex = 0;
+            this.how_work1_label.Text = "How to work with piglets?";
+            // 
             // Program_parameters_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3289,8 +3289,7 @@
             this.Name = "Program_parameters_form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "program_parameters_form";
-            this.parameter_panel.ResumeLayout(false);
-            this.parameter_panel.PerformLayout();
+            this.Load += new System.EventHandler(this.Program_parameters_form_Load);
             this.wght_target_panel.ResumeLayout(false);
             this.wght_target_panel.PerformLayout();
             this.hrd_target_panel.ResumeLayout(false);
@@ -3313,35 +3312,19 @@
             this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            this.parameter_panel.ResumeLayout(false);
+            this.parameter_panel.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel parameter_panel;
         private System.Windows.Forms.Label parameter_label;
         private System.Windows.Forms.Panel wght_target_panel;
         private System.Windows.Forms.Panel hrd_target_panel;
         private System.Windows.Forms.Panel mrkt_target_panel;
         private System.Windows.Forms.Label wght_trgt_label;
         private System.Windows.Forms.Label hrd_trgt_label;
-        private System.Windows.Forms.Label how_work1_label;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Label how_work2_label;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label indiv_pigl;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox7;
@@ -3613,5 +3596,22 @@
         private System.Windows.Forms.Label mrkt_trgt_label;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Panel parameter_panel;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label how_work2_label;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label indiv_pigl;
+        private System.Windows.Forms.Label how_work1_label;
     }
 }

@@ -34,7 +34,7 @@
             this.Name_Label = new System.Windows.Forms.Label();
             this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.Animals_Button = new Bunifu.Framework.UI.BunifuFlatButton();
             this.setup_but = new Bunifu.Framework.UI.BunifuFlatButton();
             this.home_but = new Bunifu.Framework.UI.BunifuFlatButton();
             this.MiniMaxi = new System.Windows.Forms.Button();
@@ -45,15 +45,15 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.setup_click_panel = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.setup_panel = new System.Windows.Forms.Panel();
-            this.bunifuFlatButton14 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton15 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton16 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton17 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton18 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton19 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton20 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton21 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.Setup_Panel = new System.Windows.Forms.Panel();
+            this.Marketing_Button = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.Culling_Button = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.Feeding_Button = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.Medical_Button = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.Herds_Button = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.Housing_Button = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.Anim_Class_Breed_Button = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.Program_Parameters_Button = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton6 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton7 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton8 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -70,29 +70,35 @@
             this.housing_but = new Bunifu.Framework.UI.BunifuFlatButton();
             this.anm_cls_brd_but = new Bunifu.Framework.UI.BunifuFlatButton();
             this.program_parameters_but = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.works_panel = new System.Windows.Forms.Panel();
+            this.Works_Panel = new System.Windows.Forms.Panel();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton22 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton25 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton26 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton27 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.reports_panel = new System.Windows.Forms.Panel();
+            this.Reports_Panel = new System.Windows.Forms.Panel();
             this.bunifuFlatButton30 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton23 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton24 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton28 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton29 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton31 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.container = new System.Windows.Forms.Panel();
+            this.Container = new System.Windows.Forms.Panel();
+            this.Animals_Search_Panel = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.Top_Panel.SuspendLayout();
             this.Logo_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.setup_click_panel.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.setup_panel.SuspendLayout();
-            this.works_panel.SuspendLayout();
-            this.reports_panel.SuspendLayout();
+            this.Setup_Panel.SuspendLayout();
+            this.Works_Panel.SuspendLayout();
+            this.Reports_Panel.SuspendLayout();
+            this.Animals_Search_Panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // Top_Panel
@@ -102,7 +108,7 @@
             this.Top_Panel.Controls.Add(this.Name_Label);
             this.Top_Panel.Controls.Add(this.bunifuFlatButton5);
             this.Top_Panel.Controls.Add(this.bunifuFlatButton4);
-            this.Top_Panel.Controls.Add(this.bunifuFlatButton3);
+            this.Top_Panel.Controls.Add(this.Animals_Button);
             this.Top_Panel.Controls.Add(this.setup_but);
             this.Top_Panel.Controls.Add(this.home_but);
             this.Top_Panel.Controls.Add(this.MiniMaxi);
@@ -189,36 +195,36 @@
             this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton4.Click += new System.EventHandler(this.BunifuFlatButton4_Click);
             // 
-            // bunifuFlatButton3
+            // Animals_Button
             // 
-            this.bunifuFlatButton3.Activecolor = System.Drawing.Color.SteelBlue;
-            resources.ApplyResources(this.bunifuFlatButton3, "bunifuFlatButton3");
-            this.bunifuFlatButton3.BackColor = System.Drawing.Color.SteelBlue;
-            this.bunifuFlatButton3.BorderRadius = 0;
-            this.bunifuFlatButton3.ButtonText = "ANIMALS";
-            this.bunifuFlatButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton3.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton3.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton3.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton3.Iconimage")));
-            this.bunifuFlatButton3.Iconimage_right = null;
-            this.bunifuFlatButton3.Iconimage_right_Selected = null;
-            this.bunifuFlatButton3.Iconimage_Selected = null;
-            this.bunifuFlatButton3.IconMarginLeft = 0;
-            this.bunifuFlatButton3.IconMarginRight = 0;
-            this.bunifuFlatButton3.IconRightVisible = true;
-            this.bunifuFlatButton3.IconRightZoom = 0D;
-            this.bunifuFlatButton3.IconVisible = true;
-            this.bunifuFlatButton3.IconZoom = 70D;
-            this.bunifuFlatButton3.IsTab = false;
-            this.bunifuFlatButton3.Name = "bunifuFlatButton3";
-            this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.SteelBlue;
-            this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton3.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton3.selected = false;
-            this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton3.Click += new System.EventHandler(this.BunifuFlatButton3_Click);
+            this.Animals_Button.Activecolor = System.Drawing.Color.SteelBlue;
+            resources.ApplyResources(this.Animals_Button, "Animals_Button");
+            this.Animals_Button.BackColor = System.Drawing.Color.SteelBlue;
+            this.Animals_Button.BorderRadius = 0;
+            this.Animals_Button.ButtonText = "ANIMALS";
+            this.Animals_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Animals_Button.DisabledColor = System.Drawing.Color.Gray;
+            this.Animals_Button.Iconcolor = System.Drawing.Color.Transparent;
+            this.Animals_Button.Iconimage = ((System.Drawing.Image)(resources.GetObject("Animals_Button.Iconimage")));
+            this.Animals_Button.Iconimage_right = null;
+            this.Animals_Button.Iconimage_right_Selected = null;
+            this.Animals_Button.Iconimage_Selected = null;
+            this.Animals_Button.IconMarginLeft = 0;
+            this.Animals_Button.IconMarginRight = 0;
+            this.Animals_Button.IconRightVisible = true;
+            this.Animals_Button.IconRightZoom = 0D;
+            this.Animals_Button.IconVisible = true;
+            this.Animals_Button.IconZoom = 70D;
+            this.Animals_Button.IsTab = false;
+            this.Animals_Button.Name = "Animals_Button";
+            this.Animals_Button.Normalcolor = System.Drawing.Color.SteelBlue;
+            this.Animals_Button.OnHovercolor = System.Drawing.Color.DimGray;
+            this.Animals_Button.OnHoverTextColor = System.Drawing.Color.White;
+            this.Animals_Button.selected = false;
+            this.Animals_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Animals_Button.Textcolor = System.Drawing.Color.White;
+            this.Animals_Button.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Animals_Button.Click += new System.EventHandler(this.BunifuFlatButton3_Click);
             // 
             // setup_but
             // 
@@ -253,7 +259,7 @@
             // 
             // home_but
             // 
-            this.home_but.Activecolor = System.Drawing.Color.SteelBlue;
+            this.home_but.Activecolor = System.Drawing.Color.DimGray;
             resources.ApplyResources(this.home_but, "home_but");
             this.home_but.BackColor = System.Drawing.Color.SteelBlue;
             this.home_but.BorderRadius = 0;
@@ -349,7 +355,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DimGray;
-            this.panel1.Controls.Add(this.setup_panel);
+            this.panel1.Controls.Add(this.Setup_Panel);
             this.panel1.Controls.Add(this.bunifuFlatButton6);
             this.panel1.Controls.Add(this.bunifuFlatButton7);
             this.panel1.Controls.Add(this.bunifuFlatButton8);
@@ -361,265 +367,267 @@
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
-            // setup_panel
+            // Setup_Panel
             // 
-            this.setup_panel.BackColor = System.Drawing.Color.DimGray;
-            this.setup_panel.Controls.Add(this.bunifuFlatButton14);
-            this.setup_panel.Controls.Add(this.bunifuFlatButton15);
-            this.setup_panel.Controls.Add(this.bunifuFlatButton16);
-            this.setup_panel.Controls.Add(this.bunifuFlatButton17);
-            this.setup_panel.Controls.Add(this.bunifuFlatButton18);
-            this.setup_panel.Controls.Add(this.bunifuFlatButton19);
-            this.setup_panel.Controls.Add(this.bunifuFlatButton20);
-            this.setup_panel.Controls.Add(this.bunifuFlatButton21);
-            resources.ApplyResources(this.setup_panel, "setup_panel");
-            this.setup_panel.Name = "setup_panel";
+            this.Setup_Panel.BackColor = System.Drawing.Color.DimGray;
+            this.Setup_Panel.Controls.Add(this.Marketing_Button);
+            this.Setup_Panel.Controls.Add(this.Culling_Button);
+            this.Setup_Panel.Controls.Add(this.Feeding_Button);
+            this.Setup_Panel.Controls.Add(this.Medical_Button);
+            this.Setup_Panel.Controls.Add(this.Herds_Button);
+            this.Setup_Panel.Controls.Add(this.Housing_Button);
+            this.Setup_Panel.Controls.Add(this.Anim_Class_Breed_Button);
+            this.Setup_Panel.Controls.Add(this.Program_Parameters_Button);
+            resources.ApplyResources(this.Setup_Panel, "Setup_Panel");
+            this.Setup_Panel.Name = "Setup_Panel";
             // 
-            // bunifuFlatButton14
+            // Marketing_Button
             // 
-            this.bunifuFlatButton14.Activecolor = System.Drawing.Color.DarkGray;
-            resources.ApplyResources(this.bunifuFlatButton14, "bunifuFlatButton14");
-            this.bunifuFlatButton14.BackColor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton14.BorderRadius = 0;
-            this.bunifuFlatButton14.ButtonText = "Marketing";
-            this.bunifuFlatButton14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton14.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton14.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton14.Iconimage = null;
-            this.bunifuFlatButton14.Iconimage_right = null;
-            this.bunifuFlatButton14.Iconimage_right_Selected = null;
-            this.bunifuFlatButton14.Iconimage_Selected = null;
-            this.bunifuFlatButton14.IconMarginLeft = 0;
-            this.bunifuFlatButton14.IconMarginRight = 0;
-            this.bunifuFlatButton14.IconRightVisible = true;
-            this.bunifuFlatButton14.IconRightZoom = 0D;
-            this.bunifuFlatButton14.IconVisible = true;
-            this.bunifuFlatButton14.IconZoom = 90D;
-            this.bunifuFlatButton14.IsTab = false;
-            this.bunifuFlatButton14.Name = "bunifuFlatButton14";
-            this.bunifuFlatButton14.Normalcolor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton14.OnHovercolor = System.Drawing.Color.DarkGray;
-            this.bunifuFlatButton14.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton14.selected = false;
-            this.bunifuFlatButton14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton14.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton14.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Marketing_Button.Activecolor = System.Drawing.Color.DarkGray;
+            resources.ApplyResources(this.Marketing_Button, "Marketing_Button");
+            this.Marketing_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Marketing_Button.BorderRadius = 0;
+            this.Marketing_Button.ButtonText = "Marketing";
+            this.Marketing_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Marketing_Button.DisabledColor = System.Drawing.Color.Gray;
+            this.Marketing_Button.Iconcolor = System.Drawing.Color.Transparent;
+            this.Marketing_Button.Iconimage = null;
+            this.Marketing_Button.Iconimage_right = null;
+            this.Marketing_Button.Iconimage_right_Selected = null;
+            this.Marketing_Button.Iconimage_Selected = null;
+            this.Marketing_Button.IconMarginLeft = 0;
+            this.Marketing_Button.IconMarginRight = 0;
+            this.Marketing_Button.IconRightVisible = true;
+            this.Marketing_Button.IconRightZoom = 0D;
+            this.Marketing_Button.IconVisible = true;
+            this.Marketing_Button.IconZoom = 90D;
+            this.Marketing_Button.IsTab = false;
+            this.Marketing_Button.Name = "Marketing_Button";
+            this.Marketing_Button.Normalcolor = System.Drawing.Color.DimGray;
+            this.Marketing_Button.OnHovercolor = System.Drawing.Color.DarkGray;
+            this.Marketing_Button.OnHoverTextColor = System.Drawing.Color.White;
+            this.Marketing_Button.selected = false;
+            this.Marketing_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Marketing_Button.Textcolor = System.Drawing.Color.White;
+            this.Marketing_Button.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Marketing_Button.Click += new System.EventHandler(this.Marketing_Button_Click);
             // 
-            // bunifuFlatButton15
+            // Culling_Button
             // 
-            this.bunifuFlatButton15.Activecolor = System.Drawing.Color.DarkGray;
-            resources.ApplyResources(this.bunifuFlatButton15, "bunifuFlatButton15");
-            this.bunifuFlatButton15.BackColor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton15.BorderRadius = 0;
-            this.bunifuFlatButton15.ButtonText = "Culling";
-            this.bunifuFlatButton15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton15.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton15.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton15.Iconimage = null;
-            this.bunifuFlatButton15.Iconimage_right = null;
-            this.bunifuFlatButton15.Iconimage_right_Selected = null;
-            this.bunifuFlatButton15.Iconimage_Selected = null;
-            this.bunifuFlatButton15.IconMarginLeft = 0;
-            this.bunifuFlatButton15.IconMarginRight = 0;
-            this.bunifuFlatButton15.IconRightVisible = true;
-            this.bunifuFlatButton15.IconRightZoom = 0D;
-            this.bunifuFlatButton15.IconVisible = true;
-            this.bunifuFlatButton15.IconZoom = 90D;
-            this.bunifuFlatButton15.IsTab = false;
-            this.bunifuFlatButton15.Name = "bunifuFlatButton15";
-            this.bunifuFlatButton15.Normalcolor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton15.OnHovercolor = System.Drawing.Color.DarkGray;
-            this.bunifuFlatButton15.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton15.selected = false;
-            this.bunifuFlatButton15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton15.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton15.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Culling_Button.Activecolor = System.Drawing.Color.DarkGray;
+            resources.ApplyResources(this.Culling_Button, "Culling_Button");
+            this.Culling_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Culling_Button.BorderRadius = 0;
+            this.Culling_Button.ButtonText = "Culling";
+            this.Culling_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Culling_Button.DisabledColor = System.Drawing.Color.Gray;
+            this.Culling_Button.Iconcolor = System.Drawing.Color.Transparent;
+            this.Culling_Button.Iconimage = null;
+            this.Culling_Button.Iconimage_right = null;
+            this.Culling_Button.Iconimage_right_Selected = null;
+            this.Culling_Button.Iconimage_Selected = null;
+            this.Culling_Button.IconMarginLeft = 0;
+            this.Culling_Button.IconMarginRight = 0;
+            this.Culling_Button.IconRightVisible = true;
+            this.Culling_Button.IconRightZoom = 0D;
+            this.Culling_Button.IconVisible = true;
+            this.Culling_Button.IconZoom = 90D;
+            this.Culling_Button.IsTab = false;
+            this.Culling_Button.Name = "Culling_Button";
+            this.Culling_Button.Normalcolor = System.Drawing.Color.DimGray;
+            this.Culling_Button.OnHovercolor = System.Drawing.Color.DarkGray;
+            this.Culling_Button.OnHoverTextColor = System.Drawing.Color.White;
+            this.Culling_Button.selected = false;
+            this.Culling_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Culling_Button.Textcolor = System.Drawing.Color.White;
+            this.Culling_Button.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Culling_Button.Click += new System.EventHandler(this.BunifuFlatButton15_Click);
             // 
-            // bunifuFlatButton16
+            // Feeding_Button
             // 
-            this.bunifuFlatButton16.Activecolor = System.Drawing.Color.DarkGray;
-            resources.ApplyResources(this.bunifuFlatButton16, "bunifuFlatButton16");
-            this.bunifuFlatButton16.BackColor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton16.BorderRadius = 0;
-            this.bunifuFlatButton16.ButtonText = "Feeding";
-            this.bunifuFlatButton16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton16.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton16.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton16.Iconimage = null;
-            this.bunifuFlatButton16.Iconimage_right = null;
-            this.bunifuFlatButton16.Iconimage_right_Selected = null;
-            this.bunifuFlatButton16.Iconimage_Selected = null;
-            this.bunifuFlatButton16.IconMarginLeft = 0;
-            this.bunifuFlatButton16.IconMarginRight = 0;
-            this.bunifuFlatButton16.IconRightVisible = true;
-            this.bunifuFlatButton16.IconRightZoom = 0D;
-            this.bunifuFlatButton16.IconVisible = true;
-            this.bunifuFlatButton16.IconZoom = 90D;
-            this.bunifuFlatButton16.IsTab = false;
-            this.bunifuFlatButton16.Name = "bunifuFlatButton16";
-            this.bunifuFlatButton16.Normalcolor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton16.OnHovercolor = System.Drawing.Color.DarkGray;
-            this.bunifuFlatButton16.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton16.selected = false;
-            this.bunifuFlatButton16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton16.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton16.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton16.Click += new System.EventHandler(this.bunifuFlatButton16_Click);
+            this.Feeding_Button.Activecolor = System.Drawing.Color.DarkGray;
+            resources.ApplyResources(this.Feeding_Button, "Feeding_Button");
+            this.Feeding_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Feeding_Button.BorderRadius = 0;
+            this.Feeding_Button.ButtonText = "Feeding";
+            this.Feeding_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Feeding_Button.DisabledColor = System.Drawing.Color.Gray;
+            this.Feeding_Button.Iconcolor = System.Drawing.Color.Transparent;
+            this.Feeding_Button.Iconimage = null;
+            this.Feeding_Button.Iconimage_right = null;
+            this.Feeding_Button.Iconimage_right_Selected = null;
+            this.Feeding_Button.Iconimage_Selected = null;
+            this.Feeding_Button.IconMarginLeft = 0;
+            this.Feeding_Button.IconMarginRight = 0;
+            this.Feeding_Button.IconRightVisible = true;
+            this.Feeding_Button.IconRightZoom = 0D;
+            this.Feeding_Button.IconVisible = true;
+            this.Feeding_Button.IconZoom = 90D;
+            this.Feeding_Button.IsTab = false;
+            this.Feeding_Button.Name = "Feeding_Button";
+            this.Feeding_Button.Normalcolor = System.Drawing.Color.DimGray;
+            this.Feeding_Button.OnHovercolor = System.Drawing.Color.DarkGray;
+            this.Feeding_Button.OnHoverTextColor = System.Drawing.Color.White;
+            this.Feeding_Button.selected = false;
+            this.Feeding_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Feeding_Button.Textcolor = System.Drawing.Color.White;
+            this.Feeding_Button.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Feeding_Button.Click += new System.EventHandler(this.BunifuFlatButton16_Click);
             // 
-            // bunifuFlatButton17
+            // Medical_Button
             // 
-            this.bunifuFlatButton17.Activecolor = System.Drawing.Color.DarkGray;
-            resources.ApplyResources(this.bunifuFlatButton17, "bunifuFlatButton17");
-            this.bunifuFlatButton17.BackColor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton17.BorderRadius = 0;
-            this.bunifuFlatButton17.ButtonText = "Medical";
-            this.bunifuFlatButton17.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton17.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton17.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton17.Iconimage = null;
-            this.bunifuFlatButton17.Iconimage_right = null;
-            this.bunifuFlatButton17.Iconimage_right_Selected = null;
-            this.bunifuFlatButton17.Iconimage_Selected = null;
-            this.bunifuFlatButton17.IconMarginLeft = 0;
-            this.bunifuFlatButton17.IconMarginRight = 0;
-            this.bunifuFlatButton17.IconRightVisible = true;
-            this.bunifuFlatButton17.IconRightZoom = 0D;
-            this.bunifuFlatButton17.IconVisible = true;
-            this.bunifuFlatButton17.IconZoom = 90D;
-            this.bunifuFlatButton17.IsTab = false;
-            this.bunifuFlatButton17.Name = "bunifuFlatButton17";
-            this.bunifuFlatButton17.Normalcolor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton17.OnHovercolor = System.Drawing.Color.DarkGray;
-            this.bunifuFlatButton17.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton17.selected = false;
-            this.bunifuFlatButton17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton17.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton17.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton17.Click += new System.EventHandler(this.BunifuFlatButton17_Click);
+            this.Medical_Button.Activecolor = System.Drawing.Color.DarkGray;
+            resources.ApplyResources(this.Medical_Button, "Medical_Button");
+            this.Medical_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Medical_Button.BorderRadius = 0;
+            this.Medical_Button.ButtonText = "Medical";
+            this.Medical_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Medical_Button.DisabledColor = System.Drawing.Color.Gray;
+            this.Medical_Button.Iconcolor = System.Drawing.Color.Transparent;
+            this.Medical_Button.Iconimage = null;
+            this.Medical_Button.Iconimage_right = null;
+            this.Medical_Button.Iconimage_right_Selected = null;
+            this.Medical_Button.Iconimage_Selected = null;
+            this.Medical_Button.IconMarginLeft = 0;
+            this.Medical_Button.IconMarginRight = 0;
+            this.Medical_Button.IconRightVisible = true;
+            this.Medical_Button.IconRightZoom = 0D;
+            this.Medical_Button.IconVisible = true;
+            this.Medical_Button.IconZoom = 90D;
+            this.Medical_Button.IsTab = false;
+            this.Medical_Button.Name = "Medical_Button";
+            this.Medical_Button.Normalcolor = System.Drawing.Color.DimGray;
+            this.Medical_Button.OnHovercolor = System.Drawing.Color.DarkGray;
+            this.Medical_Button.OnHoverTextColor = System.Drawing.Color.White;
+            this.Medical_Button.selected = false;
+            this.Medical_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Medical_Button.Textcolor = System.Drawing.Color.White;
+            this.Medical_Button.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Medical_Button.Click += new System.EventHandler(this.BunifuFlatButton17_Click);
             // 
-            // bunifuFlatButton18
+            // Herds_Button
             // 
-            this.bunifuFlatButton18.Activecolor = System.Drawing.Color.DarkGray;
-            resources.ApplyResources(this.bunifuFlatButton18, "bunifuFlatButton18");
-            this.bunifuFlatButton18.BackColor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton18.BorderRadius = 0;
-            this.bunifuFlatButton18.ButtonText = "Herds";
-            this.bunifuFlatButton18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton18.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton18.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton18.Iconimage = null;
-            this.bunifuFlatButton18.Iconimage_right = null;
-            this.bunifuFlatButton18.Iconimage_right_Selected = null;
-            this.bunifuFlatButton18.Iconimage_Selected = null;
-            this.bunifuFlatButton18.IconMarginLeft = 0;
-            this.bunifuFlatButton18.IconMarginRight = 0;
-            this.bunifuFlatButton18.IconRightVisible = true;
-            this.bunifuFlatButton18.IconRightZoom = 0D;
-            this.bunifuFlatButton18.IconVisible = true;
-            this.bunifuFlatButton18.IconZoom = 90D;
-            this.bunifuFlatButton18.IsTab = false;
-            this.bunifuFlatButton18.Name = "bunifuFlatButton18";
-            this.bunifuFlatButton18.Normalcolor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton18.OnHovercolor = System.Drawing.Color.DarkGray;
-            this.bunifuFlatButton18.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton18.selected = false;
-            this.bunifuFlatButton18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton18.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton18.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton18.Click += new System.EventHandler(this.BunifuFlatButton18_Click);
+            this.Herds_Button.Activecolor = System.Drawing.Color.DarkGray;
+            resources.ApplyResources(this.Herds_Button, "Herds_Button");
+            this.Herds_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Herds_Button.BorderRadius = 0;
+            this.Herds_Button.ButtonText = "Herds";
+            this.Herds_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Herds_Button.DisabledColor = System.Drawing.Color.Gray;
+            this.Herds_Button.Iconcolor = System.Drawing.Color.Transparent;
+            this.Herds_Button.Iconimage = null;
+            this.Herds_Button.Iconimage_right = null;
+            this.Herds_Button.Iconimage_right_Selected = null;
+            this.Herds_Button.Iconimage_Selected = null;
+            this.Herds_Button.IconMarginLeft = 0;
+            this.Herds_Button.IconMarginRight = 0;
+            this.Herds_Button.IconRightVisible = true;
+            this.Herds_Button.IconRightZoom = 0D;
+            this.Herds_Button.IconVisible = true;
+            this.Herds_Button.IconZoom = 90D;
+            this.Herds_Button.IsTab = false;
+            this.Herds_Button.Name = "Herds_Button";
+            this.Herds_Button.Normalcolor = System.Drawing.Color.DimGray;
+            this.Herds_Button.OnHovercolor = System.Drawing.Color.DarkGray;
+            this.Herds_Button.OnHoverTextColor = System.Drawing.Color.White;
+            this.Herds_Button.selected = false;
+            this.Herds_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Herds_Button.Textcolor = System.Drawing.Color.White;
+            this.Herds_Button.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Herds_Button.Click += new System.EventHandler(this.BunifuFlatButton18_Click);
             // 
-            // bunifuFlatButton19
+            // Housing_Button
             // 
-            this.bunifuFlatButton19.Activecolor = System.Drawing.Color.DarkGray;
-            resources.ApplyResources(this.bunifuFlatButton19, "bunifuFlatButton19");
-            this.bunifuFlatButton19.BackColor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton19.BorderRadius = 0;
-            this.bunifuFlatButton19.ButtonText = "Housing";
-            this.bunifuFlatButton19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton19.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton19.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton19.Iconimage = null;
-            this.bunifuFlatButton19.Iconimage_right = null;
-            this.bunifuFlatButton19.Iconimage_right_Selected = null;
-            this.bunifuFlatButton19.Iconimage_Selected = null;
-            this.bunifuFlatButton19.IconMarginLeft = 0;
-            this.bunifuFlatButton19.IconMarginRight = 0;
-            this.bunifuFlatButton19.IconRightVisible = true;
-            this.bunifuFlatButton19.IconRightZoom = 0D;
-            this.bunifuFlatButton19.IconVisible = true;
-            this.bunifuFlatButton19.IconZoom = 90D;
-            this.bunifuFlatButton19.IsTab = false;
-            this.bunifuFlatButton19.Name = "bunifuFlatButton19";
-            this.bunifuFlatButton19.Normalcolor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton19.OnHovercolor = System.Drawing.Color.DarkGray;
-            this.bunifuFlatButton19.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton19.selected = false;
-            this.bunifuFlatButton19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton19.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton19.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton19.Click += new System.EventHandler(this.BunifuFlatButton19_Click);
+            this.Housing_Button.Activecolor = System.Drawing.Color.DarkGray;
+            resources.ApplyResources(this.Housing_Button, "Housing_Button");
+            this.Housing_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Housing_Button.BorderRadius = 0;
+            this.Housing_Button.ButtonText = "Housing";
+            this.Housing_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Housing_Button.DisabledColor = System.Drawing.Color.Gray;
+            this.Housing_Button.Iconcolor = System.Drawing.Color.Transparent;
+            this.Housing_Button.Iconimage = null;
+            this.Housing_Button.Iconimage_right = null;
+            this.Housing_Button.Iconimage_right_Selected = null;
+            this.Housing_Button.Iconimage_Selected = null;
+            this.Housing_Button.IconMarginLeft = 0;
+            this.Housing_Button.IconMarginRight = 0;
+            this.Housing_Button.IconRightVisible = true;
+            this.Housing_Button.IconRightZoom = 0D;
+            this.Housing_Button.IconVisible = true;
+            this.Housing_Button.IconZoom = 90D;
+            this.Housing_Button.IsTab = false;
+            this.Housing_Button.Name = "Housing_Button";
+            this.Housing_Button.Normalcolor = System.Drawing.Color.DimGray;
+            this.Housing_Button.OnHovercolor = System.Drawing.Color.DarkGray;
+            this.Housing_Button.OnHoverTextColor = System.Drawing.Color.White;
+            this.Housing_Button.selected = false;
+            this.Housing_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Housing_Button.Textcolor = System.Drawing.Color.White;
+            this.Housing_Button.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Housing_Button.Click += new System.EventHandler(this.BunifuFlatButton19_Click);
             // 
-            // bunifuFlatButton20
+            // Anim_Class_Breed_Button
             // 
-            this.bunifuFlatButton20.Activecolor = System.Drawing.Color.DarkGray;
-            resources.ApplyResources(this.bunifuFlatButton20, "bunifuFlatButton20");
-            this.bunifuFlatButton20.BackColor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton20.BorderRadius = 0;
-            this.bunifuFlatButton20.ButtonText = "Animal Classes and Breeds";
-            this.bunifuFlatButton20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton20.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton20.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton20.Iconimage = null;
-            this.bunifuFlatButton20.Iconimage_right = null;
-            this.bunifuFlatButton20.Iconimage_right_Selected = null;
-            this.bunifuFlatButton20.Iconimage_Selected = null;
-            this.bunifuFlatButton20.IconMarginLeft = 0;
-            this.bunifuFlatButton20.IconMarginRight = 0;
-            this.bunifuFlatButton20.IconRightVisible = true;
-            this.bunifuFlatButton20.IconRightZoom = 0D;
-            this.bunifuFlatButton20.IconVisible = true;
-            this.bunifuFlatButton20.IconZoom = 90D;
-            this.bunifuFlatButton20.IsTab = false;
-            this.bunifuFlatButton20.Name = "bunifuFlatButton20";
-            this.bunifuFlatButton20.Normalcolor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton20.OnHovercolor = System.Drawing.Color.DarkGray;
-            this.bunifuFlatButton20.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton20.selected = false;
-            this.bunifuFlatButton20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton20.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton20.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton20.Click += new System.EventHandler(this.BunifuFlatButton20_Click);
+            this.Anim_Class_Breed_Button.Activecolor = System.Drawing.Color.DarkGray;
+            resources.ApplyResources(this.Anim_Class_Breed_Button, "Anim_Class_Breed_Button");
+            this.Anim_Class_Breed_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Anim_Class_Breed_Button.BorderRadius = 0;
+            this.Anim_Class_Breed_Button.ButtonText = "Animal Classes and Breeds";
+            this.Anim_Class_Breed_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Anim_Class_Breed_Button.DisabledColor = System.Drawing.Color.Gray;
+            this.Anim_Class_Breed_Button.Iconcolor = System.Drawing.Color.Transparent;
+            this.Anim_Class_Breed_Button.Iconimage = null;
+            this.Anim_Class_Breed_Button.Iconimage_right = null;
+            this.Anim_Class_Breed_Button.Iconimage_right_Selected = null;
+            this.Anim_Class_Breed_Button.Iconimage_Selected = null;
+            this.Anim_Class_Breed_Button.IconMarginLeft = 0;
+            this.Anim_Class_Breed_Button.IconMarginRight = 0;
+            this.Anim_Class_Breed_Button.IconRightVisible = true;
+            this.Anim_Class_Breed_Button.IconRightZoom = 0D;
+            this.Anim_Class_Breed_Button.IconVisible = true;
+            this.Anim_Class_Breed_Button.IconZoom = 90D;
+            this.Anim_Class_Breed_Button.IsTab = false;
+            this.Anim_Class_Breed_Button.Name = "Anim_Class_Breed_Button";
+            this.Anim_Class_Breed_Button.Normalcolor = System.Drawing.Color.DimGray;
+            this.Anim_Class_Breed_Button.OnHovercolor = System.Drawing.Color.DarkGray;
+            this.Anim_Class_Breed_Button.OnHoverTextColor = System.Drawing.Color.White;
+            this.Anim_Class_Breed_Button.selected = false;
+            this.Anim_Class_Breed_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Anim_Class_Breed_Button.Textcolor = System.Drawing.Color.White;
+            this.Anim_Class_Breed_Button.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Anim_Class_Breed_Button.Click += new System.EventHandler(this.BunifuFlatButton20_Click);
             // 
-            // bunifuFlatButton21
+            // Program_Parameters_Button
             // 
-            this.bunifuFlatButton21.Activecolor = System.Drawing.Color.DarkGray;
-            resources.ApplyResources(this.bunifuFlatButton21, "bunifuFlatButton21");
-            this.bunifuFlatButton21.BackColor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton21.BorderRadius = 0;
-            this.bunifuFlatButton21.ButtonText = "Program Parameters";
-            this.bunifuFlatButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton21.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton21.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton21.Iconimage = null;
-            this.bunifuFlatButton21.Iconimage_right = null;
-            this.bunifuFlatButton21.Iconimage_right_Selected = null;
-            this.bunifuFlatButton21.Iconimage_Selected = null;
-            this.bunifuFlatButton21.IconMarginLeft = 0;
-            this.bunifuFlatButton21.IconMarginRight = 0;
-            this.bunifuFlatButton21.IconRightVisible = true;
-            this.bunifuFlatButton21.IconRightZoom = 0D;
-            this.bunifuFlatButton21.IconVisible = true;
-            this.bunifuFlatButton21.IconZoom = 90D;
-            this.bunifuFlatButton21.IsTab = false;
-            this.bunifuFlatButton21.Name = "bunifuFlatButton21";
-            this.bunifuFlatButton21.Normalcolor = System.Drawing.Color.DimGray;
-            this.bunifuFlatButton21.OnHovercolor = System.Drawing.Color.DarkGray;
-            this.bunifuFlatButton21.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton21.selected = false;
-            this.bunifuFlatButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton21.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton21.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton21.Click += new System.EventHandler(this.BunifuFlatButton21_Click);
+            this.Program_Parameters_Button.Activecolor = System.Drawing.Color.DarkGray;
+            resources.ApplyResources(this.Program_Parameters_Button, "Program_Parameters_Button");
+            this.Program_Parameters_Button.BackColor = System.Drawing.Color.DimGray;
+            this.Program_Parameters_Button.BorderRadius = 0;
+            this.Program_Parameters_Button.ButtonText = "Program Parameters";
+            this.Program_Parameters_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Program_Parameters_Button.DisabledColor = System.Drawing.Color.Gray;
+            this.Program_Parameters_Button.Iconcolor = System.Drawing.Color.Transparent;
+            this.Program_Parameters_Button.Iconimage = null;
+            this.Program_Parameters_Button.Iconimage_right = null;
+            this.Program_Parameters_Button.Iconimage_right_Selected = null;
+            this.Program_Parameters_Button.Iconimage_Selected = null;
+            this.Program_Parameters_Button.IconMarginLeft = 0;
+            this.Program_Parameters_Button.IconMarginRight = 0;
+            this.Program_Parameters_Button.IconRightVisible = true;
+            this.Program_Parameters_Button.IconRightZoom = 0D;
+            this.Program_Parameters_Button.IconVisible = true;
+            this.Program_Parameters_Button.IconZoom = 90D;
+            this.Program_Parameters_Button.IsTab = false;
+            this.Program_Parameters_Button.Name = "Program_Parameters_Button";
+            this.Program_Parameters_Button.Normalcolor = System.Drawing.Color.DimGray;
+            this.Program_Parameters_Button.OnHovercolor = System.Drawing.Color.DarkGray;
+            this.Program_Parameters_Button.OnHoverTextColor = System.Drawing.Color.White;
+            this.Program_Parameters_Button.selected = false;
+            this.Program_Parameters_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Program_Parameters_Button.Textcolor = System.Drawing.Color.White;
+            this.Program_Parameters_Button.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Program_Parameters_Button.Click += new System.EventHandler(this.BunifuFlatButton21_Click);
             // 
             // bunifuFlatButton6
             // 
@@ -1101,17 +1109,17 @@
             this.program_parameters_but.Textcolor = System.Drawing.Color.White;
             this.program_parameters_but.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // works_panel
+            // Works_Panel
             // 
-            this.works_panel.BackColor = System.Drawing.Color.DimGray;
-            this.works_panel.Controls.Add(this.bunifuFlatButton1);
-            this.works_panel.Controls.Add(this.bunifuFlatButton2);
-            this.works_panel.Controls.Add(this.bunifuFlatButton22);
-            this.works_panel.Controls.Add(this.bunifuFlatButton25);
-            this.works_panel.Controls.Add(this.bunifuFlatButton26);
-            this.works_panel.Controls.Add(this.bunifuFlatButton27);
-            resources.ApplyResources(this.works_panel, "works_panel");
-            this.works_panel.Name = "works_panel";
+            this.Works_Panel.BackColor = System.Drawing.Color.DimGray;
+            this.Works_Panel.Controls.Add(this.bunifuFlatButton1);
+            this.Works_Panel.Controls.Add(this.bunifuFlatButton2);
+            this.Works_Panel.Controls.Add(this.bunifuFlatButton22);
+            this.Works_Panel.Controls.Add(this.bunifuFlatButton25);
+            this.Works_Panel.Controls.Add(this.bunifuFlatButton26);
+            this.Works_Panel.Controls.Add(this.bunifuFlatButton27);
+            resources.ApplyResources(this.Works_Panel, "Works_Panel");
+            this.Works_Panel.Name = "Works_Panel";
             // 
             // bunifuFlatButton1
             // 
@@ -1293,17 +1301,17 @@
             this.bunifuFlatButton27.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton27.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // reports_panel
+            // Reports_Panel
             // 
-            this.reports_panel.BackColor = System.Drawing.Color.DimGray;
-            this.reports_panel.Controls.Add(this.bunifuFlatButton30);
-            this.reports_panel.Controls.Add(this.bunifuFlatButton23);
-            this.reports_panel.Controls.Add(this.bunifuFlatButton24);
-            this.reports_panel.Controls.Add(this.bunifuFlatButton28);
-            this.reports_panel.Controls.Add(this.bunifuFlatButton29);
-            this.reports_panel.Controls.Add(this.bunifuFlatButton31);
-            resources.ApplyResources(this.reports_panel, "reports_panel");
-            this.reports_panel.Name = "reports_panel";
+            this.Reports_Panel.BackColor = System.Drawing.Color.DimGray;
+            this.Reports_Panel.Controls.Add(this.bunifuFlatButton30);
+            this.Reports_Panel.Controls.Add(this.bunifuFlatButton23);
+            this.Reports_Panel.Controls.Add(this.bunifuFlatButton24);
+            this.Reports_Panel.Controls.Add(this.bunifuFlatButton28);
+            this.Reports_Panel.Controls.Add(this.bunifuFlatButton29);
+            this.Reports_Panel.Controls.Add(this.bunifuFlatButton31);
+            resources.ApplyResources(this.Reports_Panel, "Reports_Panel");
+            this.Reports_Panel.Name = "Reports_Panel";
             // 
             // bunifuFlatButton30
             // 
@@ -1485,19 +1493,54 @@
             this.bunifuFlatButton31.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton31.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // container
+            // Container
             // 
-            resources.ApplyResources(this.container, "container");
-            this.container.Name = "container";
+            resources.ApplyResources(this.Container, "Container");
+            this.Container.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Container.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.Container.Name = "Container";
+            // 
+            // Animals_Search_Panel
+            // 
+            this.Animals_Search_Panel.BackColor = System.Drawing.Color.DimGray;
+            this.Animals_Search_Panel.Controls.Add(this.textBox2);
+            this.Animals_Search_Panel.Controls.Add(this.textBox1);
+            this.Animals_Search_Panel.Controls.Add(this.label3);
+            this.Animals_Search_Panel.Controls.Add(this.label2);
+            resources.ApplyResources(this.Animals_Search_Panel, "Animals_Search_Panel");
+            this.Animals_Search_Panel.Name = "Animals_Search_Panel";
+            // 
+            // textBox2
+            // 
+            resources.ApplyResources(this.textBox2, "textBox2");
+            this.textBox2.Name = "textBox2";
+            // 
+            // textBox1
+            // 
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Name = "textBox1";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Name = "label3";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label2.Name = "label2";
             // 
             // Dashboard
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gainsboro;
-            this.Controls.Add(this.container);
-            this.Controls.Add(this.reports_panel);
-            this.Controls.Add(this.works_panel);
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Controls.Add(this.Container);
+            this.Controls.Add(this.Animals_Search_Panel);
+            this.Controls.Add(this.Reports_Panel);
+            this.Controls.Add(this.Works_Panel);
             this.Controls.Add(this.setup_click_panel);
             this.Controls.Add(this.Top_Panel);
             this.ForeColor = System.Drawing.Color.Gainsboro;
@@ -1512,9 +1555,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.setup_click_panel.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            this.setup_panel.ResumeLayout(false);
-            this.works_panel.ResumeLayout(false);
-            this.reports_panel.ResumeLayout(false);
+            this.Setup_Panel.ResumeLayout(false);
+            this.Works_Panel.ResumeLayout(false);
+            this.Reports_Panel.ResumeLayout(false);
+            this.Animals_Search_Panel.ResumeLayout(false);
+            this.Animals_Search_Panel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1533,7 +1578,7 @@
         private Bunifu.Framework.UI.BunifuFlatButton home_but;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton5;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton4;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton3;
+        private Bunifu.Framework.UI.BunifuFlatButton Animals_Button;
         private Bunifu.Framework.UI.BunifuFlatButton setup_but;
         private Bunifu.Framework.UI.BunifuFlatButton mrkt_but;
         private Bunifu.Framework.UI.BunifuFlatButton cull_but;
@@ -1544,15 +1589,15 @@
         private Bunifu.Framework.UI.BunifuFlatButton anm_cls_brd_but;
         private Bunifu.Framework.UI.BunifuFlatButton program_parameters_but;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel setup_panel;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton14;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton15;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton16;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton17;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton18;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton19;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton20;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton21;
+        private System.Windows.Forms.Panel Setup_Panel;
+        private Bunifu.Framework.UI.BunifuFlatButton Marketing_Button;
+        private Bunifu.Framework.UI.BunifuFlatButton Culling_Button;
+        private Bunifu.Framework.UI.BunifuFlatButton Feeding_Button;
+        private Bunifu.Framework.UI.BunifuFlatButton Medical_Button;
+        private Bunifu.Framework.UI.BunifuFlatButton Herds_Button;
+        private Bunifu.Framework.UI.BunifuFlatButton Housing_Button;
+        private Bunifu.Framework.UI.BunifuFlatButton Anim_Class_Breed_Button;
+        private Bunifu.Framework.UI.BunifuFlatButton Program_Parameters_Button;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton6;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton7;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton8;
@@ -1561,22 +1606,27 @@
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton11;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton12;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton13;
-        private System.Windows.Forms.Panel works_panel;
+        private System.Windows.Forms.Panel Works_Panel;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton2;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton22;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton25;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton26;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton27;
-        private System.Windows.Forms.Panel reports_panel;
+        private System.Windows.Forms.Panel Reports_Panel;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton30;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton23;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton24;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton28;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton29;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton31;
-         private System.Windows.Forms.Panel container;
+         private System.Windows.Forms.Panel Container;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel Animals_Search_Panel;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
     }
 }
 

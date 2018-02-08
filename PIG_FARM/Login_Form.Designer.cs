@@ -1,6 +1,6 @@
 ﻿namespace PIG_FARM
 {
-    partial class Login
+    partial class Login_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login_Form));
             this.Login_Logo = new System.Windows.Forms.PictureBox();
             this.Welcome_Label = new System.Windows.Forms.Label();
             this.by_label_login = new System.Windows.Forms.Label();

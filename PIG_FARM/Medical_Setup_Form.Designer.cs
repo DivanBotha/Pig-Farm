@@ -1057,6 +1057,7 @@
             this.Name = "Medical_Setup_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Medical_Setup_Form";
+            this.Load += new System.EventHandler(this.Medical_Setup_Form_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();

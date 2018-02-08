@@ -1,6 +1,6 @@
 ﻿namespace PIG_FARM
 {
-    partial class Housing_Form
+    partial class Housing_Setup_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -262,7 +262,7 @@
             this.mrkt_trgt_label.TabIndex = 0;
             this.mrkt_trgt_label.Text = "HOUSING";
             // 
-            // Housing_Form
+            // Housing_Setup_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -271,9 +271,10 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.mrkt_target_panel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Housing_Form";
+            this.Name = "Housing_Setup_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Housing_Form";
+            this.Load += new System.EventHandler(this.Housing_Setup_Form_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();

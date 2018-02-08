@@ -70,5 +70,11 @@ namespace PIG_FARM
             e.Graphics.RotateTransform(270);
             e.Graphics.DrawString("Energy", myfont, mybrush, 0, 0);
         }
+
+        private void Feeding_Setup_Load(object sender, EventArgs e)
+        {
+            Point p = new Point(this.ParentForm.Width / 2 - this.Width / 2);
+            this.Location = p;
+        }
     }
 }

@@ -238,6 +238,7 @@
             this.Name = "Setup_AniClass_Breeds";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Setup_AniClass_Breeds";
+            this.Load += new System.EventHandler(this.Setup_AniClass_Breeds_Load);
             this.mrkt_target_panel.ResumeLayout(false);
             this.mrkt_target_panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -28,6 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.mrkt_trgt_label = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.button22 = new System.Windows.Forms.Button();
+            this.Feed_Groups_Setup = new System.Windows.Forms.DataGridView();
+            this.Feed_Group_Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Feed_Group_Descript = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Feed_Code_Choose = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Animal_Class_Choose = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Days_on_Feed = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Ad_Lib_Contin = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.Ration_Per_day = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Kg_per_Ration = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Percent_Waste = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
             this.mrkt_target_panel = new System.Windows.Forms.Panel();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -62,7 +80,7 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Feeds_Setup = new System.Windows.Forms.DataGridView();
             this.Feed_Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Feed_Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button13 = new System.Windows.Forms.Button();
@@ -80,35 +98,170 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.mrkt_trgt_label = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.button22 = new System.Windows.Forms.Button();
-            this.dataGridView7 = new System.Windows.Forms.DataGridView();
-            this.Feed_Group_Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Feed_Group_Descript = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Feed_Code_Choose = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Animal_Class_Choose = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Days_on_Feed = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Ad_Lib_Contin = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Ration_Per_day = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Kg_per_Ration = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Percent_Waste = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Feed_Groups_Setup)).BeginInit();
             this.mrkt_target_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Feeds_Setup)).BeginInit();
             this.SuspendLayout();
+            // 
+            // mrkt_trgt_label
+            // 
+            this.mrkt_trgt_label.AutoSize = true;
+            this.mrkt_trgt_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mrkt_trgt_label.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.mrkt_trgt_label.Location = new System.Drawing.Point(516, 6);
+            this.mrkt_trgt_label.Name = "mrkt_trgt_label";
+            this.mrkt_trgt_label.Size = new System.Drawing.Size(58, 16);
+            this.mrkt_trgt_label.TabIndex = 0;
+            this.mrkt_trgt_label.Text = "FEEDS";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel1.Controls.Add(this.mrkt_trgt_label);
+            this.panel1.Location = new System.Drawing.Point(29, 29);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1108, 26);
+            this.panel1.TabIndex = 5;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel2.Controls.Add(this.label10);
+            this.panel2.Location = new System.Drawing.Point(56, 545);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1044, 26);
+            this.panel2.TabIndex = 6;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label10.Location = new System.Drawing.Point(463, 6);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(142, 16);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "FEEDING GROUPS";
+            // 
+            // button22
+            // 
+            this.button22.BackColor = System.Drawing.Color.DimGray;
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button22.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button22.Location = new System.Drawing.Point(656, 782);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(84, 28);
+            this.button22.TabIndex = 8;
+            this.button22.Text = "Delete";
+            this.button22.UseVisualStyleBackColor = false;
+            // 
+            // Feed_Groups_Setup
+            // 
+            this.Feed_Groups_Setup.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.Feed_Groups_Setup.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Feed_Groups_Setup.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Feed_Group_Code,
+            this.Feed_Group_Descript,
+            this.Feed_Code_Choose,
+            this.Animal_Class_Choose,
+            this.Days_on_Feed,
+            this.Ad_Lib_Contin,
+            this.Ration_Per_day,
+            this.Kg_per_Ration,
+            this.Percent_Waste});
+            this.Feed_Groups_Setup.Location = new System.Drawing.Point(56, 577);
+            this.Feed_Groups_Setup.Name = "Feed_Groups_Setup";
+            this.Feed_Groups_Setup.Size = new System.Drawing.Size(1044, 189);
+            this.Feed_Groups_Setup.TabIndex = 7;
+            // 
+            // Feed_Group_Code
+            // 
+            this.Feed_Group_Code.HeaderText = "Code";
+            this.Feed_Group_Code.Name = "Feed_Group_Code";
+            // 
+            // Feed_Group_Descript
+            // 
+            this.Feed_Group_Descript.HeaderText = "Description";
+            this.Feed_Group_Descript.Name = "Feed_Group_Descript";
+            this.Feed_Group_Descript.Width = 200;
+            // 
+            // Feed_Code_Choose
+            // 
+            this.Feed_Code_Choose.HeaderText = "Feed Code";
+            this.Feed_Code_Choose.Name = "Feed_Code_Choose";
+            // 
+            // Animal_Class_Choose
+            // 
+            this.Animal_Class_Choose.HeaderText = "Animal Class";
+            this.Animal_Class_Choose.Name = "Animal_Class_Choose";
+            // 
+            // Days_on_Feed
+            // 
+            this.Days_on_Feed.HeaderText = "DOF";
+            this.Days_on_Feed.Name = "Days_on_Feed";
+            // 
+            // Ad_Lib_Contin
+            // 
+            this.Ad_Lib_Contin.HeaderText = "Ad Lib";
+            this.Ad_Lib_Contin.Name = "Ad_Lib_Contin";
+            this.Ad_Lib_Contin.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Ad_Lib_Contin.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // Ration_Per_day
+            // 
+            this.Ration_Per_day.HeaderText = "Ration p/Day";
+            this.Ration_Per_day.Name = "Ration_Per_day";
+            // 
+            // Kg_per_Ration
+            // 
+            this.Kg_per_Ration.HeaderText = "kg/Ration";
+            this.Kg_per_Ration.Name = "Kg_per_Ration";
+            // 
+            // Percent_Waste
+            // 
+            this.Percent_Waste.HeaderText = "% Waste";
+            this.Percent_Waste.Name = "Percent_Waste";
+            // 
+            // button23
+            // 
+            this.button23.BackColor = System.Drawing.Color.DimGray;
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button23.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button23.Location = new System.Drawing.Point(550, 782);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(84, 28);
+            this.button23.TabIndex = 9;
+            this.button23.Text = "Edit";
+            this.button23.UseVisualStyleBackColor = false;
+            // 
+            // button24
+            // 
+            this.button24.BackColor = System.Drawing.Color.DimGray;
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button24.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button24.Location = new System.Drawing.Point(446, 782);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(84, 28);
+            this.button24.TabIndex = 10;
+            this.button24.Text = "Insert";
+            this.button24.UseVisualStyleBackColor = false;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(52, 822);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(314, 16);
+            this.label11.TabIndex = 11;
+            this.label11.Text = "*Ad Lib (Continuous Feeding)            *DOF (Days on Feed)";
             // 
             // mrkt_target_panel
             // 
@@ -136,7 +289,7 @@
             this.mrkt_target_panel.Controls.Add(this.button11);
             this.mrkt_target_panel.Controls.Add(this.button19);
             this.mrkt_target_panel.Controls.Add(this.button16);
-            this.mrkt_target_panel.Controls.Add(this.dataGridView1);
+            this.mrkt_target_panel.Controls.Add(this.Feeds_Setup);
             this.mrkt_target_panel.Controls.Add(this.button13);
             this.mrkt_target_panel.Controls.Add(this.button8);
             this.mrkt_target_panel.Controls.Add(this.button10);
@@ -182,7 +335,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(866, 328);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(109, 13);
@@ -193,7 +346,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label8.ForeColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(866, 302);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(157, 13);
@@ -204,7 +357,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(866, 277);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(142, 13);
@@ -470,17 +623,17 @@
             this.button16.Text = "Insert";
             this.button16.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // Feeds_Setup
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Feeds_Setup.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.Feeds_Setup.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Feeds_Setup.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Feed_Code,
             this.Feed_Description});
-            this.dataGridView1.Location = new System.Drawing.Point(26, 28);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(343, 351);
-            this.dataGridView1.TabIndex = 1;
+            this.Feeds_Setup.Location = new System.Drawing.Point(26, 28);
+            this.Feeds_Setup.Name = "Feeds_Setup";
+            this.Feeds_Setup.Size = new System.Drawing.Size(343, 351);
+            this.Feeds_Setup.TabIndex = 1;
             // 
             // Feed_Code
             // 
@@ -667,159 +820,6 @@
             this.label1.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.label1.Paint += new System.Windows.Forms.PaintEventHandler(this.label1_Paint);
             // 
-            // mrkt_trgt_label
-            // 
-            this.mrkt_trgt_label.AutoSize = true;
-            this.mrkt_trgt_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mrkt_trgt_label.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.mrkt_trgt_label.Location = new System.Drawing.Point(516, 6);
-            this.mrkt_trgt_label.Name = "mrkt_trgt_label";
-            this.mrkt_trgt_label.Size = new System.Drawing.Size(58, 16);
-            this.mrkt_trgt_label.TabIndex = 0;
-            this.mrkt_trgt_label.Text = "FEEDS";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel1.Controls.Add(this.mrkt_trgt_label);
-            this.panel1.Location = new System.Drawing.Point(29, 29);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1108, 26);
-            this.panel1.TabIndex = 5;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel2.Controls.Add(this.label10);
-            this.panel2.Location = new System.Drawing.Point(56, 545);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1044, 26);
-            this.panel2.TabIndex = 6;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label10.Location = new System.Drawing.Point(463, 6);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(142, 16);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "FEEDING GROUPS";
-            // 
-            // button22
-            // 
-            this.button22.BackColor = System.Drawing.Color.DimGray;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button22.Location = new System.Drawing.Point(656, 782);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(84, 28);
-            this.button22.TabIndex = 8;
-            this.button22.Text = "Delete";
-            this.button22.UseVisualStyleBackColor = false;
-            // 
-            // dataGridView7
-            // 
-            this.dataGridView7.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView7.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Feed_Group_Code,
-            this.Feed_Group_Descript,
-            this.Feed_Code_Choose,
-            this.Animal_Class_Choose,
-            this.Days_on_Feed,
-            this.Ad_Lib_Contin,
-            this.Ration_Per_day,
-            this.Kg_per_Ration,
-            this.Percent_Waste});
-            this.dataGridView7.Location = new System.Drawing.Point(56, 577);
-            this.dataGridView7.Name = "dataGridView7";
-            this.dataGridView7.Size = new System.Drawing.Size(1044, 189);
-            this.dataGridView7.TabIndex = 7;
-            // 
-            // Feed_Group_Code
-            // 
-            this.Feed_Group_Code.HeaderText = "Code";
-            this.Feed_Group_Code.Name = "Feed_Group_Code";
-            // 
-            // Feed_Group_Descript
-            // 
-            this.Feed_Group_Descript.HeaderText = "Description";
-            this.Feed_Group_Descript.Name = "Feed_Group_Descript";
-            this.Feed_Group_Descript.Width = 200;
-            // 
-            // Feed_Code_Choose
-            // 
-            this.Feed_Code_Choose.HeaderText = "Feed Code";
-            this.Feed_Code_Choose.Name = "Feed_Code_Choose";
-            // 
-            // Animal_Class_Choose
-            // 
-            this.Animal_Class_Choose.HeaderText = "Animal Class";
-            this.Animal_Class_Choose.Name = "Animal_Class_Choose";
-            // 
-            // Days_on_Feed
-            // 
-            this.Days_on_Feed.HeaderText = "DOF";
-            this.Days_on_Feed.Name = "Days_on_Feed";
-            // 
-            // Ad_Lib_Contin
-            // 
-            this.Ad_Lib_Contin.HeaderText = "Ad Lib";
-            this.Ad_Lib_Contin.Name = "Ad_Lib_Contin";
-            this.Ad_Lib_Contin.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Ad_Lib_Contin.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // Ration_Per_day
-            // 
-            this.Ration_Per_day.HeaderText = "Ration p/Day";
-            this.Ration_Per_day.Name = "Ration_Per_day";
-            // 
-            // Kg_per_Ration
-            // 
-            this.Kg_per_Ration.HeaderText = "kg/Ration";
-            this.Kg_per_Ration.Name = "Kg_per_Ration";
-            // 
-            // Percent_Waste
-            // 
-            this.Percent_Waste.HeaderText = "% Waste";
-            this.Percent_Waste.Name = "Percent_Waste";
-            // 
-            // button23
-            // 
-            this.button23.BackColor = System.Drawing.Color.DimGray;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button23.Location = new System.Drawing.Point(550, 782);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(84, 28);
-            this.button23.TabIndex = 9;
-            this.button23.Text = "Edit";
-            this.button23.UseVisualStyleBackColor = false;
-            // 
-            // button24
-            // 
-            this.button24.BackColor = System.Drawing.Color.DimGray;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button24.Location = new System.Drawing.Point(446, 782);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(84, 28);
-            this.button24.TabIndex = 10;
-            this.button24.Text = "Insert";
-            this.button24.UseVisualStyleBackColor = false;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(52, 822);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(314, 16);
-            this.label11.TabIndex = 11;
-            this.label11.Text = "*Ad Lib (Continuous Feeding)            *DOF (Days on Feed)";
-            // 
             // Feeding_Setup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -828,7 +828,7 @@
             this.ClientSize = new System.Drawing.Size(1167, 863);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.button22);
-            this.Controls.Add(this.dataGridView7);
+            this.Controls.Add(this.Feed_Groups_Setup);
             this.Controls.Add(this.button23);
             this.Controls.Add(this.button24);
             this.Controls.Add(this.panel2);
@@ -838,6 +838,12 @@
             this.Name = "Feeding_Setup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Feeding_Setup";
+            this.Load += new System.EventHandler(this.Feeding_Setup_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Feed_Groups_Setup)).EndInit();
             this.mrkt_target_panel.ResumeLayout(false);
             this.mrkt_target_panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
@@ -845,77 +851,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Feeds_Setup)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel mrkt_target_panel;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label mrkt_trgt_label;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Feed_Code;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Feed_Description;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Fatty_Acid_Descript;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Fatty_Acid_Percentage;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridView dataGridView6;
-        private System.Windows.Forms.DataGridView dataGridView5;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.DataGridView dataGridView4;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Mineral_Descript;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Mineral_Percent;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Other_Descript;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Other_Percent;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Proteins_Descript;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Proteins_Precent;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Vitamins_Descript;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Vitamins_Precent;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.DataGridView dataGridView7;
+        private System.Windows.Forms.DataGridView Feed_Groups_Setup;
         private System.Windows.Forms.DataGridViewTextBoxColumn Feed_Group_Code;
         private System.Windows.Forms.DataGridViewTextBoxColumn Feed_Group_Descript;
         private System.Windows.Forms.DataGridViewTextBoxColumn Feed_Code_Choose;
@@ -928,5 +876,57 @@
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Panel mrkt_target_panel;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridView dataGridView6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Other_Descript;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Other_Percent;
+        private System.Windows.Forms.DataGridView dataGridView5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Proteins_Descript;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Proteins_Precent;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.DataGridView dataGridView4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Vitamins_Descript;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Vitamins_Precent;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mineral_Descript;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mineral_Percent;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Fatty_Acid_Descript;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Fatty_Acid_Percentage;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.DataGridView Feeds_Setup;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Feed_Code;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Feed_Description;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }

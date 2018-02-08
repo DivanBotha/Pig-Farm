@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace PIG_FARM
 {
-    public partial class Herd_Setup_Form : Form
+    public partial class Marketing_Setup_Form : Form
     {
-        public Herd_Setup_Form()
+        public Marketing_Setup_Form()
         {
             InitializeComponent();
         }
 
-        private void Herd_Setup_Form_Load(object sender, EventArgs e)
+        private void Marketing_Setup_Form_Load(object sender, EventArgs e)
         {
             Point p = new Point(this.ParentForm.Width / 2 - this.Width / 2);
             this.Location = p;

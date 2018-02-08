@@ -23,8 +23,8 @@ namespace PIG_FARM
         private void Dashboard_Load(object sender, EventArgs e)
         {
             setup_click_panel.Hide();
-            works_panel.Hide();
-            reports_panel.Hide();
+            Works_Panel.Hide();
+            Reports_Panel.Hide();
         }
         private void Dashboard_MouseDown(object sender, MouseEventArgs e)
         {
@@ -62,126 +62,156 @@ namespace PIG_FARM
             if (WindowState == FormWindowState.Normal)
             {
                 WindowState = FormWindowState.Maximized;
-                // this.container.MaximumSize = new System.Drawing.Size(this.Width, this.Height);
-                // this.container.AutoSize = true;
-                // this.container.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             }
             else if (WindowState == FormWindowState.Maximized)
             {
                 WindowState = FormWindowState.Normal;
-               // this.container.MinimumSize = new System.Drawing.Size(this.Width, this.Height);
-               // this.container.AutoSize = true;
-               // this.container.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             }
         }
 
         private void BunifuFlatButton2_Click(object sender, EventArgs e)
         {
             setup_click_panel.Show();
-            works_panel.Hide();
-            reports_panel.Hide();
+            Works_Panel.Hide();
+            Reports_Panel.Hide();
+            Animals_Search_Panel.Hide();
         }
 
         private void BunifuFlatButton1_Click(object sender, EventArgs e)
         {
             setup_click_panel.Hide();
-            works_panel.Hide();
-            reports_panel.Hide();
-            container.Controls.Clear();
-            home_form frm = new home_form()
+            Works_Panel.Hide();
+            Reports_Panel.Hide();
+            Animals_Search_Panel.Hide();
+            Container.Controls.Clear();
+            Home_Form frm = new Home_Form()
             {
                 TopLevel = false
             };
-            container.Controls.Add(frm);
+            Container.Controls.Add(frm);
             frm.Show();
         }
 
         private void BunifuFlatButton3_Click(object sender, EventArgs e)
         {
             setup_click_panel.Hide();
-            works_panel.Hide();
-            reports_panel.Hide();
+            Works_Panel.Hide();
+            Reports_Panel.Hide();
+            Animals_Search_Panel.Show();
+            Container.Controls.Clear();
+            Animals_Form frm = new Animals_Form()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
         }
 
         private void BunifuFlatButton4_Click(object sender, EventArgs e)
         {
             setup_click_panel.Hide();
-            works_panel.Show();
-            reports_panel.Hide();
+            Works_Panel.Show();
+            Reports_Panel.Hide();
+            Animals_Search_Panel.Hide();
         }
 
         private void BunifuFlatButton5_Click(object sender, EventArgs e)
         {
             setup_click_panel.Hide();
-            works_panel.Hide();
-            reports_panel.Show();
+            Works_Panel.Hide();
+            Reports_Panel.Show();
+            Animals_Search_Panel.Hide();
         }
 
         private void BunifuFlatButton21_Click(object sender, EventArgs e)
         {
-            container.Controls.Clear();
+            Container.Controls.Clear();
             Program_parameters_form frm = new Program_parameters_form()
             {
                 TopLevel = false
             };
-            container.Controls.Add(frm);
+            Container.Controls.Add(frm);
             frm.Show();
         }
 
         private void BunifuFlatButton20_Click(object sender, EventArgs e)
         {
-            container.Controls.Clear();
+            Container.Controls.Clear();
             Setup_AniClass_Breeds frm = new Setup_AniClass_Breeds()
             {
                 TopLevel = false
             };
-            container.Controls.Add(frm);
+            Container.Controls.Add(frm);
             frm.Show();
         }
 
         private void BunifuFlatButton19_Click(object sender, EventArgs e)
         {
-            container.Controls.Clear();
-            Housing_Form frm = new Housing_Form()
+            Container.Controls.Clear();
+            Housing_Setup_Form frm = new Housing_Setup_Form()
             {
                 TopLevel = false
             };
-            container.Controls.Add(frm);
+            Container.Controls.Add(frm);
             frm.Show();
         }
 
         private void BunifuFlatButton18_Click(object sender, EventArgs e)
         {
-            container.Controls.Clear();
+            Container.Controls.Clear();
             Herd_Setup_Form frm = new Herd_Setup_Form()
             {
                 TopLevel = false
             };
-            container.Controls.Add(frm);
+            Container.Controls.Add(frm);
             frm.Show();
         }
 
         private void BunifuFlatButton17_Click(object sender, EventArgs e)
         {
-            container.Controls.Clear();
+            Container.Controls.Clear();
             Medical_Setup_Form frm = new Medical_Setup_Form()
             {
                 TopLevel = false
             };
-            container.Controls.Add(frm);
+            Container.Controls.Add(frm);
             frm.Show();
         }
 
-        private void bunifuFlatButton16_Click(object sender, EventArgs e)
+        private void BunifuFlatButton16_Click(object sender, EventArgs e)
         {
-            container.Controls.Clear();
+            Container.Controls.Clear();
             Feeding_Setup frm = new Feeding_Setup()
             {
                 TopLevel = false
             };
-            container.Controls.Add(frm);
+            Container.Controls.Add(frm);
             frm.Show();
         }
+
+        private void BunifuFlatButton15_Click(object sender, EventArgs e)
+        {
+            Container.Controls.Clear();
+            Culling_Setup frm = new Culling_Setup()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void Marketing_Button_Click(object sender, EventArgs e)
+        {
+            Container.Controls.Clear();
+            Marketing_Setup_Form frm = new Marketing_Setup_Form()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
+        }
+
     }
 
 }
+        

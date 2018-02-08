@@ -17,5 +17,10 @@ namespace PIG_FARM
             InitializeComponent();
         }
 
+        private void Medical_Setup_Form_Load(object sender, EventArgs e)
+        {
+            Point p = new Point(this.ParentForm.Width / 2 - this.Width / 2);
+            this.Location = p;
+        }
     }
 }
