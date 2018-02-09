@@ -1300,6 +1300,7 @@
             this.bunifuFlatButton27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton27.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton27.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton27.Click += new System.EventHandler(this.bunifuFlatButton27_Click);
             // 
             // Reports_Panel
             // 
@@ -1620,7 +1621,7 @@
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton28;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton29;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton31;
-         private System.Windows.Forms.Panel Container;
+        private System.Windows.Forms.Panel Container;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel Animals_Search_Panel;
         private System.Windows.Forms.TextBox textBox2;

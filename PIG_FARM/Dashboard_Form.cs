@@ -211,6 +211,16 @@ namespace PIG_FARM
             frm.Show();
         }
 
+        private void bunifuFlatButton27_Click(object sender, EventArgs e)
+        {
+            Container.Controls.Clear();
+            Works_Services frm = new Works_Services()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
+        }
     }
 
 }

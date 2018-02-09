@@ -339,11 +339,11 @@
             // parameter_label
             // 
             this.parameter_label.AutoSize = true;
-            this.parameter_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.parameter_label.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.parameter_label.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.parameter_label.Location = new System.Drawing.Point(56, 5);
+            this.parameter_label.Location = new System.Drawing.Point(63, 3);
             this.parameter_label.Name = "parameter_label";
-            this.parameter_label.Size = new System.Drawing.Size(112, 16);
+            this.parameter_label.Size = new System.Drawing.Size(100, 18);
             this.parameter_label.TabIndex = 0;
             this.parameter_label.Text = "PARAMETERS";
             // 
@@ -366,63 +366,63 @@
             this.wght_target_panel.Controls.Add(this.label9);
             this.wght_target_panel.Controls.Add(this.label8);
             this.wght_target_panel.Controls.Add(this.label7);
-            this.wght_target_panel.Location = new System.Drawing.Point(296, 43);
+            this.wght_target_panel.Location = new System.Drawing.Point(286, 43);
             this.wght_target_panel.Name = "wght_target_panel";
-            this.wght_target_panel.Size = new System.Drawing.Size(295, 269);
+            this.wght_target_panel.Size = new System.Drawing.Size(319, 269);
             this.wght_target_panel.TabIndex = 0;
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(214, 198);
+            this.textBox9.Location = new System.Drawing.Point(238, 198);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(63, 20);
             this.textBox9.TabIndex = 2;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(214, 172);
+            this.textBox8.Location = new System.Drawing.Point(238, 172);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(63, 20);
             this.textBox8.TabIndex = 2;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(214, 146);
+            this.textBox7.Location = new System.Drawing.Point(238, 146);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(63, 20);
             this.textBox7.TabIndex = 2;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(214, 120);
+            this.textBox6.Location = new System.Drawing.Point(238, 120);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(63, 20);
             this.textBox6.TabIndex = 2;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(214, 94);
+            this.textBox5.Location = new System.Drawing.Point(238, 94);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(63, 20);
             this.textBox5.TabIndex = 2;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(214, 68);
+            this.textBox4.Location = new System.Drawing.Point(238, 68);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(63, 20);
             this.textBox4.TabIndex = 2;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(214, 42);
+            this.textBox3.Location = new System.Drawing.Point(238, 42);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(63, 20);
             this.textBox3.TabIndex = 2;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(214, 17);
+            this.textBox2.Location = new System.Drawing.Point(238, 17);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(63, 20);
             this.textBox2.TabIndex = 2;
@@ -430,99 +430,99 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label14.Location = new System.Drawing.Point(20, 201);
+            this.label14.Location = new System.Drawing.Point(12, 201);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(169, 13);
+            this.label14.Size = new System.Drawing.Size(198, 16);
             this.label14.TabIndex = 0;
             this.label14.Text = "Daily weight gain per herd (g/day):";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label13.Location = new System.Drawing.Point(20, 175);
+            this.label13.Location = new System.Drawing.Point(12, 175);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(192, 13);
+            this.label13.Size = new System.Drawing.Size(227, 16);
             this.label13.TabIndex = 0;
             this.label13.Text = "Daily weight gain per individual (g/day):";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label12.Location = new System.Drawing.Point(20, 149);
+            this.label12.Location = new System.Drawing.Point(12, 149);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(108, 13);
+            this.label12.Size = new System.Drawing.Size(120, 16);
             this.label12.TabIndex = 0;
             this.label12.Text = "Age at 100 kg (days):";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label11.Location = new System.Drawing.Point(20, 123);
+            this.label11.Location = new System.Drawing.Point(12, 123);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(188, 13);
+            this.label11.Size = new System.Drawing.Size(213, 16);
             this.label11.TabIndex = 0;
             this.label11.Text = "Growth rate from 50 to 100 kg (g/day):";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label10.Location = new System.Drawing.Point(20, 97);
+            this.label10.Location = new System.Drawing.Point(12, 97);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(182, 13);
+            this.label10.Size = new System.Drawing.Size(207, 16);
             this.label10.TabIndex = 0;
             this.label10.Text = "Growth rate from 15 to 50 kg (g/day):";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label9.Location = new System.Drawing.Point(20, 71);
+            this.label9.Location = new System.Drawing.Point(12, 71);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(176, 13);
+            this.label9.Size = new System.Drawing.Size(201, 16);
             this.label9.TabIndex = 0;
             this.label9.Text = "Growth rate from 5 to 15 kg (g/day):";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label8.Location = new System.Drawing.Point(20, 45);
+            this.label8.Location = new System.Drawing.Point(12, 45);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(120, 13);
+            this.label8.Size = new System.Drawing.Size(138, 16);
             this.label8.TabIndex = 0;
             this.label8.Text = "28 day weight gain (kg):";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label7.Location = new System.Drawing.Point(20, 20);
+            this.label7.Location = new System.Drawing.Point(12, 20);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(97, 13);
+            this.label7.Size = new System.Drawing.Size(111, 16);
             this.label7.TabIndex = 0;
             this.label7.Text = "21 day weight (kg):";
             // 
             // wght_trgt_label
             // 
             this.wght_trgt_label.AutoSize = true;
-            this.wght_trgt_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wght_trgt_label.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.wght_trgt_label.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.wght_trgt_label.Location = new System.Drawing.Point(70, 5);
+            this.wght_trgt_label.Location = new System.Drawing.Point(95, 3);
             this.wght_trgt_label.Name = "wght_trgt_label";
-            this.wght_trgt_label.Size = new System.Drawing.Size(144, 16);
+            this.wght_trgt_label.Size = new System.Drawing.Size(128, 18);
             this.wght_trgt_label.TabIndex = 0;
             this.wght_trgt_label.Text = "WEIGHT TARGETS";
             // 
@@ -575,98 +575,98 @@
             // 
             // textBox36
             // 
-            this.textBox36.Location = new System.Drawing.Point(296, 235);
+            this.textBox36.Location = new System.Drawing.Point(312, 235);
             this.textBox36.Name = "textBox36";
             this.textBox36.Size = new System.Drawing.Size(63, 20);
             this.textBox36.TabIndex = 2;
             // 
             // textBox33
             // 
-            this.textBox33.Location = new System.Drawing.Point(296, 210);
+            this.textBox33.Location = new System.Drawing.Point(312, 210);
             this.textBox33.Name = "textBox33";
             this.textBox33.Size = new System.Drawing.Size(63, 20);
             this.textBox33.TabIndex = 2;
             // 
             // textBox30
             // 
-            this.textBox30.Location = new System.Drawing.Point(296, 184);
+            this.textBox30.Location = new System.Drawing.Point(312, 184);
             this.textBox30.Name = "textBox30";
             this.textBox30.Size = new System.Drawing.Size(63, 20);
             this.textBox30.TabIndex = 2;
             // 
             // textBox27
             // 
-            this.textBox27.Location = new System.Drawing.Point(296, 158);
+            this.textBox27.Location = new System.Drawing.Point(312, 158);
             this.textBox27.Name = "textBox27";
             this.textBox27.Size = new System.Drawing.Size(63, 20);
             this.textBox27.TabIndex = 2;
             // 
             // textBox24
             // 
-            this.textBox24.Location = new System.Drawing.Point(296, 132);
+            this.textBox24.Location = new System.Drawing.Point(312, 132);
             this.textBox24.Name = "textBox24";
             this.textBox24.Size = new System.Drawing.Size(63, 20);
             this.textBox24.TabIndex = 2;
             // 
             // textBox21
             // 
-            this.textBox21.Location = new System.Drawing.Point(296, 106);
+            this.textBox21.Location = new System.Drawing.Point(312, 106);
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(63, 20);
             this.textBox21.TabIndex = 2;
             // 
             // textBox18
             // 
-            this.textBox18.Location = new System.Drawing.Point(296, 80);
+            this.textBox18.Location = new System.Drawing.Point(312, 80);
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(63, 20);
             this.textBox18.TabIndex = 2;
             // 
             // textBox15
             // 
-            this.textBox15.Location = new System.Drawing.Point(296, 54);
+            this.textBox15.Location = new System.Drawing.Point(312, 54);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(63, 20);
             this.textBox15.TabIndex = 2;
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(296, 28);
+            this.textBox12.Location = new System.Drawing.Point(312, 28);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(63, 20);
             this.textBox12.TabIndex = 2;
             // 
             // textBox35
             // 
-            this.textBox35.Location = new System.Drawing.Point(227, 235);
+            this.textBox35.Location = new System.Drawing.Point(243, 235);
             this.textBox35.Name = "textBox35";
             this.textBox35.Size = new System.Drawing.Size(63, 20);
             this.textBox35.TabIndex = 2;
             // 
             // textBox32
             // 
-            this.textBox32.Location = new System.Drawing.Point(227, 210);
+            this.textBox32.Location = new System.Drawing.Point(243, 210);
             this.textBox32.Name = "textBox32";
             this.textBox32.Size = new System.Drawing.Size(63, 20);
             this.textBox32.TabIndex = 2;
             // 
             // textBox29
             // 
-            this.textBox29.Location = new System.Drawing.Point(227, 184);
+            this.textBox29.Location = new System.Drawing.Point(243, 184);
             this.textBox29.Name = "textBox29";
             this.textBox29.Size = new System.Drawing.Size(63, 20);
             this.textBox29.TabIndex = 2;
             // 
             // textBox26
             // 
-            this.textBox26.Location = new System.Drawing.Point(227, 158);
+            this.textBox26.Location = new System.Drawing.Point(243, 158);
             this.textBox26.Name = "textBox26";
             this.textBox26.Size = new System.Drawing.Size(63, 20);
             this.textBox26.TabIndex = 2;
             // 
             // textBox23
             // 
-            this.textBox23.Location = new System.Drawing.Point(227, 132);
+            this.textBox23.Location = new System.Drawing.Point(243, 132);
             this.textBox23.Name = "textBox23";
             this.textBox23.Size = new System.Drawing.Size(63, 20);
             this.textBox23.TabIndex = 2;
@@ -674,222 +674,222 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label17.Location = new System.Drawing.Point(296, 10);
+            this.label17.Location = new System.Drawing.Point(311, 10);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(61, 15);
+            this.label17.Size = new System.Drawing.Size(58, 16);
             this.label17.TabIndex = 0;
             this.label17.Text = "per Year";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label26.Location = new System.Drawing.Point(16, 238);
+            this.label26.Location = new System.Drawing.Point(8, 238);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(142, 13);
+            this.label26.Size = new System.Drawing.Size(163, 16);
             this.label26.TabIndex = 0;
             this.label26.Text = "Breeding herd replacements:";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label25.Location = new System.Drawing.Point(16, 213);
+            this.label25.Location = new System.Drawing.Point(8, 213);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(137, 13);
+            this.label25.Size = new System.Drawing.Size(156, 16);
             this.label25.TabIndex = 0;
             this.label25.Text = "Feed used per weaner (kg):";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label24.Location = new System.Drawing.Point(16, 187);
+            this.label24.Location = new System.Drawing.Point(8, 187);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(123, 13);
+            this.label24.Size = new System.Drawing.Size(140, 16);
             this.label24.TabIndex = 0;
             this.label24.Text = "Feed used per boar (kg):";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label23.Location = new System.Drawing.Point(16, 161);
+            this.label23.Location = new System.Drawing.Point(8, 161);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(121, 13);
+            this.label23.Size = new System.Drawing.Size(135, 16);
             this.label23.TabIndex = 0;
             this.label23.Text = "Feed used per sow (kg):";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label22.Location = new System.Drawing.Point(22, 135);
+            this.label22.Location = new System.Drawing.Point(14, 135);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(36, 13);
+            this.label22.Size = new System.Drawing.Size(38, 16);
             this.label22.TabIndex = 0;
             this.label22.Text = "Sales:";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label21.Location = new System.Drawing.Point(16, 109);
+            this.label21.Location = new System.Drawing.Point(8, 109);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(51, 13);
+            this.label21.Size = new System.Drawing.Size(59, 16);
             this.label21.TabIndex = 0;
             this.label21.Text = "Weaned:";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label20.Location = new System.Drawing.Point(16, 83);
+            this.label20.Location = new System.Drawing.Point(8, 83);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(61, 13);
+            this.label20.Size = new System.Drawing.Size(67, 16);
             this.label20.TabIndex = 0;
             this.label20.Text = "Farrowings:";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label19.Location = new System.Drawing.Point(16, 57);
+            this.label19.Location = new System.Drawing.Point(8, 57);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(91, 13);
+            this.label19.Size = new System.Drawing.Size(103, 16);
             this.label19.TabIndex = 0;
             this.label19.Text = "Boar ejaculations:";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label18.Location = new System.Drawing.Point(16, 31);
+            this.label18.Location = new System.Drawing.Point(8, 31);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(71, 13);
+            this.label18.Size = new System.Drawing.Size(78, 16);
             this.label18.TabIndex = 0;
             this.label18.Text = "Sows served:";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label16.Location = new System.Drawing.Point(227, 10);
+            this.label16.Location = new System.Drawing.Point(242, 10);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(72, 15);
+            this.label16.Size = new System.Drawing.Size(67, 16);
             this.label16.TabIndex = 0;
             this.label16.Text = "per Month";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label15.Location = new System.Drawing.Point(158, 10);
+            this.label15.Location = new System.Drawing.Point(173, 10);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(67, 15);
+            this.label15.Size = new System.Drawing.Size(65, 16);
             this.label15.TabIndex = 0;
             this.label15.Text = "per Week";
             // 
             // textBox20
             // 
-            this.textBox20.Location = new System.Drawing.Point(227, 106);
+            this.textBox20.Location = new System.Drawing.Point(243, 106);
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(63, 20);
             this.textBox20.TabIndex = 2;
             // 
             // textBox17
             // 
-            this.textBox17.Location = new System.Drawing.Point(227, 80);
+            this.textBox17.Location = new System.Drawing.Point(243, 80);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(63, 20);
             this.textBox17.TabIndex = 2;
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(227, 54);
+            this.textBox14.Location = new System.Drawing.Point(243, 54);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(63, 20);
             this.textBox14.TabIndex = 2;
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(227, 28);
+            this.textBox11.Location = new System.Drawing.Point(243, 28);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(63, 20);
             this.textBox11.TabIndex = 2;
             // 
             // textBox34
             // 
-            this.textBox34.Location = new System.Drawing.Point(158, 235);
+            this.textBox34.Location = new System.Drawing.Point(174, 235);
             this.textBox34.Name = "textBox34";
             this.textBox34.Size = new System.Drawing.Size(63, 20);
             this.textBox34.TabIndex = 2;
             // 
             // textBox31
             // 
-            this.textBox31.Location = new System.Drawing.Point(158, 210);
+            this.textBox31.Location = new System.Drawing.Point(174, 210);
             this.textBox31.Name = "textBox31";
             this.textBox31.Size = new System.Drawing.Size(63, 20);
             this.textBox31.TabIndex = 2;
             // 
             // textBox28
             // 
-            this.textBox28.Location = new System.Drawing.Point(158, 184);
+            this.textBox28.Location = new System.Drawing.Point(174, 184);
             this.textBox28.Name = "textBox28";
             this.textBox28.Size = new System.Drawing.Size(63, 20);
             this.textBox28.TabIndex = 2;
             // 
             // textBox25
             // 
-            this.textBox25.Location = new System.Drawing.Point(158, 158);
+            this.textBox25.Location = new System.Drawing.Point(174, 158);
             this.textBox25.Name = "textBox25";
             this.textBox25.Size = new System.Drawing.Size(63, 20);
             this.textBox25.TabIndex = 2;
             // 
             // textBox22
             // 
-            this.textBox22.Location = new System.Drawing.Point(158, 132);
+            this.textBox22.Location = new System.Drawing.Point(174, 132);
             this.textBox22.Name = "textBox22";
             this.textBox22.Size = new System.Drawing.Size(63, 20);
             this.textBox22.TabIndex = 2;
             // 
             // textBox19
             // 
-            this.textBox19.Location = new System.Drawing.Point(158, 106);
+            this.textBox19.Location = new System.Drawing.Point(174, 106);
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(63, 20);
             this.textBox19.TabIndex = 2;
             // 
             // textBox16
             // 
-            this.textBox16.Location = new System.Drawing.Point(158, 80);
+            this.textBox16.Location = new System.Drawing.Point(174, 80);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(63, 20);
             this.textBox16.TabIndex = 2;
             // 
             // textBox13
             // 
-            this.textBox13.Location = new System.Drawing.Point(158, 54);
+            this.textBox13.Location = new System.Drawing.Point(174, 54);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(63, 20);
             this.textBox13.TabIndex = 2;
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(158, 28);
+            this.textBox10.Location = new System.Drawing.Point(174, 28);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(63, 20);
             this.textBox10.TabIndex = 2;
@@ -897,11 +897,11 @@
             // hrd_trgt_label
             // 
             this.hrd_trgt_label.AutoSize = true;
-            this.hrd_trgt_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hrd_trgt_label.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hrd_trgt_label.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.hrd_trgt_label.Location = new System.Drawing.Point(128, 5);
+            this.hrd_trgt_label.Location = new System.Drawing.Point(145, 3);
             this.hrd_trgt_label.Name = "hrd_trgt_label";
-            this.hrd_trgt_label.Size = new System.Drawing.Size(127, 16);
+            this.hrd_trgt_label.Size = new System.Drawing.Size(111, 18);
             this.hrd_trgt_label.TabIndex = 0;
             this.hrd_trgt_label.Text = "HERD TARGETS";
             // 
@@ -916,14 +916,14 @@
             this.mrkt_target_panel.Controls.Add(this.label28);
             this.mrkt_target_panel.Controls.Add(this.textBox37);
             this.mrkt_target_panel.Controls.Add(this.label27);
-            this.mrkt_target_panel.Location = new System.Drawing.Point(1039, 43);
+            this.mrkt_target_panel.Location = new System.Drawing.Point(1026, 43);
             this.mrkt_target_panel.Name = "mrkt_target_panel";
-            this.mrkt_target_panel.Size = new System.Drawing.Size(298, 269);
+            this.mrkt_target_panel.Size = new System.Drawing.Size(316, 269);
             this.mrkt_target_panel.TabIndex = 0;
             // 
             // textBox40
             // 
-            this.textBox40.Location = new System.Drawing.Point(221, 106);
+            this.textBox40.Location = new System.Drawing.Point(243, 106);
             this.textBox40.Name = "textBox40";
             this.textBox40.Size = new System.Drawing.Size(63, 20);
             this.textBox40.TabIndex = 2;
@@ -931,17 +931,17 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label30.Location = new System.Drawing.Point(18, 109);
+            this.label30.Location = new System.Drawing.Point(8, 109);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(203, 13);
+            this.label30.Size = new System.Drawing.Size(232, 16);
             this.label30.TabIndex = 0;
             this.label30.Text = "Average dressed weight at slaughter (kg):";
             // 
             // textBox39
             // 
-            this.textBox39.Location = new System.Drawing.Point(221, 80);
+            this.textBox39.Location = new System.Drawing.Point(243, 80);
             this.textBox39.Name = "textBox39";
             this.textBox39.Size = new System.Drawing.Size(63, 20);
             this.textBox39.TabIndex = 2;
@@ -949,17 +949,17 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label29.Location = new System.Drawing.Point(18, 83);
+            this.label29.Location = new System.Drawing.Point(8, 83);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(179, 13);
+            this.label29.Size = new System.Drawing.Size(207, 16);
             this.label29.TabIndex = 0;
             this.label29.Text = "Average liveweight at slaughter (kg):";
             // 
             // textBox38
             // 
-            this.textBox38.Location = new System.Drawing.Point(221, 54);
+            this.textBox38.Location = new System.Drawing.Point(243, 54);
             this.textBox38.Name = "textBox38";
             this.textBox38.Size = new System.Drawing.Size(63, 20);
             this.textBox38.TabIndex = 2;
@@ -967,17 +967,17 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label28.Location = new System.Drawing.Point(18, 57);
+            this.label28.Location = new System.Drawing.Point(8, 57);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(163, 13);
+            this.label28.Size = new System.Drawing.Size(188, 16);
             this.label28.TabIndex = 0;
             this.label28.Text = "Average weight at slaughter (kg):";
             // 
             // textBox37
             // 
-            this.textBox37.Location = new System.Drawing.Point(221, 28);
+            this.textBox37.Location = new System.Drawing.Point(243, 28);
             this.textBox37.Name = "textBox37";
             this.textBox37.Size = new System.Drawing.Size(63, 20);
             this.textBox37.TabIndex = 2;
@@ -985,11 +985,11 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label27.Location = new System.Drawing.Point(18, 31);
+            this.label27.Location = new System.Drawing.Point(8, 31);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(160, 13);
+            this.label27.Size = new System.Drawing.Size(187, 16);
             this.label27.TabIndex = 0;
             this.label27.Text = "Average age at slaughter (days):";
             // 
@@ -2249,55 +2249,55 @@
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Font = new System.Drawing.Font("Century Gothic", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label40.Location = new System.Drawing.Point(783, 15);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(117, 15);
+            this.label40.Size = new System.Drawing.Size(108, 16);
             this.label40.TabIndex = 0;
             this.label40.Text = "Weaned per litter";
             // 
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Font = new System.Drawing.Font("Century Gothic", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label39.Location = new System.Drawing.Point(575, 15);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(95, 15);
+            this.label39.Size = new System.Drawing.Size(84, 16);
             this.label39.TabIndex = 0;
             this.label39.Text = "Born per litter";
             // 
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Font = new System.Drawing.Font("Century Gothic", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label38.Location = new System.Drawing.Point(370, 15);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(141, 15);
+            this.label38.Size = new System.Drawing.Size(126, 16);
             this.label38.TabIndex = 0;
             this.label38.Text = "Mummified per litter:";
             // 
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Font = new System.Drawing.Font("Century Gothic", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label37.Location = new System.Drawing.Point(210, 15);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(119, 15);
+            this.label37.Size = new System.Drawing.Size(103, 16);
             this.label37.TabIndex = 0;
             this.label37.Text = "Stillborn per litter";
             // 
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Font = new System.Drawing.Font("Century Gothic", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label36.Location = new System.Drawing.Point(31, 15);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(133, 15);
+            this.label36.Size = new System.Drawing.Size(119, 16);
             this.label36.TabIndex = 0;
             this.label36.Text = "Born alive per litter:";
             // 
@@ -2664,11 +2664,11 @@
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label31.Location = new System.Drawing.Point(408, 5);
+            this.label31.Location = new System.Drawing.Point(408, 3);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(137, 16);
+            this.label31.Size = new System.Drawing.Size(113, 18);
             this.label31.TabIndex = 0;
             this.label31.Text = "LITTER TARGETS";
             // 
@@ -2734,11 +2734,11 @@
             // label125
             // 
             this.label125.AutoSize = true;
-            this.label125.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label125.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label125.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label125.Location = new System.Drawing.Point(18, 199);
+            this.label125.Location = new System.Drawing.Point(13, 199);
             this.label125.Name = "label125";
-            this.label125.Size = new System.Drawing.Size(150, 13);
+            this.label125.Size = new System.Drawing.Size(174, 16);
             this.label125.TabIndex = 0;
             this.label125.Text = "Serve to farrow interval (days):";
             // 
@@ -2759,44 +2759,44 @@
             // label132
             // 
             this.label132.AutoSize = true;
-            this.label132.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label132.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label132.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label132.Location = new System.Drawing.Point(18, 303);
+            this.label132.Location = new System.Drawing.Point(13, 303);
             this.label132.Name = "label132";
-            this.label132.Size = new System.Drawing.Size(117, 13);
+            this.label132.Size = new System.Drawing.Size(137, 16);
             this.label132.TabIndex = 0;
             this.label132.Text = "Lactation length (days):";
             // 
             // label118
             // 
             this.label118.AutoSize = true;
-            this.label118.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label118.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label118.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label118.Location = new System.Drawing.Point(18, 95);
+            this.label118.Location = new System.Drawing.Point(13, 95);
             this.label118.Name = "label118";
-            this.label118.Size = new System.Drawing.Size(128, 13);
+            this.label118.Size = new System.Drawing.Size(139, 16);
             this.label118.TabIndex = 0;
             this.label118.Text = "Services per sow estrous:";
             // 
             // label131
             // 
             this.label131.AutoSize = true;
-            this.label131.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label131.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label131.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label131.Location = new System.Drawing.Point(18, 381);
+            this.label131.Location = new System.Drawing.Point(13, 381);
             this.label131.Name = "label131";
-            this.label131.Size = new System.Drawing.Size(102, 13);
+            this.label131.Size = new System.Drawing.Size(120, 16);
             this.label131.TabIndex = 0;
             this.label131.Text = "Average herd parity:";
             // 
             // label124
             // 
             this.label124.AutoSize = true;
-            this.label124.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label124.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label124.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label124.Location = new System.Drawing.Point(18, 173);
+            this.label124.Location = new System.Drawing.Point(13, 173);
             this.label124.Name = "label124";
-            this.label124.Size = new System.Drawing.Size(102, 13);
+            this.label124.Size = new System.Drawing.Size(121, 16);
             this.label124.TabIndex = 0;
             this.label124.Text = "Conception rate (%):";
             // 
@@ -2831,44 +2831,44 @@
             // label130
             // 
             this.label130.AutoSize = true;
-            this.label130.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label130.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label130.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label130.Location = new System.Drawing.Point(18, 277);
+            this.label130.Location = new System.Drawing.Point(13, 277);
             this.label130.Name = "label130";
-            this.label130.Size = new System.Drawing.Size(85, 13);
+            this.label130.Size = new System.Drawing.Size(97, 16);
             this.label130.TabIndex = 0;
             this.label130.Text = "Farrowing Index:";
             // 
             // label119
             // 
             this.label119.AutoSize = true;
-            this.label119.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label119.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label119.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label119.Location = new System.Drawing.Point(18, 69);
+            this.label119.Location = new System.Drawing.Point(13, 69);
             this.label119.Name = "label119";
-            this.label119.Size = new System.Drawing.Size(162, 13);
+            this.label119.Size = new System.Drawing.Size(187, 16);
             this.label119.TabIndex = 0;
             this.label119.Text = "Weaning to serve interval (days):";
             // 
             // label129
             // 
             this.label129.AutoSize = true;
-            this.label129.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label129.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label129.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label129.Location = new System.Drawing.Point(18, 355);
+            this.label129.Location = new System.Drawing.Point(13, 355);
             this.label129.Name = "label129";
-            this.label129.Size = new System.Drawing.Size(79, 13);
+            this.label129.Size = new System.Drawing.Size(88, 16);
             this.label129.TabIndex = 0;
             this.label129.Text = "Litters per year:";
             // 
             // label123
             // 
             this.label123.AutoSize = true;
-            this.label123.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label123.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label123.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label123.Location = new System.Drawing.Point(18, 147);
+            this.label123.Location = new System.Drawing.Point(13, 147);
             this.label123.Name = "label123";
-            this.label123.Size = new System.Drawing.Size(174, 13);
+            this.label123.Size = new System.Drawing.Size(203, 16);
             this.label123.TabIndex = 0;
             this.label123.Text = "Serve to conception interval (days):";
             // 
@@ -2903,44 +2903,44 @@
             // label128
             // 
             this.label128.AutoSize = true;
-            this.label128.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label128.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label128.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label128.Location = new System.Drawing.Point(18, 251);
+            this.label128.Location = new System.Drawing.Point(13, 251);
             this.label128.Name = "label128";
-            this.label128.Size = new System.Drawing.Size(94, 13);
+            this.label128.Size = new System.Drawing.Size(108, 16);
             this.label128.TabIndex = 0;
             this.label128.Text = "Farrowing rate (%):";
             // 
             // label120
             // 
             this.label120.AutoSize = true;
-            this.label120.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label120.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label120.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label120.Location = new System.Drawing.Point(18, 43);
+            this.label120.Location = new System.Drawing.Point(13, 43);
             this.label120.Name = "label120";
-            this.label120.Size = new System.Drawing.Size(87, 13);
+            this.label120.Size = new System.Drawing.Size(101, 16);
             this.label120.TabIndex = 0;
             this.label120.Text = "Sow empty days:";
             // 
             // label127
             // 
             this.label127.AutoSize = true;
-            this.label127.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label127.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label127.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label127.Location = new System.Drawing.Point(18, 329);
+            this.label127.Location = new System.Drawing.Point(13, 329);
             this.label127.Name = "label127";
-            this.label127.Size = new System.Drawing.Size(179, 13);
+            this.label127.Size = new System.Drawing.Size(209, 16);
             this.label127.TabIndex = 0;
             this.label127.Text = "Farrowing to weaning interval (days):";
             // 
             // label122
             // 
             this.label122.AutoSize = true;
-            this.label122.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label122.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label122.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label122.Location = new System.Drawing.Point(18, 121);
+            this.label122.Location = new System.Drawing.Point(13, 121);
             this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(118, 13);
+            this.label122.Size = new System.Drawing.Size(139, 16);
             this.label122.TabIndex = 0;
             this.label122.Text = "Gestation period (days):";
             // 
@@ -2961,33 +2961,33 @@
             // label126
             // 
             this.label126.AutoSize = true;
-            this.label126.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label126.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label126.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label126.Location = new System.Drawing.Point(18, 225);
+            this.label126.Location = new System.Drawing.Point(13, 225);
             this.label126.Name = "label126";
-            this.label126.Size = new System.Drawing.Size(118, 13);
+            this.label126.Size = new System.Drawing.Size(137, 16);
             this.label126.TabIndex = 0;
             this.label126.Text = "Age at farrowing (days):";
             // 
             // label121
             // 
             this.label121.AutoSize = true;
-            this.label121.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label121.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label121.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label121.Location = new System.Drawing.Point(18, 17);
+            this.label121.Location = new System.Drawing.Point(13, 17);
             this.label121.Name = "label121";
-            this.label121.Size = new System.Drawing.Size(109, 13);
+            this.label121.Size = new System.Drawing.Size(127, 16);
             this.label121.TabIndex = 0;
             this.label121.Text = "Sow productive days:";
             // 
             // label117
             // 
             this.label117.AutoSize = true;
-            this.label117.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label117.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label117.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label117.Location = new System.Drawing.Point(90, 5);
+            this.label117.Location = new System.Drawing.Point(90, 3);
             this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(119, 16);
+            this.label117.Size = new System.Drawing.Size(108, 18);
             this.label117.TabIndex = 0;
             this.label117.Text = "SOW TARGETS";
             // 
@@ -2995,6 +2995,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.DimGray;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button1.Location = new System.Drawing.Point(524, 861);
             this.button1.Name = "button1";
@@ -3007,6 +3008,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.DimGray;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button2.Location = new System.Drawing.Point(752, 861);
             this.button2.Name = "button2";
@@ -3028,9 +3030,9 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.SteelBlue;
             this.panel4.Controls.Add(this.wght_trgt_label);
-            this.panel4.Location = new System.Drawing.Point(296, 12);
+            this.panel4.Location = new System.Drawing.Point(286, 12);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(295, 26);
+            this.panel4.Size = new System.Drawing.Size(320, 26);
             this.panel4.TabIndex = 6;
             // 
             // panel5
@@ -3046,19 +3048,19 @@
             // 
             this.panel6.BackColor = System.Drawing.Color.SteelBlue;
             this.panel6.Controls.Add(this.mrkt_trgt_label);
-            this.panel6.Location = new System.Drawing.Point(1039, 12);
+            this.panel6.Location = new System.Drawing.Point(1026, 12);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(298, 26);
+            this.panel6.Size = new System.Drawing.Size(316, 26);
             this.panel6.TabIndex = 6;
             // 
             // mrkt_trgt_label
             // 
             this.mrkt_trgt_label.AutoSize = true;
-            this.mrkt_trgt_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mrkt_trgt_label.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mrkt_trgt_label.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.mrkt_trgt_label.Location = new System.Drawing.Point(74, 5);
+            this.mrkt_trgt_label.Location = new System.Drawing.Point(100, 3);
             this.mrkt_trgt_label.Name = "mrkt_trgt_label";
-            this.mrkt_trgt_label.Size = new System.Drawing.Size(146, 16);
+            this.mrkt_trgt_label.Size = new System.Drawing.Size(130, 18);
             this.mrkt_trgt_label.TabIndex = 0;
             this.mrkt_trgt_label.Text = "MARKET TARGETS";
             // 
@@ -3168,99 +3170,99 @@
             // how_work2_label
             // 
             this.how_work2_label.AutoSize = true;
-            this.how_work2_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.how_work2_label.Font = new System.Drawing.Font("Century Gothic", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.how_work2_label.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.how_work2_label.Location = new System.Drawing.Point(31, 158);
             this.how_work2_label.Name = "how_work2_label";
-            this.how_work2_label.Size = new System.Drawing.Size(181, 15);
+            this.how_work2_label.Size = new System.Drawing.Size(166, 16);
             this.how_work2_label.TabIndex = 0;
             this.how_work2_label.Text = "How to work with weaners?";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label6.Location = new System.Drawing.Point(17, 205);
+            this.label6.Location = new System.Drawing.Point(9, 205);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(119, 13);
+            this.label6.Size = new System.Drawing.Size(138, 16);
             this.label6.TabIndex = 0;
             this.label6.Text = "Round weaning weight:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label5.Location = new System.Drawing.Point(17, 186);
+            this.label5.Location = new System.Drawing.Point(9, 186);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(153, 13);
+            this.label5.Size = new System.Drawing.Size(178, 16);
             this.label5.TabIndex = 0;
             this.label5.Text = "Use individual weaning weight:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label3.Location = new System.Drawing.Point(22, 129);
+            this.label3.Location = new System.Drawing.Point(14, 129);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(138, 13);
+            this.label3.Size = new System.Drawing.Size(160, 16);
             this.label3.TabIndex = 0;
             this.label3.Text = "Use individual piglet weight:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label4.Location = new System.Drawing.Point(50, 105);
+            this.label4.Location = new System.Drawing.Point(42, 105);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(105, 13);
+            this.label4.Size = new System.Drawing.Size(121, 16);
             this.label4.TabIndex = 0;
             this.label4.Text = "Average weight (kg):";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label2.Location = new System.Drawing.Point(22, 83);
+            this.label2.Location = new System.Drawing.Point(14, 83);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 13);
+            this.label2.Size = new System.Drawing.Size(154, 16);
             this.label2.TabIndex = 0;
             this.label2.Text = "Use average piglet weight:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Location = new System.Drawing.Point(22, 62);
+            this.label1.Location = new System.Drawing.Point(14, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 13);
+            this.label1.Size = new System.Drawing.Size(111, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Work with batches:";
             // 
             // indiv_pigl
             // 
             this.indiv_pigl.AutoSize = true;
-            this.indiv_pigl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.indiv_pigl.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.indiv_pigl.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.indiv_pigl.Location = new System.Drawing.Point(22, 42);
+            this.indiv_pigl.Location = new System.Drawing.Point(14, 42);
             this.indiv_pigl.Name = "indiv_pigl";
-            this.indiv_pigl.Size = new System.Drawing.Size(138, 13);
+            this.indiv_pigl.Size = new System.Drawing.Size(157, 16);
             this.indiv_pigl.TabIndex = 0;
             this.indiv_pigl.Text = "Work with individual piglets:";
             // 
             // how_work1_label
             // 
             this.how_work1_label.AutoSize = true;
-            this.how_work1_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.how_work1_label.Font = new System.Drawing.Font("Century Gothic", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.how_work1_label.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.how_work1_label.Location = new System.Drawing.Point(39, 18);
             this.how_work1_label.Name = "how_work1_label";
-            this.how_work1_label.Size = new System.Drawing.Size(170, 15);
+            this.how_work1_label.Size = new System.Drawing.Size(154, 16);
             this.how_work1_label.TabIndex = 0;
             this.how_work1_label.Text = "How to work with piglets?";
             // 
