@@ -47,8 +47,10 @@
             this.button6 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -58,18 +60,18 @@
             this.panel1.Controls.Add(this.dataGridView2);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(28, 30);
+            this.panel1.Location = new System.Drawing.Point(28, 58);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1340, 264);
+            this.panel1.Size = new System.Drawing.Size(1340, 415);
             this.panel1.TabIndex = 2;
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.DimGray;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button4.Location = new System.Drawing.Point(724, 209);
+            this.button4.Location = new System.Drawing.Point(734, 375);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(84, 28);
             this.button4.TabIndex = 2;
@@ -93,9 +95,9 @@
             this.Pen_Code_3,
             this.Pen_Code_4,
             this.Pen_Code_5});
-            this.dataGridView2.Location = new System.Drawing.Point(26, 42);
+            this.dataGridView2.Location = new System.Drawing.Point(26, 26);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(1283, 144);
+            this.dataGridView2.Size = new System.Drawing.Size(1283, 336);
             this.dataGridView2.TabIndex = 1;
             // 
             // Herd_Code
@@ -170,8 +172,9 @@
             // 
             this.button5.BackColor = System.Drawing.Color.DimGray;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button5.Location = new System.Drawing.Point(618, 209);
+            this.button5.Location = new System.Drawing.Point(628, 375);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(84, 28);
             this.button5.TabIndex = 3;
@@ -182,8 +185,9 @@
             // 
             this.button6.BackColor = System.Drawing.Color.DimGray;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button6.Location = new System.Drawing.Point(514, 209);
+            this.button6.Location = new System.Drawing.Point(524, 375);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(84, 28);
             this.button6.TabIndex = 3;
@@ -193,22 +197,31 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Location = new System.Drawing.Point(615, 13);
+            this.label1.Location = new System.Drawing.Point(628, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 16);
+            this.label1.Size = new System.Drawing.Size(48, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "HERDS";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(237, 377);
+            this.label2.Location = new System.Drawing.Point(34, 522);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(288, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Add different table to choose pens based on housing codes";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Location = new System.Drawing.Point(28, 21);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1340, 31);
+            this.panel2.TabIndex = 4;
             // 
             // Herd_Setup_Form
             // 
@@ -216,6 +229,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1400, 563);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -224,8 +238,9 @@
             this.Text = "Herd_Setup_Form";
             this.Load += new System.EventHandler(this.Herd_Setup_Form_Load);
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -252,5 +267,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Pen_Code_4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Pen_Code_5;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel2;
     }
 }

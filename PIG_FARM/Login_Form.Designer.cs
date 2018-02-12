@@ -217,7 +217,7 @@
             this.label4.TabIndex = 1;
             this.label4.Text = "Register Program";
             // 
-            // Login
+            // Login_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -236,7 +236,7 @@
             this.Controls.Add(this.Welcome_Label);
             this.Controls.Add(this.Login_Logo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Login";
+            this.Name = "Login_Form";
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.Login_Logo)).EndInit();
             this.ResumeLayout(false);

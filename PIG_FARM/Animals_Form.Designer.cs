@@ -49,14 +49,14 @@
             this.Animal_Age = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Animal_Detail_Label = new System.Windows.Forms.Label();
+            this.Line1_Label = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.Line1_Label = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -202,13 +202,26 @@
             // Animal_Detail_Label
             // 
             this.Animal_Detail_Label.AutoSize = true;
-            this.Animal_Detail_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Animal_Detail_Label.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Animal_Detail_Label.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.Animal_Detail_Label.Location = new System.Drawing.Point(33, 10);
             this.Animal_Detail_Label.Name = "Animal_Detail_Label";
-            this.Animal_Detail_Label.Size = new System.Drawing.Size(120, 16);
+            this.Animal_Detail_Label.Size = new System.Drawing.Size(106, 16);
             this.Animal_Detail_Label.TabIndex = 0;
             this.Animal_Detail_Label.Text = "ANIMAL DETAIL";
+            // 
+            // Line1_Label
+            // 
+            this.Line1_Label.AutoSize = true;
+            this.Line1_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Line1_Label.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.Line1_Label.Location = new System.Drawing.Point(7, 4);
+            this.Line1_Label.Name = "Line1_Label";
+            this.Line1_Label.Size = new System.Drawing.Size(1408, 16);
+            this.Line1_Label.TabIndex = 0;
+            this.Line1_Label.Text = "_________________________________________________________________________________" +
+    "________________________________________________________________________________" +
+    "______________";
             // 
             // panel2
             // 
@@ -224,6 +237,19 @@
             this.panel2.Size = new System.Drawing.Size(1422, 619);
             this.panel2.TabIndex = 4;
             // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.DimGray;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button7.Location = new System.Drawing.Point(756, 572);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(84, 28);
+            this.button7.TabIndex = 4;
+            this.button7.Text = "Delete";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DimGray;
@@ -235,6 +261,32 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Delete";
             this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.DimGray;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button8.Location = new System.Drawing.Point(650, 572);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(84, 28);
+            this.button8.TabIndex = 5;
+            this.button8.Text = "Edit";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.DimGray;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button9.Location = new System.Drawing.Point(546, 572);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(84, 28);
+            this.button9.TabIndex = 6;
+            this.button9.Text = "Insert";
+            this.button9.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -259,55 +311,6 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "Insert";
             this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.DimGray;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button7.Location = new System.Drawing.Point(756, 572);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(84, 28);
-            this.button7.TabIndex = 4;
-            this.button7.Text = "Delete";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.DimGray;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button8.Location = new System.Drawing.Point(650, 572);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(84, 28);
-            this.button8.TabIndex = 5;
-            this.button8.Text = "Edit";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.DimGray;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button9.Location = new System.Drawing.Point(546, 572);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(84, 28);
-            this.button9.TabIndex = 6;
-            this.button9.Text = "Insert";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // Line1_Label
-            // 
-            this.Line1_Label.AutoSize = true;
-            this.Line1_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Line1_Label.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Line1_Label.Location = new System.Drawing.Point(7, 4);
-            this.Line1_Label.Name = "Line1_Label";
-            this.Line1_Label.Size = new System.Drawing.Size(1408, 16);
-            this.Line1_Label.TabIndex = 0;
-            this.Line1_Label.Text = "_________________________________________________________________________________" +
-    "________________________________________________________________________________" +
-    "______________";
             // 
             // Animals_Form
             // 

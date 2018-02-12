@@ -66,6 +66,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.DimGray;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button2.Location = new System.Drawing.Point(657, 203);
             this.button2.Name = "button2";
@@ -149,6 +150,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.DimGray;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button3.Location = new System.Drawing.Point(551, 203);
             this.button3.Name = "button3";
@@ -161,6 +163,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.DimGray;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button1.Location = new System.Drawing.Point(447, 203);
             this.button1.Name = "button1";
@@ -172,11 +175,11 @@
             // mrkt_trgt_label
             // 
             this.mrkt_trgt_label.AutoSize = true;
-            this.mrkt_trgt_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mrkt_trgt_label.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mrkt_trgt_label.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.mrkt_trgt_label.Location = new System.Drawing.Point(545, 5);
             this.mrkt_trgt_label.Name = "mrkt_trgt_label";
-            this.mrkt_trgt_label.Size = new System.Drawing.Size(96, 16);
+            this.mrkt_trgt_label.Size = new System.Drawing.Size(84, 16);
             this.mrkt_trgt_label.TabIndex = 0;
             this.mrkt_trgt_label.Text = "MARKETING";
             // 

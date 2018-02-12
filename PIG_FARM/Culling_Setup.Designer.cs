@@ -80,11 +80,11 @@
             // Culling_Reas_Setup_Label
             // 
             this.Culling_Reas_Setup_Label.AutoSize = true;
-            this.Culling_Reas_Setup_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Culling_Reas_Setup_Label.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Culling_Reas_Setup_Label.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.Culling_Reas_Setup_Label.Location = new System.Drawing.Point(119, 5);
             this.Culling_Reas_Setup_Label.Name = "Culling_Reas_Setup_Label";
-            this.Culling_Reas_Setup_Label.Size = new System.Drawing.Size(148, 16);
+            this.Culling_Reas_Setup_Label.Size = new System.Drawing.Size(127, 16);
             this.Culling_Reas_Setup_Label.TabIndex = 0;
             this.Culling_Reas_Setup_Label.Text = "CULLING REASONS";
             // 
@@ -100,11 +100,11 @@
             // Death_Reas_Setup_Label
             // 
             this.Death_Reas_Setup_Label.AutoSize = true;
-            this.Death_Reas_Setup_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Death_Reas_Setup_Label.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Death_Reas_Setup_Label.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.Death_Reas_Setup_Label.Location = new System.Drawing.Point(125, 5);
             this.Death_Reas_Setup_Label.Name = "Death_Reas_Setup_Label";
-            this.Death_Reas_Setup_Label.Size = new System.Drawing.Size(137, 16);
+            this.Death_Reas_Setup_Label.Size = new System.Drawing.Size(113, 16);
             this.Death_Reas_Setup_Label.TabIndex = 0;
             this.Death_Reas_Setup_Label.Text = "DEATH REASONS";
             // 
@@ -112,7 +112,7 @@
             // 
             this.D_and_C_Parameters_Setup_Panel.BackColor = System.Drawing.Color.SteelBlue;
             this.D_and_C_Parameters_Setup_Panel.Controls.Add(this.D_and_C_Parameters_Setup_Label);
-            this.D_and_C_Parameters_Setup_Panel.Location = new System.Drawing.Point(56, 301);
+            this.D_and_C_Parameters_Setup_Panel.Location = new System.Drawing.Point(66, 301);
             this.D_and_C_Parameters_Setup_Panel.Name = "D_and_C_Parameters_Setup_Panel";
             this.D_and_C_Parameters_Setup_Panel.Size = new System.Drawing.Size(669, 26);
             this.D_and_C_Parameters_Setup_Panel.TabIndex = 6;
@@ -120,11 +120,11 @@
             // D_and_C_Parameters_Setup_Label
             // 
             this.D_and_C_Parameters_Setup_Label.AutoSize = true;
-            this.D_and_C_Parameters_Setup_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D_and_C_Parameters_Setup_Label.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D_and_C_Parameters_Setup_Label.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.D_and_C_Parameters_Setup_Label.Location = new System.Drawing.Point(155, 6);
+            this.D_and_C_Parameters_Setup_Label.Location = new System.Drawing.Point(185, 6);
             this.D_and_C_Parameters_Setup_Label.Name = "D_and_C_Parameters_Setup_Label";
-            this.D_and_C_Parameters_Setup_Label.Size = new System.Drawing.Size(320, 16);
+            this.D_and_C_Parameters_Setup_Label.Size = new System.Drawing.Size(264, 16);
             this.D_and_C_Parameters_Setup_Label.TabIndex = 0;
             this.D_and_C_Parameters_Setup_Label.Text = "DEFINE DEATH OR CULLING PARAMETERS";
             // 
@@ -178,6 +178,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.DimGray;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button2.Location = new System.Drawing.Point(257, 169);
             this.button2.Name = "button2";
@@ -190,6 +191,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.DimGray;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button3.Location = new System.Drawing.Point(151, 169);
             this.button3.Name = "button3";
@@ -202,6 +204,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.DimGray;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button1.Location = new System.Drawing.Point(47, 169);
             this.button1.Name = "button1";
@@ -214,6 +217,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.DimGray;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button4.Location = new System.Drawing.Point(56, 227);
             this.button4.Name = "button4";
@@ -226,6 +230,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.DimGray;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button5.Location = new System.Drawing.Point(160, 227);
             this.button5.Name = "button5";
@@ -238,6 +243,7 @@
             // 
             this.button6.BackColor = System.Drawing.Color.DimGray;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button6.Location = new System.Drawing.Point(266, 227);
             this.button6.Name = "button6";
@@ -256,7 +262,7 @@
             this.D_and_C_Parameters_Setup_Cull_If,
             this.D_and_C_Parameters_Setup_Operator,
             this.D_and_C_Parameters_Setup_Value});
-            this.D_and_C_Parameters_Setup_Grid.Location = new System.Drawing.Point(90, 351);
+            this.D_and_C_Parameters_Setup_Grid.Location = new System.Drawing.Point(100, 351);
             this.D_and_C_Parameters_Setup_Grid.Name = "D_and_C_Parameters_Setup_Grid";
             this.D_and_C_Parameters_Setup_Grid.Size = new System.Drawing.Size(595, 144);
             this.D_and_C_Parameters_Setup_Grid.TabIndex = 7;
@@ -312,6 +318,7 @@
             // 
             this.button7.BackColor = System.Drawing.Color.DimGray;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button7.Location = new System.Drawing.Point(407, 176);
             this.button7.Name = "button7";
@@ -324,6 +331,7 @@
             // 
             this.button8.BackColor = System.Drawing.Color.DimGray;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button8.Location = new System.Drawing.Point(301, 176);
             this.button8.Name = "button8";
@@ -336,6 +344,7 @@
             // 
             this.button9.BackColor = System.Drawing.Color.DimGray;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button9.Location = new System.Drawing.Point(197, 176);
             this.button9.Name = "button9";
@@ -350,7 +359,7 @@
             this.panel3.Controls.Add(this.button7);
             this.panel3.Controls.Add(this.button8);
             this.panel3.Controls.Add(this.button9);
-            this.panel3.Location = new System.Drawing.Point(56, 333);
+            this.panel3.Location = new System.Drawing.Point(66, 333);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(669, 217);
             this.panel3.TabIndex = 7;

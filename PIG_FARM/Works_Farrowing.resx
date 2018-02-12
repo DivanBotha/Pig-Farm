@@ -117,27 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Logo_Registration.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEcAAAAmCAYAAACWGIbgAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAAA8pJREFUaEPdmj2O1EAQhTnCHmGPwAWQ9ggcgZiIlGxFREhIhEjICBARERAQQIII
-        NiAgQEhIBAiQkPhHw/t6p6xyTdk7HtvDup/0aYaxZ6f7dXV1dZsLq9Xqf3IgjsRlcSxuiruO++JVAtdu
-        C77D9yH7+6NIP5yRQ3FdvBA/BPq+fh0j+xtfxDPBb1wUWRsil8Q7sWFw6x8zgSG3xCfxW+xLPwUD8FAQ
-        mVnbMBBD0R9xVTTX/Y1TQ4Nei/MgBgWj7ggGi/Z5Y7yaiPOdmQrC86PYZ5QMEe1i0DJjEJFW+hI7NgaS
-        6xNBeC5Zb0XpU+xgxELwLIgWS7BLF1FV+hU7GXkjWDKza0C03BNLjxavK6L0L3bWYwmLjmfZnuusQLWJ
-        2qr0MXaYGsGWs2uC5RDx2mRxwdJ8XhPuWNFXZsSGOUwjxJLHdPLiS4Qc2bymaRTFoJepFc0hItBfMUXl
-        ulQ9EhvmMHV8VNj7b+tXzKs9ctAHkSZkn2SfCzZ3MSGTlywf1arUHPKNiQ1Zdg9gWM0RlJpDQWcrEa9d
-        mzaoddXqnFbgReXbVSmz5NVSGXuVKjnrMOCcF9OrrP0JHFDVJlJLpznZUQPVsi8EDaKqJpEmykyJHTU4
-        isz0S7QOhNa8F7Wo1DgQO2mciC7hLNsMP834gzWoiRqwzkU40zhLfprFrcZS1SpdmjeBbcUWgwiiUKxB
-        HMw3PnhDDLYHQ2oXpmAt5rRKFm8KsISx6RwiquQHp28XJdpN7mRgLce2VmN7w9Tghl22A0TZ09O3ixLV
-        vfXfIp99pX1WzCGUxla5dtSxi+IUthOAsWLb05ce/GrLE1TE/Y1pdnHM8yUibpfVioYwUhws+Yayt+MU
-        kvLAHp/0dTKKgbZa7CUfJHos7PfAzEEbJ4F+szlENIR5yrnrEDF9m+dDZ0Bk0z5Cn04wGN40O5SjLbTD
-        J1WMz9ScE68h93gVc/0N2xxifRZmIiNrDbGEtq36jkKGwMBgXHYNaF826M3jlzU+chDP8lvmAD92Q/j/
-        xcDcpQGGHxmjq2jEbIzwOY3GNo8/9kCWT6M5MWcSmRvm7EomTCAamb9+e8HnmcFzkQ0cz9r8PdnB3Wzm
-        8EO+2uTH7ViVkfTfnZtoDoPTqmcEAxg1iTlMta/ChDHZzt3Cm/wUr82JN4e2dS0EcfM8mTmmLmPAzqZ9
-        8bUPfM7huZwvGzxMdY5kTAfZTUPx5nQZA3Zf35n01Nh0YdD6jDFIBWyfKESPsht2gWjYJskSutnnc0Fu
-        QfzXmOx6BtMOHWcXa4OIzT7vQ99ZHf4Dr7AxGlaeXjUAAAAASUVORK5CYII=
-</value>
-  </data>
+  <metadata name="Farrow_Animal_Code.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Piglet_No.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Farrow_Gender.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Born_Alive.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Farrow_Mummified.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Farrow_Stillborn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Farrow_Weight.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

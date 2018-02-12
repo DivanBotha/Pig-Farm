@@ -221,6 +221,17 @@ namespace PIG_FARM
             Container.Controls.Add(frm);
             frm.Show();
         }
+
+        private void bunifuFlatButton26_Click(object sender, EventArgs e)
+        {
+            Container.Controls.Clear();
+            Works_Farrowing frm = new Works_Farrowing()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
+        }
     }
 
 }

@@ -2021,59 +2021,29 @@
   <data name="&gt;&gt;program_parameters_but.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="bunifuFlatButton1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;bunifuFlatButton3.Name" xml:space="preserve">
+    <value>bunifuFlatButton3</value>
   </data>
-  <data name="bunifuFlatButton1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>959, 3</value>
-  </data>
-  <data name="bunifuFlatButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 26</value>
-  </data>
-  <data name="bunifuFlatButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="bunifuFlatButton1.Text" xml:space="preserve">
-    <value>Market</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton1.Name" xml:space="preserve">
-    <value>bunifuFlatButton1</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton1.Type" xml:space="preserve">
+  <data name="&gt;&gt;bunifuFlatButton3.Type" xml:space="preserve">
     <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;bunifuFlatButton3.Parent" xml:space="preserve">
     <value>Works_Panel</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;bunifuFlatButton3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="bunifuFlatButton2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;Weight_Label_SubMenu.Name" xml:space="preserve">
+    <value>Weight_Label_SubMenu</value>
   </data>
-  <data name="bunifuFlatButton2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
+  <data name="&gt;&gt;Weight_Label_SubMenu.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="bunifuFlatButton2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 8.25pt, style=Bold</value>
+  <data name="&gt;&gt;Weight_Label_SubMenu.Parent" xml:space="preserve">
+    <value>Works_Panel</value>
   </data>
-  <data name="bunifuFlatButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>797, 3</value>
-  </data>
-  <data name="bunifuFlatButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 26</value>
-  </data>
-  <data name="bunifuFlatButton2.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="bunifuFlatButton2.Text" xml:space="preserve">
-    <value>Culling and Death</value>
+  <data name="&gt;&gt;Weight_Label_SubMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton2.Name" xml:space="preserve">
     <value>bunifuFlatButton2</value>
@@ -2085,28 +2055,7 @@
     <value>Works_Panel</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="bunifuFlatButton22.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton22.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton22.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>716, 3</value>
-  </data>
-  <data name="bunifuFlatButton22.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 26</value>
-  </data>
-  <data name="bunifuFlatButton22.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="bunifuFlatButton22.Text" xml:space="preserve">
-    <value>Feeding</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton22.Name" xml:space="preserve">
     <value>bunifuFlatButton22</value>
@@ -2118,28 +2067,7 @@
     <value>Works_Panel</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton22.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="bunifuFlatButton25.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton25.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton25.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton25.Location" type="System.Drawing.Point, System.Drawing">
-    <value>495, 3</value>
-  </data>
-  <data name="bunifuFlatButton25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 26</value>
-  </data>
-  <data name="bunifuFlatButton25.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="bunifuFlatButton25.Text" xml:space="preserve">
-    <value>Housing and Herd Movement</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton25.Name" xml:space="preserve">
     <value>bunifuFlatButton25</value>
@@ -2151,28 +2079,7 @@
     <value>Works_Panel</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton25.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="bunifuFlatButton26.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton26.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton26.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton26.Location" type="System.Drawing.Point, System.Drawing">
-    <value>398, 3</value>
-  </data>
-  <data name="bunifuFlatButton26.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 26</value>
-  </data>
-  <data name="bunifuFlatButton26.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="bunifuFlatButton26.Text" xml:space="preserve">
-    <value>Farrowing</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton26.Name" xml:space="preserve">
     <value>bunifuFlatButton26</value>
@@ -2184,28 +2091,7 @@
     <value>Works_Panel</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton26.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="bunifuFlatButton27.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="bunifuFlatButton27.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="bunifuFlatButton27.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 8.25pt, style=Bold</value>
-  </data>
-  <data name="bunifuFlatButton27.Location" type="System.Drawing.Point, System.Drawing">
-    <value>306, 3</value>
-  </data>
-  <data name="bunifuFlatButton27.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 26</value>
-  </data>
-  <data name="bunifuFlatButton27.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="bunifuFlatButton27.Text" xml:space="preserve">
-    <value>Services</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton27.Name" xml:space="preserve">
     <value>bunifuFlatButton27</value>
@@ -2217,7 +2103,7 @@
     <value>Works_Panel</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton27.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="Works_Panel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -2242,6 +2128,204 @@
   </data>
   <data name="&gt;&gt;Works_Panel.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="Weight_Label_SubMenu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Weight_Label_SubMenu.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Weight_Label_SubMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Weight_Label_SubMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>938, 3</value>
+  </data>
+  <data name="Weight_Label_SubMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 26</value>
+  </data>
+  <data name="Weight_Label_SubMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Weight_Label_SubMenu.Text" xml:space="preserve">
+    <value>Weights</value>
+  </data>
+  <data name="&gt;&gt;Weight_Label_SubMenu.Name" xml:space="preserve">
+    <value>Weight_Label_SubMenu</value>
+  </data>
+  <data name="&gt;&gt;Weight_Label_SubMenu.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Weight_Label_SubMenu.Parent" xml:space="preserve">
+    <value>Works_Panel</value>
+  </data>
+  <data name="&gt;&gt;Weight_Label_SubMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bunifuFlatButton2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>786, 3</value>
+  </data>
+  <data name="bunifuFlatButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 26</value>
+  </data>
+  <data name="bunifuFlatButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton2.Text" xml:space="preserve">
+    <value>Culling and Death</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.Name" xml:space="preserve">
+    <value>bunifuFlatButton2</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.Parent" xml:space="preserve">
+    <value>Works_Panel</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="bunifuFlatButton22.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton22.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 3</value>
+  </data>
+  <data name="bunifuFlatButton22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="bunifuFlatButton22.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton22.Text" xml:space="preserve">
+    <value>Feeding</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton22.Name" xml:space="preserve">
+    <value>bunifuFlatButton22</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton22.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton22.Parent" xml:space="preserve">
+    <value>Works_Panel</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton22.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="bunifuFlatButton25.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton25.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 3</value>
+  </data>
+  <data name="bunifuFlatButton25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 26</value>
+  </data>
+  <data name="bunifuFlatButton25.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton25.Text" xml:space="preserve">
+    <value>Housing and Herd Movement</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton25.Name" xml:space="preserve">
+    <value>bunifuFlatButton25</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton25.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton25.Parent" xml:space="preserve">
+    <value>Works_Panel</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton25.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton26.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton26.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 3</value>
+  </data>
+  <data name="bunifuFlatButton26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 26</value>
+  </data>
+  <data name="bunifuFlatButton26.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="bunifuFlatButton26.Text" xml:space="preserve">
+    <value>Farrowing</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton26.Name" xml:space="preserve">
+    <value>bunifuFlatButton26</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton26.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton26.Parent" xml:space="preserve">
+    <value>Works_Panel</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton26.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="bunifuFlatButton27.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton27.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 3</value>
+  </data>
+  <data name="bunifuFlatButton27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 26</value>
+  </data>
+  <data name="bunifuFlatButton27.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="bunifuFlatButton27.Text" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton27.Name" xml:space="preserve">
+    <value>bunifuFlatButton27</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton27.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton27.Parent" xml:space="preserve">
+    <value>Works_Panel</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton27.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;bunifuFlatButton30.Name" xml:space="preserve">
     <value>bunifuFlatButton30</value>
@@ -2547,10 +2631,10 @@
     <value>True</value>
   </data>
   <data name="Container.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 124</value>
+    <value>0, 93</value>
   </data>
   <data name="Container.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1447, 536</value>
+    <value>1447, 567</value>
   </data>
   <data name="Container.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -2758,6 +2842,39 @@
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="bunifuFlatButton3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuFlatButton3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuFlatButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1026, 3</value>
+  </data>
+  <data name="bunifuFlatButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 26</value>
+  </data>
+  <data name="bunifuFlatButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="bunifuFlatButton3.Text" xml:space="preserve">
+    <value>Market</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.Name" xml:space="preserve">
+    <value>bunifuFlatButton3</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.Parent" xml:space="preserve">
+    <value>Works_Panel</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

@@ -138,6 +138,18 @@
     <Compile Include="Setup_AniClass_Breeds.Designer.cs">
       <DependentUpon>Setup_AniClass_Breeds.cs</DependentUpon>
     </Compile>
+    <Compile Include="Works_Farrowing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Works_Farrowing.Designer.cs">
+      <DependentUpon>Works_Farrowing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Works_Herd_House_Move.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Works_Herd_House_Move.Designer.cs">
+      <DependentUpon>Works_Herd_House_Move.cs</DependentUpon>
+    </Compile>
     <Compile Include="Works_Services.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,6 +209,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Setup_AniClass_Breeds.resx">
       <DependentUpon>Setup_AniClass_Breeds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Works_Farrowing.resx">
+      <DependentUpon>Works_Farrowing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Works_Herd_House_Move.resx">
+      <DependentUpon>Works_Herd_House_Move.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Works_Services.resx">
       <DependentUpon>Works_Services.cs</DependentUpon>

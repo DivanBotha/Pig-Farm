@@ -25,3 +25,4 @@ C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug
 C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Marketing_Setup_Form.resources
 C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Animals_Form.resources
 C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Works_Services.resources
+C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Works_Farrowing.resources
