@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PIG_FARM
 {
-    public partial class Marketing_Setup_Form : Form
+    public partial class Setup_Marketing_Form : Form
     {
-        public Marketing_Setup_Form()
+        public Setup_Marketing_Form()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace PIG_FARM
 {
-    partial class Feeding_Setup
+    partial class Setup_Feeding
     {
         /// <summary>
         /// Required designer variable.
@@ -135,7 +135,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.SteelBlue;
             this.panel2.Controls.Add(this.label10);
-            this.panel2.Location = new System.Drawing.Point(29, 545);
+            this.panel2.Location = new System.Drawing.Point(37, 545);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1086, 26);
             this.panel2.TabIndex = 6;
@@ -178,7 +178,7 @@
             this.Ration_Per_day,
             this.Kg_per_Ration,
             this.Percent_Waste});
-            this.Feed_Groups_Setup.Location = new System.Drawing.Point(56, 591);
+            this.Feed_Groups_Setup.Location = new System.Drawing.Point(64, 591);
             this.Feed_Groups_Setup.Name = "Feed_Groups_Setup";
             this.Feed_Groups_Setup.Size = new System.Drawing.Size(1044, 189);
             this.Feed_Groups_Setup.TabIndex = 7;
@@ -435,7 +435,7 @@
             this.button21.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.button21.Location = new System.Drawing.Point(995, 396);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(49, 28);
+            this.button21.Size = new System.Drawing.Size(67, 28);
             this.button21.TabIndex = 3;
             this.button21.Text = "Delete";
             this.button21.UseVisualStyleBackColor = false;
@@ -446,9 +446,9 @@
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button18.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button18.Location = new System.Drawing.Point(766, 396);
+            this.button18.Location = new System.Drawing.Point(760, 396);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(49, 28);
+            this.button18.Size = new System.Drawing.Size(67, 28);
             this.button18.TabIndex = 3;
             this.button18.Text = "Delete";
             this.button18.UseVisualStyleBackColor = false;
@@ -482,9 +482,9 @@
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button15.Location = new System.Drawing.Point(538, 396);
+            this.button15.Location = new System.Drawing.Point(532, 396);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(49, 28);
+            this.button15.Size = new System.Drawing.Size(67, 28);
             this.button15.TabIndex = 3;
             this.button15.Text = "Delete";
             this.button15.UseVisualStyleBackColor = false;
@@ -518,9 +518,9 @@
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button12.Location = new System.Drawing.Point(995, 189);
+            this.button12.Location = new System.Drawing.Point(988, 189);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(49, 28);
+            this.button12.Size = new System.Drawing.Size(67, 28);
             this.button12.TabIndex = 3;
             this.button12.Text = "Delete";
             this.button12.UseVisualStyleBackColor = false;
@@ -544,7 +544,7 @@
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button17.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button17.Location = new System.Drawing.Point(711, 396);
+            this.button17.Location = new System.Drawing.Point(705, 396);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(49, 28);
             this.button17.TabIndex = 3;
@@ -580,7 +580,7 @@
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button14.Location = new System.Drawing.Point(483, 396);
+            this.button14.Location = new System.Drawing.Point(477, 396);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(49, 28);
             this.button14.TabIndex = 3;
@@ -593,9 +593,9 @@
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button9.Location = new System.Drawing.Point(767, 189);
+            this.button9.Location = new System.Drawing.Point(760, 189);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(49, 28);
+            this.button9.Size = new System.Drawing.Size(66, 28);
             this.button9.TabIndex = 3;
             this.button9.Text = "Delete";
             this.button9.UseVisualStyleBackColor = false;
@@ -606,7 +606,7 @@
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button11.Location = new System.Drawing.Point(940, 189);
+            this.button11.Location = new System.Drawing.Point(933, 189);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(49, 28);
             this.button11.TabIndex = 3;
@@ -632,7 +632,7 @@
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button16.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button16.Location = new System.Drawing.Point(656, 396);
+            this.button16.Location = new System.Drawing.Point(650, 396);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(49, 28);
             this.button16.TabIndex = 3;
@@ -668,7 +668,7 @@
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button13.Location = new System.Drawing.Point(428, 396);
+            this.button13.Location = new System.Drawing.Point(422, 396);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(49, 28);
             this.button13.TabIndex = 3;
@@ -681,7 +681,7 @@
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button8.Location = new System.Drawing.Point(712, 189);
+            this.button8.Location = new System.Drawing.Point(705, 189);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(49, 28);
             this.button8.TabIndex = 3;
@@ -694,7 +694,7 @@
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button10.Location = new System.Drawing.Point(885, 189);
+            this.button10.Location = new System.Drawing.Point(878, 189);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(49, 28);
             this.button10.TabIndex = 3;
@@ -707,9 +707,9 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button6.Location = new System.Drawing.Point(538, 189);
+            this.button6.Location = new System.Drawing.Point(531, 189);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(49, 28);
+            this.button6.Size = new System.Drawing.Size(67, 28);
             this.button6.TabIndex = 3;
             this.button6.Text = "Delete";
             this.button6.UseVisualStyleBackColor = false;
@@ -720,7 +720,7 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button7.Location = new System.Drawing.Point(657, 189);
+            this.button7.Location = new System.Drawing.Point(650, 189);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(49, 28);
             this.button7.TabIndex = 3;
@@ -755,7 +755,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button5.Location = new System.Drawing.Point(483, 189);
+            this.button5.Location = new System.Drawing.Point(476, 189);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(49, 28);
             this.button5.TabIndex = 3;
@@ -779,7 +779,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button4.Location = new System.Drawing.Point(428, 189);
+            this.button4.Location = new System.Drawing.Point(421, 189);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(49, 28);
             this.button4.TabIndex = 3;
@@ -848,7 +848,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel3.Location = new System.Drawing.Point(29, 577);
+            this.panel3.Location = new System.Drawing.Point(37, 577);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1086, 259);
             this.panel3.TabIndex = 7;

@@ -1,6 +1,6 @@
 ﻿namespace PIG_FARM
 {
-    partial class Marketing_Setup_Form
+    partial class Setup_Marketing_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -179,9 +179,9 @@
             this.mrkt_trgt_label.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.mrkt_trgt_label.Location = new System.Drawing.Point(545, 5);
             this.mrkt_trgt_label.Name = "mrkt_trgt_label";
-            this.mrkt_trgt_label.Size = new System.Drawing.Size(84, 16);
+            this.mrkt_trgt_label.Size = new System.Drawing.Size(154, 16);
             this.mrkt_trgt_label.TabIndex = 0;
-            this.mrkt_trgt_label.Text = "MARKETING";
+            this.mrkt_trgt_label.Text = "MARKETS AND AGENTS";
             // 
             // Mrkt_Setup_Head_Panel
             // 
@@ -192,7 +192,7 @@
             this.Mrkt_Setup_Head_Panel.Size = new System.Drawing.Size(1197, 28);
             this.Mrkt_Setup_Head_Panel.TabIndex = 5;
             // 
-            // Marketing_Setup_Form
+            // Setup_Marketing_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -201,7 +201,7 @@
             this.Controls.Add(this.Mrkt_Setup_Head_Panel);
             this.Controls.Add(this.Mrkt_Setup_Data_Panel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Marketing_Setup_Form";
+            this.Name = "Setup_Marketing_Form";
             this.Text = "Marketing_Setup_Form";
             this.Load += new System.EventHandler(this.Marketing_Setup_Form_Load);
             this.Mrkt_Setup_Data_Panel.ResumeLayout(false);

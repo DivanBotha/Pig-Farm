@@ -64,17 +64,17 @@
       <DependentUpon>Change_Password.cs</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
-    <Compile Include="Culling_Setup.cs">
+    <Compile Include="Setup_Culling.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Culling_Setup.Designer.cs">
-      <DependentUpon>Culling_Setup.cs</DependentUpon>
+    <Compile Include="Setup_Culling.Designer.cs">
+      <DependentUpon>Setup_Culling.cs</DependentUpon>
     </Compile>
-    <Compile Include="Feeding_Setup.cs">
+    <Compile Include="Setup_Feeding.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Feeding_Setup.Designer.cs">
-      <DependentUpon>Feeding_Setup.cs</DependentUpon>
+    <Compile Include="Setup_Feeding.Designer.cs">
+      <DependentUpon>Setup_Feeding.cs</DependentUpon>
     </Compile>
     <Compile Include="Dashboard_Form.cs">
       <SubType>Form</SubType>
@@ -82,11 +82,11 @@
     <Compile Include="Dashboard_Form.Designer.cs">
       <DependentUpon>Dashboard_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Herd_Setup_Form.cs">
+    <Compile Include="Setup_Herd_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Herd_Setup_Form.Designer.cs">
-      <DependentUpon>Herd_Setup_Form.cs</DependentUpon>
+    <Compile Include="Setup_Herd_Form.Designer.cs">
+      <DependentUpon>Setup_Herd_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Home_Form.cs">
       <SubType>Form</SubType>
@@ -94,11 +94,11 @@
     <Compile Include="Home_Form.Designer.cs">
       <DependentUpon>Home_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Housing_Setup_Form.cs">
+    <Compile Include="Setup_Housing_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Housing_Setup_Form.Designer.cs">
-      <DependentUpon>Housing_Setup_Form.cs</DependentUpon>
+    <Compile Include="Setup_Housing_Form.Designer.cs">
+      <DependentUpon>Setup_Housing_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Login_Form.cs">
       <SubType>Form</SubType>
@@ -106,24 +106,24 @@
     <Compile Include="Login_Form.Designer.cs">
       <DependentUpon>Login_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Marketing_Setup_Form.cs">
+    <Compile Include="Setup_Marketing_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Marketing_Setup_Form.Designer.cs">
-      <DependentUpon>Marketing_Setup_Form.cs</DependentUpon>
+    <Compile Include="Setup_Marketing_Form.Designer.cs">
+      <DependentUpon>Setup_Marketing_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Medical_Setup_Form.cs">
+    <Compile Include="Setup_Medical_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Medical_Setup_Form.Designer.cs">
-      <DependentUpon>Medical_Setup_Form.cs</DependentUpon>
+    <Compile Include="Setup_Medical_Form.Designer.cs">
+      <DependentUpon>Setup_Medical_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Program_Parameters_Form.cs">
+    <Compile Include="Setup_Program_Parameters_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Program_Parameters_Form.Designer.cs">
-      <DependentUpon>Program_Parameters_Form.cs</DependentUpon>
+    <Compile Include="Setup_Program_Parameters_Form.Designer.cs">
+      <DependentUpon>Setup_Program_Parameters_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration_Form.cs">
@@ -138,11 +138,23 @@
     <Compile Include="Setup_AniClass_Breeds.Designer.cs">
       <DependentUpon>Setup_AniClass_Breeds.cs</DependentUpon>
     </Compile>
+    <Compile Include="Works_Cull_Death.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Works_Cull_Death.Designer.cs">
+      <DependentUpon>Works_Cull_Death.cs</DependentUpon>
+    </Compile>
     <Compile Include="Works_Farrowing.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Works_Farrowing.Designer.cs">
       <DependentUpon>Works_Farrowing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Works_Feeding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Works_Feeding.Designer.cs">
+      <DependentUpon>Works_Feeding.cs</DependentUpon>
     </Compile>
     <Compile Include="Works_Herd_House_Move.cs">
       <SubType>Form</SubType>
@@ -150,11 +162,23 @@
     <Compile Include="Works_Herd_House_Move.Designer.cs">
       <DependentUpon>Works_Herd_House_Move.cs</DependentUpon>
     </Compile>
+    <Compile Include="Works_Marketing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Works_Marketing.Designer.cs">
+      <DependentUpon>Works_Marketing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Works_Services.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Works_Services.Designer.cs">
       <DependentUpon>Works_Services.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Works_Weights.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Works_Weights.Designer.cs">
+      <DependentUpon>Works_Weights.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Animals_Form.resx">
       <DependentUpon>Animals_Form.cs</DependentUpon>
@@ -162,11 +186,11 @@
     <EmbeddedResource Include="Change_Password.resx">
       <DependentUpon>Change_Password.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Culling_Setup.resx">
-      <DependentUpon>Culling_Setup.cs</DependentUpon>
+    <EmbeddedResource Include="Setup_Culling.resx">
+      <DependentUpon>Setup_Culling.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Feeding_Setup.resx">
-      <DependentUpon>Feeding_Setup.cs</DependentUpon>
+    <EmbeddedResource Include="Setup_Feeding.resx">
+      <DependentUpon>Setup_Feeding.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard_Form.en.resx">
       <DependentUpon>Dashboard_Form.cs</DependentUpon>
@@ -174,26 +198,26 @@
     <EmbeddedResource Include="Dashboard_Form.resx">
       <DependentUpon>Dashboard_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Herd_Setup_Form.resx">
-      <DependentUpon>Herd_Setup_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Setup_Herd_Form.resx">
+      <DependentUpon>Setup_Herd_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home_Form.resx">
       <DependentUpon>Home_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Housing_Setup_Form.resx">
-      <DependentUpon>Housing_Setup_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Setup_Housing_Form.resx">
+      <DependentUpon>Setup_Housing_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login_Form.resx">
       <DependentUpon>Login_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Marketing_Setup_Form.resx">
-      <DependentUpon>Marketing_Setup_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Setup_Marketing_Form.resx">
+      <DependentUpon>Setup_Marketing_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Medical_Setup_Form.resx">
-      <DependentUpon>Medical_Setup_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Setup_Medical_Form.resx">
+      <DependentUpon>Setup_Medical_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Program_Parameters_Form.resx">
-      <DependentUpon>Program_Parameters_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Setup_Program_Parameters_Form.resx">
+      <DependentUpon>Setup_Program_Parameters_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -210,14 +234,26 @@
     <EmbeddedResource Include="Setup_AniClass_Breeds.resx">
       <DependentUpon>Setup_AniClass_Breeds.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Works_Cull_Death.resx">
+      <DependentUpon>Works_Cull_Death.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Works_Farrowing.resx">
       <DependentUpon>Works_Farrowing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Works_Feeding.resx">
+      <DependentUpon>Works_Feeding.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Works_Herd_House_Move.resx">
       <DependentUpon>Works_Herd_House_Move.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Works_Marketing.resx">
+      <DependentUpon>Works_Marketing.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Works_Services.resx">
       <DependentUpon>Works_Services.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Works_Weights.resx">
+      <DependentUpon>Works_Weights.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

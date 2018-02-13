@@ -1,6 +1,6 @@
 ﻿namespace PIG_FARM
 {
-    partial class Herd_Setup_Form
+    partial class Setup_Herd_Form
     {
         /// <summary>
         /// Required designer variable.

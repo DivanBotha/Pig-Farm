@@ -1,6 +1,6 @@
 ﻿namespace PIG_FARM
 {
-    partial class Medical_Setup_Form
+    partial class Setup_Medical_Form
     {
         /// <summary>
         /// Required designer variable.

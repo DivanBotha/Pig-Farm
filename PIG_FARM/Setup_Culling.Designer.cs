@@ -1,6 +1,6 @@
 ﻿namespace PIG_FARM
 {
-    partial class Culling_Setup
+    partial class Setup_Culling
     {
         /// <summary>
         /// Required designer variable.
@@ -58,6 +58,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.Culling_Reas_Setup_Panel.SuspendLayout();
             this.Death_Reas_Setup_Panel.SuspendLayout();
             this.D_and_C_Parameters_Setup_Panel.SuspendLayout();
@@ -364,12 +365,22 @@
             this.panel3.Size = new System.Drawing.Size(669, 217);
             this.panel3.TabIndex = 7;
             // 
-            // Culling_Setup
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(67, 559);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(156, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "For notifications on Home panel";
+            // 
+            // Setup_Culling
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(828, 575);
+            this.ClientSize = new System.Drawing.Size(828, 600);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -382,7 +393,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Culling_Setup";
+            this.Name = "Setup_Culling";
             this.Text = "Culling_Setup";
             this.Load += new System.EventHandler(this.Culling_Setup_Load);
             this.Culling_Reas_Setup_Panel.ResumeLayout(false);
@@ -397,6 +408,7 @@
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -432,5 +444,6 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label1;
     }
 }

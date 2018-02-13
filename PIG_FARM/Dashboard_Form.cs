@@ -75,6 +75,7 @@ namespace PIG_FARM
             Works_Panel.Hide();
             Reports_Panel.Hide();
             Animals_Search_Panel.Hide();
+            Container.Controls.Clear();
         }
 
         private void BunifuFlatButton1_Click(object sender, EventArgs e)
@@ -113,6 +114,7 @@ namespace PIG_FARM
             Works_Panel.Show();
             Reports_Panel.Hide();
             Animals_Search_Panel.Hide();
+            Container.Controls.Clear();
         }
 
         private void BunifuFlatButton5_Click(object sender, EventArgs e)
@@ -121,6 +123,7 @@ namespace PIG_FARM
             Works_Panel.Hide();
             Reports_Panel.Show();
             Animals_Search_Panel.Hide();
+            Container.Controls.Clear();
         }
 
         private void BunifuFlatButton21_Click(object sender, EventArgs e)
@@ -148,7 +151,7 @@ namespace PIG_FARM
         private void BunifuFlatButton19_Click(object sender, EventArgs e)
         {
             Container.Controls.Clear();
-            Housing_Setup_Form frm = new Housing_Setup_Form()
+            Setup_Housing_Form frm = new Setup_Housing_Form()
             {
                 TopLevel = false
             };
@@ -159,7 +162,7 @@ namespace PIG_FARM
         private void BunifuFlatButton18_Click(object sender, EventArgs e)
         {
             Container.Controls.Clear();
-            Herd_Setup_Form frm = new Herd_Setup_Form()
+            Setup_Herd_Form frm = new Setup_Herd_Form()
             {
                 TopLevel = false
             };
@@ -170,7 +173,7 @@ namespace PIG_FARM
         private void BunifuFlatButton17_Click(object sender, EventArgs e)
         {
             Container.Controls.Clear();
-            Medical_Setup_Form frm = new Medical_Setup_Form()
+            Setup_Medical_Form frm = new Setup_Medical_Form()
             {
                 TopLevel = false
             };
@@ -181,7 +184,7 @@ namespace PIG_FARM
         private void BunifuFlatButton16_Click(object sender, EventArgs e)
         {
             Container.Controls.Clear();
-            Feeding_Setup frm = new Feeding_Setup()
+            Setup_Feeding frm = new Setup_Feeding()
             {
                 TopLevel = false
             };
@@ -192,7 +195,7 @@ namespace PIG_FARM
         private void BunifuFlatButton15_Click(object sender, EventArgs e)
         {
             Container.Controls.Clear();
-            Culling_Setup frm = new Culling_Setup()
+            Setup_Culling frm = new Setup_Culling()
             {
                 TopLevel = false
             };
@@ -203,7 +206,7 @@ namespace PIG_FARM
         private void Marketing_Button_Click(object sender, EventArgs e)
         {
             Container.Controls.Clear();
-            Marketing_Setup_Form frm = new Marketing_Setup_Form()
+            Setup_Marketing_Form frm = new Setup_Marketing_Form()
             {
                 TopLevel = false
             };
@@ -226,6 +229,61 @@ namespace PIG_FARM
         {
             Container.Controls.Clear();
             Works_Farrowing frm = new Works_Farrowing()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void bunifuFlatButton25_Click(object sender, EventArgs e)
+        {
+            Container.Controls.Clear();
+            Works_Herd_House_Move frm = new Works_Herd_House_Move()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void bunifuFlatButton22_Click(object sender, EventArgs e)
+        {
+            Container.Controls.Clear();
+            Works_Feeding frm = new Works_Feeding()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void bunifuFlatButton2_Click_1(object sender, EventArgs e)
+        {
+            Container.Controls.Clear();
+            Works_Cull_Death frm = new Works_Cull_Death()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void Weight_Label_SubMenu_Click(object sender, EventArgs e)
+        {
+            Container.Controls.Clear();
+            Works_Weights frm = new Works_Weights()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void bunifuFlatButton3_Click_1(object sender, EventArgs e)
+        {
+            Container.Controls.Clear();
+            Works_Marketing frm = new Works_Marketing()
             {
                 TopLevel = false
             };
