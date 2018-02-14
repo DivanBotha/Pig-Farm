@@ -2420,16 +2420,16 @@
   <data name="&gt;&gt;bunifuFlatButton29.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton31.Name" xml:space="preserve">
-    <value>bunifuFlatButton31</value>
+  <data name="&gt;&gt;General_Report_Header.Name" xml:space="preserve">
+    <value>General_Report_Header</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton31.Type" xml:space="preserve">
+  <data name="&gt;&gt;General_Report_Header.Type" xml:space="preserve">
     <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton31.Parent" xml:space="preserve">
+  <data name="&gt;&gt;General_Report_Header.Parent" xml:space="preserve">
     <value>Reports_Panel</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton31.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;General_Report_Header.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="Reports_Panel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -2621,40 +2621,37 @@
   <data name="&gt;&gt;bunifuFlatButton29.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="bunifuFlatButton31.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="General_Report_Header.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="bunifuFlatButton31.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="General_Report_Header.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="bunifuFlatButton31.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="General_Report_Header.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 8.25pt, style=Bold</value>
   </data>
-  <data name="bunifuFlatButton31.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="General_Report_Header.Location" type="System.Drawing.Point, System.Drawing">
     <value>216, 3</value>
   </data>
-  <data name="bunifuFlatButton31.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="General_Report_Header.Size" type="System.Drawing.Size, System.Drawing">
     <value>145, 26</value>
   </data>
-  <data name="bunifuFlatButton31.TabIndex" type="System.Int32, mscorlib">
+  <data name="General_Report_Header.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="bunifuFlatButton31.Text" xml:space="preserve">
+  <data name="General_Report_Header.Text" xml:space="preserve">
     <value>General Reports</value>
   </data>
-  <data name="bunifuFlatButton31.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;General_Report_Header.Name" xml:space="preserve">
+    <value>General_Report_Header</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton31.Name" xml:space="preserve">
-    <value>bunifuFlatButton31</value>
-  </data>
-  <data name="&gt;&gt;bunifuFlatButton31.Type" xml:space="preserve">
+  <data name="&gt;&gt;General_Report_Header.Type" xml:space="preserve">
     <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton31.Parent" xml:space="preserve">
+  <data name="&gt;&gt;General_Report_Header.Parent" xml:space="preserve">
     <value>Reports_Panel</value>
   </data>
-  <data name="&gt;&gt;bunifuFlatButton31.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;General_Report_Header.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="Container.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">

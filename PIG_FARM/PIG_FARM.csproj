@@ -64,6 +64,12 @@
       <DependentUpon>Change_Password.cs</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
+    <Compile Include="Reports_General.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports_General.Designer.cs">
+      <DependentUpon>Reports_General.cs</DependentUpon>
+    </Compile>
     <Compile Include="Setup_Culling.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -185,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Change_Password.resx">
       <DependentUpon>Change_Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_General.resx">
+      <DependentUpon>Reports_General.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Setup_Culling.resx">
       <DependentUpon>Setup_Culling.cs</DependentUpon>

@@ -214,7 +214,7 @@ namespace PIG_FARM
             frm.Show();
         }
 
-        private void bunifuFlatButton27_Click(object sender, EventArgs e)
+        private void BunifuFlatButton27_Click(object sender, EventArgs e)
         {
             Container.Controls.Clear();
             Works_Services frm = new Works_Services()
@@ -225,7 +225,7 @@ namespace PIG_FARM
             frm.Show();
         }
 
-        private void bunifuFlatButton26_Click(object sender, EventArgs e)
+        private void BunifuFlatButton26_Click(object sender, EventArgs e)
         {
             Container.Controls.Clear();
             Works_Farrowing frm = new Works_Farrowing()
@@ -236,7 +236,7 @@ namespace PIG_FARM
             frm.Show();
         }
 
-        private void bunifuFlatButton25_Click(object sender, EventArgs e)
+        private void BunifuFlatButton25_Click(object sender, EventArgs e)
         {
             Container.Controls.Clear();
             Works_Herd_House_Move frm = new Works_Herd_House_Move()
@@ -247,7 +247,7 @@ namespace PIG_FARM
             frm.Show();
         }
 
-        private void bunifuFlatButton22_Click(object sender, EventArgs e)
+        private void BunifuFlatButton22_Click(object sender, EventArgs e)
         {
             Container.Controls.Clear();
             Works_Feeding frm = new Works_Feeding()
@@ -258,7 +258,7 @@ namespace PIG_FARM
             frm.Show();
         }
 
-        private void bunifuFlatButton2_Click_1(object sender, EventArgs e)
+        private void BunifuFlatButton2_Click_1(object sender, EventArgs e)
         {
             Container.Controls.Clear();
             Works_Cull_Death frm = new Works_Cull_Death()
@@ -284,6 +284,72 @@ namespace PIG_FARM
         {
             Container.Controls.Clear();
             Works_Marketing frm = new Works_Marketing()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void bunifuFlatButton27_Click_1(object sender, EventArgs e)
+        {
+            Container.Controls.Clear();
+            Works_Services frm = new Works_Services()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void bunifuFlatButton26_Click_1(object sender, EventArgs e)
+        {
+            Container.Controls.Clear();
+            Works_Farrowing frm = new Works_Farrowing()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void bunifuFlatButton25_Click_1(object sender, EventArgs e)
+        {
+            Container.Controls.Clear();
+            Works_Herd_House_Move frm = new Works_Herd_House_Move()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void bunifuFlatButton22_Click_1(object sender, EventArgs e)
+        {
+            Container.Controls.Clear();
+            Works_Feeding frm = new Works_Feeding()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void bunifuFlatButton2_Click_2(object sender, EventArgs e)
+        {
+            Container.Controls.Clear();
+            Works_Feeding frm = new Works_Feeding()
+            {
+                TopLevel = false
+            };
+            Container.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void General_Report_Header_Click(object sender, EventArgs e)
+        {
+            Container.Controls.Clear();
+            Reports_General frm = new Reports_General()
             {
                 TopLevel = false
             };

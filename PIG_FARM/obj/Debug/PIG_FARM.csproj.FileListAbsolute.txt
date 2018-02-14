@@ -31,3 +31,4 @@ C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug
 C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Works_Cull_Death.resources
 C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Works_Weights.resources
 C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Works_Marketing.resources
+C:\Users\Divan\documents\visual studio 2017\Projects\PIG_FARM\PIG_FARM\obj\Debug\PIG_FARM.Reports_General.resources
