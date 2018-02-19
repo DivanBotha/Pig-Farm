@@ -22,5 +22,6 @@ namespace PIG_FARM
             Point p = new Point(this.ParentForm.Width / 2 - this.Width / 2);
             this.Location = p;
         }
+
     }
 }

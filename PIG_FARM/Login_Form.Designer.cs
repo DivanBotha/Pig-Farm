@@ -147,8 +147,8 @@
             this.Login_Button.IsTab = false;
             this.Login_Button.Location = new System.Drawing.Point(50, 157);
             this.Login_Button.Name = "Login_Button";
-            this.Login_Button.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.Login_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.Login_Button.Normalcolor = System.Drawing.Color.DimGray;
+            this.Login_Button.OnHovercolor = System.Drawing.Color.DimGray;
             this.Login_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Login_Button.selected = false;
             this.Login_Button.Size = new System.Drawing.Size(74, 28);
@@ -216,6 +216,7 @@
             this.label4.Size = new System.Drawing.Size(102, 15);
             this.label4.TabIndex = 1;
             this.label4.Text = "Register Program";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Login_Form
             // 

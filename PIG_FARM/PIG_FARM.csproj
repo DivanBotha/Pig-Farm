@@ -82,11 +82,11 @@
     <Compile Include="Setup_Feeding.Designer.cs">
       <DependentUpon>Setup_Feeding.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard_Form.cs">
+    <Compile Include="DashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dashboard_Form.Designer.cs">
-      <DependentUpon>Dashboard_Form.cs</DependentUpon>
+    <Compile Include="DashboardForm.Designer.cs">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Setup_Herd_Form.cs">
       <SubType>Form</SubType>
@@ -201,11 +201,11 @@
     <EmbeddedResource Include="Setup_Feeding.resx">
       <DependentUpon>Setup_Feeding.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard_Form.en.resx">
-      <DependentUpon>Dashboard_Form.cs</DependentUpon>
+    <EmbeddedResource Include="DashboardForm.en.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard_Form.resx">
-      <DependentUpon>Dashboard_Form.cs</DependentUpon>
+    <EmbeddedResource Include="DashboardForm.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Setup_Herd_Form.resx">
       <DependentUpon>Setup_Herd_Form.cs</DependentUpon>

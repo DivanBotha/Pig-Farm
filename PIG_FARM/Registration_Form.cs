@@ -16,5 +16,12 @@ namespace PIG_FARM
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Login_Form objLogin = new Login_Form();
+            this.Hide();
+            objLogin.Show();
+        }
     }
 }

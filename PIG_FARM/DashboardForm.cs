@@ -12,6 +12,7 @@ namespace PIG_FARM
 {
     public partial class Dashboard : Form
     {
+
         public Dashboard()
         {
             InitializeComponent();
@@ -338,7 +339,7 @@ namespace PIG_FARM
         private void bunifuFlatButton2_Click_2(object sender, EventArgs e)
         {
             Container.Controls.Clear();
-            Works_Feeding frm = new Works_Feeding()
+            Works_Cull_Death frm = new Works_Cull_Death()
             {
                 TopLevel = false
             };

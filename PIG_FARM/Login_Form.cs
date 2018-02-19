@@ -19,14 +19,21 @@ namespace PIG_FARM
 
         private void Login_Button_Click(object sender, EventArgs e)
         {
-            Dashboard obj = new Dashboard();
-            obj.Show();
-            this.Close();
+            Dashboard objDashboard = new Dashboard();
+            this.Hide();
+            objDashboard.Show();
         }
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Registration_Form objRegistration = new Registration_Form();
+            this.Hide();
+            objRegistration.Show();
         }
     }
 }

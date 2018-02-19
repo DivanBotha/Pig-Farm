@@ -288,7 +288,7 @@
             this.panel3.Size = new System.Drawing.Size(717, 28);
             this.panel3.TabIndex = 4;
             // 
-            // Housing_Setup_Form
+            // Setup_Housing_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -299,7 +299,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.mrkt_target_panel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Housing_Setup_Form";
+            this.Name = "Setup_Housing_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Housing_Form";
             this.Load += new System.EventHandler(this.Housing_Setup_Form_Load);

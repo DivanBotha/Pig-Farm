@@ -12,8 +12,6 @@ namespace PIG_FARM
 {
     public partial class Reports_General : Form
     {
-        bool p1E = false;
-        bool p2E = false;
         public Reports_General()
         {
             InitializeComponent();
@@ -23,39 +21,97 @@ namespace PIG_FARM
         {
             Point p = new Point(this.ParentForm.Width / 2 - this.Width / 2);
             this.Location = p;
-            Reports_General_1_Info.Height = 0;
-            Reports_General_2_Info.Height = 0;
-            Reports_Genral_2_Head.Top = Reports_General_1_Info.Top;
+            Reports_General_1_Info.Height = 30;
+            Reports_General_2_Info.Height = 30;
+            Reports_General_3_Info.Height = 30;
+            Reports_General_4_Info.Height = 30;
+            Reports_General_5_Info.Height = 30;
+            Reports_General_6_Info.Height = 30;
+            Reports_General_7_Info.Height = 30;
         }
 
         private void Reports_Head_1_Label_Click(object sender, EventArgs e)
         {
-            if(!p1E)
+            if (Reports_General_1_Info.Height == 30)
             {
-                Reports_General_1_Info.Height = 119;
-                Reports_Genral_2_Head.Top = Reports_General_1_Info.Top + Reports_General_1_Info.Height;
+                Reports_General_1_Info.Height = 285;
             }
             else
             {
-                Reports_General_1_Info.Height = 0;
-                Reports_Genral_2_Head.Top = Reports_General_1_Info.Top;
+                Reports_General_1_Info.Height = 30;
             }
-            p1E = !p1E;
         }
 
-        private void Reports_Head_2_Label_Click(object sender, EventArgs e)
+        private void Reports_General_Head_2_Click(object sender, EventArgs e)
         {
-            if (!p2E)
+            if (Reports_General_2_Info.Height == 30)
             {
-                Reports_General_2_Info.Height = 119;
-                Reports_General_2_Info.Top = Reports_Genral_2_Head.Top + 30;
+                Reports_General_2_Info.Height = 140;
             }
             else
             {
-                Reports_General_2_Info.Height = 0;
-
+                Reports_General_2_Info.Height = 30;
             }
-            p2E = !p2E;
+        }
+
+        private void Reports_General_Head_3_Click(object sender, EventArgs e)
+        {
+            if (Reports_General_3_Info.Height == 30)
+            {
+                Reports_General_3_Info.Height = 140;
+            }
+            else
+            {
+                Reports_General_3_Info.Height = 30;
+            }
+        }
+
+        private void Reports_General_Head_4_Click(object sender, EventArgs e)
+        {
+            if (Reports_General_4_Info.Height == 30)
+            {
+                Reports_General_4_Info.Height = 135;
+            }
+            else
+            {
+                Reports_General_4_Info.Height = 30;
+            }
+        }
+
+        private void Reports_General_Head_5_Click(object sender, EventArgs e)
+        {
+            if (Reports_General_5_Info.Height == 30)
+            {
+                Reports_General_5_Info.Height = 135;
+            }
+            else
+            {
+                Reports_General_5_Info.Height = 30;
+            }
+        }
+
+        private void Reports_General_Head_6_Click(object sender, EventArgs e)
+        {
+            if (Reports_General_6_Info.Height == 30)
+            {
+                Reports_General_6_Info.Height = 114;
+            }
+            else
+            {
+                Reports_General_6_Info.Height = 30;
+            }
+        }
+
+        private void Reports_General_Head_7_Click(object sender, EventArgs e)
+        {
+            if (Reports_General_7_Info.Height == 30)
+            {
+                Reports_General_7_Info.Height = 110;
+            }
+            else
+            {
+                Reports_General_7_Info.Height = 30;
+            }
         }
     }
 }
